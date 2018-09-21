@@ -1,0 +1,305 @@
+
+<!DOCTYPE html
+  PUBLIC "" "about:legacy-compat">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:whc="http://www.oxygenxml.com/webhelp/components" xml:lang="nl-nl" lang="nl-nl">
+    <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta charset="UTF-8" /><meta name="copyright" content="(C) Copyright 2018" /><meta name="DC.rights.owner" content="(C) Copyright 2018" /><meta name="DC.Type" content="task" /><meta name="description" content="Op een formulier wordt een keuzelijst gemaakt en via een hieraan toegekende macro wordt het bijbehorende record opgezocht." /><meta name="indexterms" content="Formulier, keuzelijst, macro, zoek record" /><meta name="DC.subject" content="Formulier, keuzelijst, macro, zoek record" /><meta name="keywords" content="Formulier, keuzelijst, macro, zoek record" /><meta name="DC.Relation" scheme="URI" content="../macros/macros.html" /><meta name="DC.Relation" scheme="URI" content="../macros/macros_customername.html" /><meta name="DC.Relation" scheme="URI" content="../macros/macros_boxcode.html" /><meta name="prodname" content="Access 2016" /><meta name="DC.Creator" content="Ben Welman" /><meta name="DC.Date.Created" content="2017-10-05" /><meta name="DC.Date.Modified" content="2017-10-05" /><meta name="DC.Format" content="XHTML" /><meta name="DC.Identifier" content="macros_customercode" /><meta name="DC.Language" content="nl-NL" />        
+      <title>Taak: Klant zoeken op code</title><!--  Generated with Oxygen version 20.1-SNAPSHOT, build number 2018080803.  --><meta name="wh-path2root" content="../" /><meta name="wh-toc-id" content="macros_customercode-d66e6878" /><link rel="stylesheet" type="text/css" href="../oxygen-webhelp/lib/bootstrap/css/bootstrap.min.css" /><link rel="stylesheet" href="../oxygen-webhelp/lib/bootstrap/css/bootstrap-theme.min.css" /><link rel="stylesheet" href="../oxygen-webhelp/lib/jquery-ui/jquery-ui.min.css" /><link rel="stylesheet" type="text/css" href="../oxygen-webhelp/app/topic-page.css?buildId=2018080803" /><script type="text/javascript" src="../oxygen-webhelp/lib/jquery/jquery-3.1.1.min.js"><!----></script><script data-main="../oxygen-webhelp/app/topic-page.js" src="../oxygen-webhelp/lib/requirejs/require.js"></script><link rel="stylesheet" type="text/css" href="../oxygen-webhelp/template/light.css?buildId=2018080803" /></head>
+
+    <body id="macros_customercode" class="wh_topic_page frmBody">
+        <a href="#wh_topic_body" class="sr-only sr-only-focusable">Ga naar de hoofdinhoud</a>
+        <!-- EXM-36950 - Expand the args.hdr parameter here -->
+        
+        
+        
+        <header class="navbar navbar-default wh_header">
+    <div class="container-fluid">
+        <div class="wh_header_flex_container">
+            <div class="wh_logo_and_publication_title_container">
+                <div class="wh_logo_and_publication_title">
+                    
+                    <!--
+                            This component will be generated when the next parameters are specified in the transformation scenario:
+                            'webhelp.logo.image' and 'webhelp.logo.image.target.url'.
+                            See: http://oxygenxml.com/doc/versions/17.1/ug-editor/#topics/dita_webhelp_output.html.
+                    -->
+                    <a href="https://softwijs.nl/" class=" wh_logo hidden-xs "><img src="../LogoSW.gif" alt="  Leer Access 2016  Een taakgericht studieboek  " /></a>
+                    <div class=" wh_publication_title "><a href="../index.html"><span class="booktitle">  <span class="ph mainbooktitle">Leer Access 2016</span>  <span class="ph booktitlealt">Een taakgericht studieboek</span>  </span></a></div>
+                    
+                </div>
+                
+                <!-- The menu button for mobile devices is copied in the output only when the 'webhelp.show.top.menu' parameter is set to 'yes' -->
+                <button type="button" data-target="#wh_top_menu_and_indexterms_link" id="wh_menu_mobile_button" data-toggle="collapse" class="navbar-toggle collapsed wh_toggle_button" aria-expanded="false" aria-label="Menu wisselen">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+            <div class="wh_top_menu_and_indexterms_link collapse navbar-collapse" id="wh_top_menu_and_indexterms_link">
+                
+                <nav class=" wh_top_menu "><ul>
+   <li><span data-tocid="preface-online-d66e341" data-state="leaf" class=" topicref " data-id="preface-online"><span class="title"><a href="../common/preface-online.html">Voorwoord</a></span></span></li>
+   <li class="has-children"><span data-tocid="part_basic-d66e357" data-state="not-ready" class=" topicref " data-id="part_basic"><span class="title"><a href="../part_basic.html">Basis</a></span></span></li>
+   <li class="has-children"><span data-tocid="part_advanced-d66e5744" data-state="not-ready" class=" topicref " data-id="part_advanced"><span class="title"><a href="../part_advanced.html">Gevorderd</a></span></span></li>
+   <li><span data-tocid="colofon-d66e6936" data-state="leaf" class=" topicref " data-id="colofon"><span class="title"><a href="../common/colofon.html">Colofon</a></span></span></li>
+</ul></nav>
+                <div class=" wh_indexterms_link "><a href="../indexTerms.html" title="Index" aria-label="Ga naar pagina met indextermen"><span>Index</span></a></div>
+                
+            </div>
+        </div>
+    </div>
+</header>
+        
+        <div class=" wh_search_input "><form id="searchForm" method="get" role="search" action="../search.html"><div><input type="search" placeholder="Zoek " class="wh_search_textfield" id="textToSearch" name="searchQuery" aria-label="Zoekopdracht" /><button type="submit" class="wh_search_button" aria-label="Zoek"><span>Zoek</span></button></div><script><!--
+                                    $(document).ready(function () {
+                                        $('#searchForm').submit(function (e) {
+                                            if ($('.wh_search_textfield').val().length < 1) {
+                                                e.preventDefault();
+                                            }
+                                        });
+                                    });
+                                --></script></form></div>
+        
+        <div class="container-fluid">
+            <div class="row">
+
+                <nav class="wh_tools hidden-print">
+                    <div data-tooltip-position="bottom" class=" wh_breadcrumb "><ol xmlns:html="http://www.w3.org/1999/xhtml" class="hidden-print"><li><span class="home"><a href="../index.html"><span>Startpagina</span></a></span></li>
+   <li><span class="topicref" data-id="part_advanced"><span class="title"><a href="../part_advanced.html">Gevorderd</a></span></span></li>
+   <li><span class="topicref" data-id="macros"><span class="title"><a href="../macros/macros.html">Macro's</a><span class="wh-tooltip">
+               
+               <p xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" class="shortdesc"></p>
+               </span></span></span></li>
+   <li class="active"><span class="topicref" data-id="macros_customercode"><span class="title"><a href="../macros/macros_customercode.html">Taak: Klant zoeken op code</a><span class="wh-tooltip">
+               
+               <p xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" class="shortdesc">Op een formulier wordt een keuzelijst gemaakt en via een hieraan toegekende macro         wordt het bijbehorende record opgezocht.</p>
+               </span></span></span></li>
+</ol></div>
+
+                    <div class="wh_right_tools hidden-sm hidden-xs">
+                        <div class=" wh_navigation_links "><span id="topic_navigation_links" class="navheader">
+  </span></div>
+                        <button class="wh_hide_highlight" aria-label="Zoekmarkeringen wisselen" title="Zoekmarkeringen wisselen"></button>
+                        <button class="webhelp_expand_collapse_sections" data-next-state="collapsed" aria-label="Secties samenvouwen" title="Secties samenvouwen"></button>
+                        <div class=" wh_print_link print "><button onClick="window.print()" title="Druk deze pagina af" aria-label="Druk deze pagina af"></button></div>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="wh_content_area">
+                <div class="row">
+                    
+                        <nav role="navigation" id="wh_publication_toc" class="col-lg-3 col-md-3 col-sm-3 hidden-xs navbar hidden-print">
+                            <div class=" wh_publication_toc " data-tooltip-position="right"><ul role="tree" aria-label="Table of Contents"><span class="expand-button-action-labels"><span id="button-expand-action" aria-label="Expand"></span><span id="button-collapse-action" aria-label="Collapse"></span><span id="button-pending-action" aria-label="Pending"></span></span><li role="treeitem" aria-expanded="true"><span data-tocid="part_advanced-d66e5744" class="topicref" data-id="part_advanced" data-state="expanded"><span role="button" tabindex="0" aria-labelledby="button-collapse-action part_advanced-d66e5744-link" class="wh-expand-btn"></span><span class="title"><a href="../part_advanced.html" id="part_advanced-d66e5744-link">Gevorderd</a></span></span><ul role="group" class="nav nav-list"><span class="expand-button-action-labels"><span id="button-expand-action" aria-label="Expand"></span><span id="button-collapse-action" aria-label="Collapse"></span><span id="button-pending-action" aria-label="Pending"></span></span><li role="treeitem" aria-expanded="false"><span data-tocid="integration-d66e6050" class="topicref" data-id="integration" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action integration-d66e6050-link" class="wh-expand-btn"></span><span class="title"><a href="../integration/integration.html" id="integration-d66e6050-link">Integratie met Office</a><span class="wh-tooltip">
+                     
+                     <p xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" class="shortdesc"></p>
+                     </span></span></span></li>
+         <li role="treeitem" aria-expanded="false"><span data-tocid="tools-d66e6461" class="topicref" data-id="tools" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action tools-d66e6461-link" class="wh-expand-btn"></span><span class="title"><a href="../tools/tools.html" id="tools-d66e6461-link">Hulpmiddelen</a><span class="wh-tooltip">
+                     
+                     <p xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" class="shortdesc"></p>
+                     </span></span></span></li>
+         <li role="treeitem" aria-expanded="true"><span data-tocid="macros-d66e6843" class="topicref" data-id="macros" data-state="expanded"><span role="button" tabindex="0" aria-labelledby="button-collapse-action macros-d66e6843-link" class="wh-expand-btn"></span><span class="title"><a href="../macros/macros.html" id="macros-d66e6843-link">Macro's</a><span class="wh-tooltip">
+                     
+                     <p xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" class="shortdesc"></p>
+                     </span></span></span><ul role="group" class="nav nav-list"><span class="expand-button-action-labels"><span id="button-expand-action" aria-label="Expand"></span><span id="button-collapse-action" aria-label="Collapse"></span><span id="button-pending-action" aria-label="Pending"></span></span><li role="treeitem"><span data-tocid="macros_about-d66e6860" class="topicref" data-id="macros_about" data-state="leaf"><span role="button" class="wh-expand-btn"></span><span class="title"><a href="../macros/macros_about.html" id="macros_about-d66e6860-link">Over macro's maken</a><span class="wh-tooltip">
+                           
+                           <p xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" class="shortdesc">Waarom macro's maken en hoe doe je dat.</p>
+                           </span></span></span></li>
+               <li role="treeitem" class="active"><span data-tocid="macros_customercode-d66e6878" class="topicref" data-id="macros_customercode" data-state="leaf"><span role="button" class="wh-expand-btn"></span><span class="title"><a href="../macros/macros_customercode.html" id="macros_customercode-d66e6878-link">Taak: Klant zoeken op code</a><span class="wh-tooltip">
+                           
+                           <p xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" class="shortdesc">Op een formulier wordt een keuzelijst gemaakt en via een hieraan toegekende macro         wordt het bijbehorende record opgezocht.</p>
+                           </span></span></span></li>
+               <li role="treeitem"><span data-tocid="macros_customername-d66e6896" class="topicref" data-id="macros_customername" data-state="leaf"><span role="button" class="wh-expand-btn"></span><span class="title"><a href="../macros/macros_customername.html" id="macros_customername-d66e6896-link">Taak: Klant zoeken op naam</a><span class="wh-tooltip">
+                           
+                           <p xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" class="shortdesc">Maak twee keuzelijsten op een formulier met bijbehorende macro's.</p>
+                           </span></span></span></li>
+               <li role="treeitem"><span data-tocid="macros_boxcode-d66e6914" class="topicref" data-id="macros_boxcode" data-state="leaf"><span role="button" class="wh-expand-btn"></span><span class="title"><a href="../macros/macros_boxcode.html" id="macros_boxcode-d66e6914-link">Taak: Keuzelijst dooscode</a><span class="wh-tooltip">
+                           
+                           <p xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" class="shortdesc">Op een nieuw te maken formulier wordt een keuzelijst gemaakt en via een hieraan         toegekende macro wordt het bijbehorende
+                              record opgezocht.
+                              
+                           </p>
+                           </span></span></span></li>
+            </ul>
+         </li>
+      </ul>
+   </li>
+</ul></div>
+                        </nav>
+                    
+                    
+                    <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12" id="wh_topic_body">
+                        <div class=" wh_topic_content body "><main role="main"><article role="article" aria-labelledby="ariaid-title1">
+    <h1 class="title topictitle1" id="ariaid-title1">Taak: Klant zoeken op code</h1>
+    
+    
+    <div class="body taskbody"><p class="shortdesc">Op een formulier wordt een keuzelijst gemaakt en via een hieraan toegekende macro
+        wordt het bijbehorende record opgezocht.</p>
+        <section class="section context">
+            <p class="p">Er moet een formulier gemaakt worden met daarop de gegevens van een klant. Om het de
+                gebruiker wat gemakkelijker te maken een bepaalde klant te zoeken waarvan de
+                klantcode bekend is, moet een keuzelijst op het formulier gemaakt worden waarop je
+                de klantcode kunt invoeren waarna de gegevens van de bijbehorende klant in het
+                formulier worden getoond.</p>
+            <p class="p">ANALYSE</p>
+            <p class="p">De basis van het formulier kan via een standaarsformulier gemaakt worden. De
+                keuzelijst is het besturingselement<span class="ph uicontrol">Keuzelijst met invoervak</span>.
+                Verder dient er een macro gemaakt te worden die twee taken uitvoert. Allereerst naar
+                de keuzelijst gaan en daarna het record opzoeken dat hoort bij de ingevoerde
+                klantcode.</p>
+        </section>
+        <ol class="ol steps"><li class="li step stepexpand">
+                <span class="ph cmd">Open de database <span class="keyword">snoep2016.accdb</span>.</span>
+            </li><li class="li step stepexpand">
+                <span class="ph cmd">Selecteer de tabel <span class="ph uicontrol">Klanten</span>. Deze hoeft niet geopend te
+                    worden.</span>
+            </li><li class="li step stepexpand">
+                <span class="ph cmd">Klik <span class="ph menucascade"><span class="ph uicontrol">tab Maken</span><abbr> &gt; </abbr><span class="ph uicontrol">Formulier (groep Formulieren)</span></span>.</span>
+                <div class="itemgroup stepresult">
+                    <p class="p">Het formulier wordt aangemaakt en geopend in de
+                            <span class="ph uicontrol">Indelingsweergave</span>.</p>
+                </div>
+            </li><li class="li step stepexpand">
+                <span class="ph cmd">Sla het formulier op onder de naam <kbd class="ph userinput">Zoek klant op code</kbd>.
+                    Het gemakkelijkste gaat dit via de knop <span class="ph uicontrol">Opslaan <img class="image" src="../common/images/button_save.png" /></span> in de <span class="ph uicontrol">werkbalk Snelle
+                        toegang</span>.</span>
+            </li><li class="li step stepexpand">
+                <span class="ph cmd">Schakel over naar de <span class="ph uicontrol">Ontwerpweergave</span>.</span>
+            </li><li class="li step stepexpand">
+                <span class="ph cmd">Selecteer <span class="ph menucascade"><span class="ph uicontrol">Ontwerp</span><abbr> &gt; </abbr><span class="ph uicontrol">Keuzelijst met invoervak <img class="image" src="../common/images/combobox.png" /> (groep
+                            Besturingselementen)</span></span> en teken daarna rechts in het deel van de formulierkoptekst een
+                    rechthoekig kader voor de keuzelijst.</span>
+                <div class="itemgroup stepresult">
+                    <figure class="fig fignone"><figcaption class="figcap"><span class="figtitleprefix">Figuur: </span>Formulier met keuzelijst</figcaption>
+                        
+                        <img class="image" src="images/customercode_combobox_framework.png" alt="Formulier met keuzelijst" />
+                    </figure>Na het tekenen van het kader wordt automatisch de <span class="keyword wintitle">Wizard
+                        keuzelijst met invoervak</span> opgestart.</div>
+            </li><li class="li step stepexpand">
+                <span class="ph cmd">Beantwoord de achtereenvolgende vragen van de Wizard als volgt:</span>
+                <div class="itemgroup info"><ul class="ul">
+                        <li class="li">De waarden voor de keuzelijst met invoervak moeten worden opgezocht in
+                            een tabel of query.</li>
+                        <li class="li">Tabel: Klanten levert de waarden voor de keuzelijst met invoervak.</li>
+                        <li class="li">Alleen het veld Klantcode moet worden toegevoegd aan de keuzelijst met
+                            invoervak.</li>
+                        <li class="li">Records oplopend sorteren op klantcode.</li>
+                        <li class="li">De voorgestelde breedte van de kolom in de keuzelijst accepteren.</li>
+                        <li class="li">De waarde bewaren voor later gebruik.</li>
+                        <li class="li">Tekst voor het label bij de keuzelijst: <kbd class="ph userinput">Zoeken op
+                                klantcode:</kbd></li>
+                    </ul></div>
+                <div class="itemgroup stepresult"><p class="p">Na het Voltooien van de Wizard ben je weer terug in de
+                        Ontwerpweergave.</p></div>
+            </li><li class="li step stepexpand">
+                <span class="ph cmd">Wanneer het label en de keuzelijst gedeeltelijk over elkaar heen liggen moet je
+                    een van beide of beide wat verplaatsen. Dit doe je door het vierkantje in de
+                    linkerbovenhoek van het object met een ingedrukte linkermuisknop te
+                    verslepen.</span>
+            </li><li class="li step stepexpand">
+                <span class="ph cmd">Sluit het formulier <span class="ph uicontrol">Zoek klant op code</span> en bewaar de
+                    wijzigingen.</span>
+            </li><li class="li step stepexpand" id="macros_customercode__macro_create">
+                <span class="ph cmd">Kies <span class="ph menucascade"><span class="ph uicontrol">tab Maken</span><abbr> &gt; </abbr><span class="ph uicontrol">Macro (groep Macro's en code)</span></span>.</span>
+                <div class="itemgroup stepresult">
+                    <figure class="fig fignone"><figcaption class="figcap"><span class="figtitleprefix">Figuur: </span>Macro venster</figcaption>
+                        
+                        <img class="image" src="../common/images/macro_window.png" alt="Macro venster" />
+                    </figure>
+                </div>
+            </li><li class="li step stepexpand">
+                <span class="ph cmd">Klik op de keuzepijl in het vak <span class="ph uicontrol">Nieuwe actie toevoegen</span>
+                    en selecteer uit de lijst de actie <span class="keyword option">NaarBesturingselementGaan</span>.
+                </span>
+            </li><li class="li step stepexpand">
+                <span class="ph cmd">Typ <kbd class="ph userinput">Klantcode</kbd> in het vak
+                        <var class="keyword varname">Besturingselementnaam</var>.</span>
+                <div class="itemgroup stepresult">
+                    <figure class="fig fignone"><figcaption class="figcap"><span class="figtitleprefix">Figuur: </span>Actie NaarBesturingselementGaan</figcaption>
+                        
+                        <img class="image" src="images/macro_customercode_gotocontrol.png" alt="Actie NaarBesturingselementGaan" />
+                    </figure>
+                </div>
+            </li><li class="li step stepexpand">
+                <span class="ph cmd">Klik op de keuzepijl in het vak <span class="ph uicontrol">Nieuwe actie toevoegen</span>
+                    en selecteer actie <span class="keyword option">RecordZoeken</span>.</span>
+            </li><li class="li step stepexpand">
+                <span class="ph cmd">Typ de waarde <kbd class="ph userinput">=[zoekcode]</kbd> in het vak <span class="ph uicontrol">Zoeken
+                        naar</span>. De andere argumenten zijn al automatisch door Access van
+                    een standaardwaarde voorzien en kunnen blijven staan.</span>
+                <div class="itemgroup stepresult">
+                    <figure class="fig fignone"><figcaption class="figcap"><span class="figtitleprefix">Figuur: </span>Macro Klant zoeken op klantcode</figcaption>
+                        
+                        <img class="image" src="images/macro_customer_by_code.png" alt="Macro Klant zoeken op klantcode" />
+                    </figure>
+                </div>
+            </li><li class="li step stepexpand">
+                <span class="ph cmd">Sluit het macrovenster en bewaar de macro onder de naam <kbd class="ph userinput">Klant zoeken
+                        op klantcode</kbd>.</span>
+            </li><li class="li step stepexpand">
+                <span class="ph cmd">Open formulier <span class="ph uicontrol">Zoek klant op code</span> in de
+                        <span class="ph uicontrol">Ontwerpweergave</span>.</span>
+            </li><li class="li step stepexpand">
+                <span class="ph cmd">Selecteer de <span class="ph uicontrol">Keuzelijst met invoervak</span> en wijzig in
+                        <span class="ph uicontrol">Eigenschappenvenster (tab Overige)</span> de naam van het
+                    besturingselement in <kbd class="ph userinput">zoekcode</kbd>.</span>
+                <div class="itemgroup stepresult">
+                    <figure class="fig fignone"><figcaption class="figcap"><span class="figtitleprefix">Figuur: </span>Naam keuzelijst gewijzigd in zoekcode</figcaption>
+                        
+                        <img class="image" src="images/customercode_combobox_name.png" alt="Naam keuzelijst gewijzigd in zoekcode" />
+                    </figure>
+                </div>
+            </li><li class="li step stepexpand">
+                <span class="ph cmd">Met nog steeds de keuzelijst geselecteerd klik in
+                        <span class="ph uicontrol">Eigenschappenvenster (tab Gebeurtenis)</span> in het vak
+                        <var class="keyword varname">Na bijwerken</var> en selecteer via de keuzepijl de macro
+                        <span class="keyword option">Klant zoeken op klantcode</span>.</span>
+                <div class="itemgroup stepresult">
+                    <figure class="fig fignone"><figcaption class="figcap"><span class="figtitleprefix">Figuur: </span>Keuzelijst eigenschap Na bijwerken</figcaption>
+                        
+                        <img class="image" src="images/customercode_combobox_afterupdate.png" alt="Keuzelijst eigenschap Na bijwerken" />
+                    </figure>
+                </div>
+            </li><li class="li step stepexpand">
+                <span class="ph cmd">Sluit het formulier en bewaar de wijzigingen.</span>
+            </li><li class="li step stepexpand">
+                <span class="ph cmd">Open formulier <span class="ph uicontrol">Zoek klant op code</span> en test of de
+                    keuzelijst goed werkt.</span>
+            </li></ol>
+    </div>
+</article></main></div>
+                        
+                        <div class=" wh_related_links "><nav role="navigation" class="related-links"><div class="linklist relinfo reltasks"><strong>Verwante taken</strong><br /><div class="related_link"><a class="navheader_parent_path" href="../macros/macros_customername.html" title="Maak twee keuzelijsten op een formulier met bijbehorende macro's.">Taak: Klant zoeken op naam</a></div><div class="related_link"><a class="navheader_parent_path" href="../macros/macros_boxcode.html" title="Op een nieuw te maken formulier wordt een keuzelijst gemaakt en via een hieraan toegekende macro wordt het bijbehorende record opgezocht.">Taak: Keuzelijst dooscode</a></div></div></nav></div>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </div> 
+        <footer class="navbar navbar-default wh_footer">
+  <div class=" footer-container text-center ">
+    
+            Generated by <a class="oxyFooter" href="http://www.oxygenxml.com/xml_webhelp.html" target="_blank">
+            &lt;oXygen/&gt; XML WebHelp
+            </a>
+        
+  </div>
+</footer>
+        
+        <div id="go2top">
+            <span class="glyphicon glyphicon-chevron-up"></span>
+        </div>
+        
+        <!-- The modal container for images -->
+        <div id="modal_img_large" class="modal">
+            <span class="close glyphicon glyphicon-remove"></span>
+            <!-- Modal Content (The Image) -->
+            <img class="modal-content" id="modal-img" />
+            <!-- Modal Caption (Image Text) -->
+            <div id="caption"></div>
+        </div>
+        
+        <script src="../oxygen-webhelp/lib/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+        S:\office\leeraccess/googleAnalytics.html
+    </body>
+</html>

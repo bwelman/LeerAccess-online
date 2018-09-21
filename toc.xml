@@ -1,0 +1,2875 @@
+<?xml version="1.0" encoding="UTF-8"?><toc xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" xmlns="http://www.oxygenxml.com/ns/webhelp/toc">
+   <title><span xmlns="http://www.w3.org/1999/xhtml" class="booktitle">  <span class="ph mainbooktitle">Leer Access 2016</span>  <span class="ph booktitlealt">Een taakgericht studieboek</span>  </span></title>
+   <topicmeta>
+      
+      <author class="- topic/author ">Ben Welman</author>
+      
+      <keywords class="- topic/keywords ">
+         
+         <keyword class="- topic/keyword ">Access</keyword>
+         
+         <keyword class="- topic/keyword ">Studieboek</keyword>
+         
+         <keyword class="- topic/keyword ">Handleiding</keyword>
+         
+      </keywords>
+      
+      <prodinfo class="- topic/prodinfo ">
+         
+         <prodname class="- topic/prodname ">Access 2016</prodname>
+         
+      </prodinfo>
+      
+      <bookrights class="- topic/data bookmap/bookrights ">
+         
+         <bookowner class="- topic/data bookmap/bookowner ">
+            
+            <organization class="- topic/data bookmap/organization ">Softwijs Neede</organization>
+            
+            <person class="- topic/data bookmap/person ">Ben Welman</person>
+            
+         </bookowner>
+         
+      </bookrights>
+      
+   </topicmeta>
+   <topic href="common/preface-online.html" format="dita" data-id="preface-online" wh-toc-id="preface-online-d66e341">
+      <title>Voorwoord</title>
+      <topicmeta>
+         <resourceid class="- topic/resourceid " oxy-source="topic" appid="preface-online"></resourceid>
+         <navtitle class="- topic/navtitle ">Voorwoord</navtitle><?ditaot gentext?>
+         <linktext class="- map/linktext ">Voorwoord</linktext>
+         <author class="- topic/author ">Ben Welman</author>
+         <prodinfo class="- topic/prodinfo ">
+            
+            <prodname class="- topic/prodname ">Access 2016</prodname>
+            
+         </prodinfo>
+      </topicmeta>
+   </topic>
+   <topic href="part_basic.html" data-id="part_basic" wh-toc-id="part_basic-d66e357">
+      <title>Basis</title>
+      <topicmeta>
+         <resourceid class="- topic/resourceid " oxy-source="topic" appid="part_basic"></resourceid>
+         <navtitle class="- topic/navtitle ">Basis</navtitle><?ditaot gentext?>
+         <linktext class="- map/linktext ">Basis</linktext>
+         <author class="- topic/author ">Ben Welman</author>
+         <prodinfo class="- topic/prodinfo ">
+            
+            <prodname class="- topic/prodname ">Access 2016</prodname>
+            
+         </prodinfo>
+      </topicmeta>
+      <topic href="intro/intro.html" data-id="intro" wh-toc-id="intro-d66e668">
+         <title>Beginnen met Access</title>
+         <shortdesc>
+            <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc"></p>
+         </shortdesc>
+         <topicmeta>
+            <resourceid class="- topic/resourceid " oxy-source="topic" appid="intro"></resourceid>
+            <navtitle class="- topic/navtitle ">Beginnen met Access</navtitle><?ditaot gentext?>
+            <linktext class="- map/linktext ">Beginnen met Access</linktext><?ditaot genshortdesc?>
+            <shortdesc class="- map/shortdesc "></shortdesc>
+            <author class="- topic/author ">Ben Welman</author>
+            <prodinfo class="- topic/prodinfo ">
+               
+               <prodname class="- topic/prodname ">Access 2016</prodname>
+               
+            </prodinfo>
+         </topicmeta>
+         <topic href="intro/intro_about.html" data-id="intro_about" wh-toc-id="intro_about-d66e685">
+            <title>Wat zijn databases?</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Een korte introductie in wat <dfn class="term">databases</dfn> zijn en hoe deze zijn         opgebouwd.
+               </p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="intro_about"></resourceid>
+               <navtitle class="- topic/navtitle ">Wat zijn databases?</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">Wat zijn databases?</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">Een korte introductie in wat 
+                  <term class="- topic/term ">databases</term> zijn en hoe deze zijn         opgebouwd.
+               </shortdesc>
+               <author class="- topic/author ">Ben Welman</author>
+               <prodinfo class="- topic/prodinfo ">
+                  
+                  <prodname class="- topic/prodname ">Access 2016</prodname>
+                  
+               </prodinfo>
+            </topicmeta>
+            <topic href="intro/intro_table.html" data-id="intro_table" wh-toc-id="intro_table-d66e706">
+               <title>Tabellen</title>
+               <shortdesc>
+                  <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Uitleg over wat <dfn class="term">tabellen</dfn> zijn en uit welke onderdelen deze         bestaan.
+                  </p>
+               </shortdesc>
+               <topicmeta>
+                  <resourceid class="- topic/resourceid " oxy-source="topic" appid="intro_table"></resourceid>
+                  <navtitle class="- topic/navtitle ">Tabellen</navtitle><?ditaot gentext?>
+                  <linktext class="- map/linktext ">Tabellen</linktext><?ditaot genshortdesc?>
+                  <shortdesc class="- map/shortdesc ">Uitleg over wat 
+                     <term class="- topic/term ">tabellen</term> zijn en uit welke onderdelen deze         bestaan.
+                  </shortdesc>
+                  <author class="- topic/author ">Ben Welman</author>
+                  <prodinfo class="- topic/prodinfo ">
+                     
+                     <prodname class="- topic/prodname ">Access 2016</prodname>
+                     
+                  </prodinfo>
+               </topicmeta>
+            </topic>
+            <topic href="intro/intro_query.html" data-id="intro_query" wh-toc-id="intro_query-d66e727">
+               <title>Query's</title>
+               <shortdesc>
+                  <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Een korte introductie in wat <dfn class="term">query's</dfn> zijn.
+                  </p>
+               </shortdesc>
+               <topicmeta>
+                  <resourceid class="- topic/resourceid " oxy-source="topic" appid="intro_query"></resourceid>
+                  <navtitle class="- topic/navtitle ">Query's</navtitle><?ditaot gentext?>
+                  <linktext class="- map/linktext ">Query's</linktext><?ditaot genshortdesc?>
+                  <shortdesc class="- map/shortdesc ">Een korte introductie in wat 
+                     <term class="- topic/term ">query's</term> zijn.
+                  </shortdesc>
+                  <author class="- topic/author ">Ben Welman</author>
+                  <prodinfo class="- topic/prodinfo ">
+                     
+                     <prodname class="- topic/prodname ">Access 2016</prodname>
+                     
+                  </prodinfo>
+               </topicmeta>
+            </topic>
+            <topic href="intro/intro_form.html" data-id="intro_form" wh-toc-id="intro_form-d66e748">
+               <title>Formulieren</title>
+               <shortdesc>
+                  <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Een korte introductie in wat <dfn class="term">formulieren</dfn> zijn.
+                  </p>
+               </shortdesc>
+               <topicmeta>
+                  <resourceid class="- topic/resourceid " oxy-source="topic" appid="intro_form"></resourceid>
+                  <navtitle class="- topic/navtitle ">Formulieren</navtitle><?ditaot gentext?>
+                  <linktext class="- map/linktext ">Formulieren</linktext><?ditaot genshortdesc?>
+                  <shortdesc class="- map/shortdesc ">Een korte introductie in wat 
+                     <term class="- topic/term ">formulieren</term> zijn.
+                  </shortdesc>
+                  <author class="- topic/author ">Ben Welman</author>
+                  <prodinfo class="- topic/prodinfo ">
+                     
+                     <prodname class="- topic/prodname ">Access 2016</prodname>
+                     
+                  </prodinfo>
+               </topicmeta>
+            </topic>
+            <topic href="intro/intro_report.html" data-id="intro_report" wh-toc-id="intro_report-d66e769">
+               <title>Rapporten</title>
+               <shortdesc>
+                  <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Een korte introductie in wat <dfn class="term">rapporten</dfn> zijn.
+                  </p>
+               </shortdesc>
+               <topicmeta>
+                  <resourceid class="- topic/resourceid " oxy-source="topic" appid="intro_report"></resourceid>
+                  <navtitle class="- topic/navtitle ">Rapporten</navtitle><?ditaot gentext?>
+                  <linktext class="- map/linktext ">Rapporten</linktext><?ditaot genshortdesc?>
+                  <shortdesc class="- map/shortdesc ">Een korte introductie in wat 
+                     <term class="- topic/term ">rapporten</term> zijn.
+                  </shortdesc>
+                  <author class="- topic/author ">Ben Welman</author>
+                  <prodinfo class="- topic/prodinfo ">
+                     
+                     <prodname class="- topic/prodname ">Access 2016</prodname>
+                     
+                  </prodinfo>
+               </topicmeta>
+            </topic>
+            <topic href="intro/intro_macro.html" data-id="intro_macro" wh-toc-id="intro_macro-d66e790">
+               <title>Wat is een macro?</title>
+               <shortdesc>
+                  <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Een korte introductie in wat <dfn class="term">macro's</dfn> zijn.
+                  </p>
+               </shortdesc>
+               <topicmeta>
+                  <resourceid class="- topic/resourceid " oxy-source="topic" appid="intro_macro"></resourceid>
+                  <navtitle class="- topic/navtitle ">Wat is een macro?</navtitle><?ditaot gentext?>
+                  <linktext class="- map/linktext ">Wat is een macro?</linktext><?ditaot genshortdesc?>
+                  <shortdesc class="- map/shortdesc ">Een korte introductie in wat 
+                     <term class="- topic/term ">macro's</term> zijn.
+                  </shortdesc>
+                  <author class="- topic/author ">Ben Welman</author>
+                  <prodinfo class="- topic/prodinfo ">
+                     
+                     <prodname class="- topic/prodname ">Access 2016</prodname>
+                     
+                  </prodinfo>
+               </topicmeta>
+            </topic>
+            <topic href="intro/intro_module.html" data-id="intro_module" wh-toc-id="intro_module-d66e811">
+               <title>Wat is een module?</title>
+               <shortdesc>
+                  <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Een korte introductie in wat <dfn class="term">modules</dfn> zijn.
+                  </p>
+               </shortdesc>
+               <topicmeta>
+                  <resourceid class="- topic/resourceid " oxy-source="topic" appid="intro_module"></resourceid>
+                  <navtitle class="- topic/navtitle ">Wat is een module?</navtitle><?ditaot gentext?>
+                  <linktext class="- map/linktext ">Wat is een module?</linktext><?ditaot genshortdesc?>
+                  <shortdesc class="- map/shortdesc ">Een korte introductie in wat 
+                     <term class="- topic/term ">modules</term> zijn.
+                  </shortdesc>
+                  <author class="- topic/author ">Ben Welman</author>
+                  <prodinfo class="- topic/prodinfo ">
+                     
+                     <prodname class="- topic/prodname ">Access 2016</prodname>
+                     
+                  </prodinfo>
+               </topicmeta>
+            </topic>
+         </topic>
+         <topic href="intro/intro_start.html" data-id="intro_start" wh-toc-id="intro_start-d66e832">
+            <title>Taak: Access opstarten</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Hoe het programma Access opgestart kan worden.</p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="intro_start"></resourceid>
+               <navtitle class="- topic/navtitle ">Taak: Access opstarten</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">Taak: Access opstarten</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">Hoe het programma Access opgestart kan worden.</shortdesc>
+               <author class="- topic/author ">Ben Welman</author>
+               <prodinfo class="- topic/prodinfo ">
+                  
+                  <prodname class="- topic/prodname ">Access 2016</prodname>
+                  
+               </prodinfo>
+            </topicmeta>
+         </topic>
+         <topic href="intro/intro_close.html" data-id="intro_close" wh-toc-id="intro_close-d66e850">
+            <title>Taak: Access afsluiten</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Hoe een database en Access zelf afgesloten kan worden.</p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="intro_close"></resourceid>
+               <navtitle class="- topic/navtitle ">Taak: Access afsluiten</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">Taak: Access afsluiten</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">Hoe een database en Access zelf afgesloten kan worden.</shortdesc>
+               <author class="- topic/author ">Ben Welman</author>
+               <prodinfo class="- topic/prodinfo ">
+                  
+                  <prodname class="- topic/prodname ">Access 2016</prodname>
+                  
+               </prodinfo>
+            </topicmeta>
+         </topic>
+         <topic href="intro/intro_database_open.html" data-id="intro_database_open" wh-toc-id="intro_database_open-d66e868">
+            <title>Taak: Database openen</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Aanwijzingen hoe je een bestaande database kunt openen.</p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="intro_database_open"></resourceid>
+               <navtitle class="- topic/navtitle ">Taak: Database openen</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">Taak: Database openen</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">Aanwijzingen hoe je een bestaande database kunt openen.</shortdesc>
+               <author class="- topic/author ">Ben Welman</author>
+               <prodinfo class="- topic/prodinfo ">
+                  
+                  <prodname class="- topic/prodname ">Access 2016</prodname>
+                  
+               </prodinfo>
+            </topicmeta>
+         </topic>
+         <topic href="intro/intro_access_window.html" data-id="intro_access_window" wh-toc-id="intro_access_window-d66e886">
+            <title>Access venster</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc"></p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="intro_access_window"></resourceid>
+               <navtitle class="- topic/navtitle ">Access venster</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">Access venster</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc "></shortdesc>
+               <author class="- topic/author ">Ben Welman</author>
+               <prodinfo class="- topic/prodinfo ">
+                  
+                  <prodname class="- topic/prodname ">Access 2016</prodname>
+                  
+               </prodinfo>
+            </topicmeta>
+         </topic>
+         <topic href="intro/intro_database_new.html" data-id="intro_database_new" wh-toc-id="intro_database_new-d66e903">
+            <title>Nieuwe database venster</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Aanwijzingen hoe je een nieuwe database kunt maken.</p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="intro_database_new"></resourceid>
+               <navtitle class="- topic/navtitle ">Nieuwe database venster</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">Nieuwe database venster</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">Aanwijzingen hoe je een nieuwe database kunt maken.</shortdesc>
+               <author class="- topic/author ">Ben Welman</author>
+               <prodinfo class="- topic/prodinfo ">
+                  
+                  <prodname class="- topic/prodname ">Access 2016</prodname>
+                  
+               </prodinfo>
+            </topicmeta>
+         </topic>
+         <topic href="intro/intro_database_saveas.html" data-id="intro_database_saveas" wh-toc-id="intro_database_saveas-d66e921">
+            <title>Taak: Database opslaan als</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Hoe een geopend database onder een andere naam en in een ander bestandsformaat         opgeslagen kan worden.</p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="intro_database_saveas"></resourceid>
+               <navtitle class="- topic/navtitle ">Taak: Database opslaan als</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">Taak: Database opslaan als</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">Hoe een geopend database onder een andere naam en in een ander bestandsformaat         opgeslagen kan worden.</shortdesc>
+               <author class="- topic/author ">Ben Welman</author>
+               <prodinfo class="- topic/prodinfo ">
+                  
+                  <prodname class="- topic/prodname ">Access 2016</prodname>
+                  
+               </prodinfo>
+            </topicmeta>
+         </topic>
+         <topic href="intro/intro_access_fileformats.html" data-id="intro_access_fileformats" wh-toc-id="intro_access_fileformats-d66e939">
+            <title>Bestandsformaten van Access</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Een overzicht van de nieuwe en oude bestandsformaten van Access.</p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="intro_access_fileformats"></resourceid>
+               <navtitle class="- topic/navtitle ">Bestandsformaten van Access</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">Bestandsformaten van Access</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">Een overzicht van de nieuwe en oude bestandsformaten van Access.</shortdesc>
+               <author class="- topic/author ">Ben Welman</author>
+               <prodinfo class="- topic/prodinfo ">
+                  
+                  <prodname class="- topic/prodname ">Access 2016</prodname>
+                  
+               </prodinfo>
+            </topicmeta>
+         </topic>
+      </topic>
+      <topic href="explore/explore.html" data-id="explore" wh-toc-id="explore-d66e1329">
+         <title>Database SNOEP verkennen</title>
+         <shortdesc>
+            <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc"></p>
+         </shortdesc>
+         <topicmeta>
+            <resourceid class="- topic/resourceid " oxy-source="topic" appid="explore"></resourceid>
+            <navtitle class="- topic/navtitle ">Database SNOEP verkennen</navtitle><?ditaot gentext?>
+            <linktext class="- map/linktext ">Database SNOEP verkennen</linktext><?ditaot genshortdesc?>
+            <shortdesc class="- map/shortdesc "></shortdesc>
+            <author class="- topic/author ">Ben Welman</author>
+            <prodinfo class="- topic/prodinfo ">
+               
+               <prodname class="- topic/prodname ">Access 2016</prodname>
+               
+            </prodinfo>
+         </topicmeta>
+         <topic href="explore/explore_about.html" data-id="explore_about" wh-toc-id="explore_about-d66e1346">
+            <title>Voorbeelddatabase SNOEP</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Een beschrijving van de voorbeelddatabase <span class="keyword">Snoep2016</span>.
+               </p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="explore_about"></resourceid>
+               <navtitle class="- topic/navtitle ">Voorbeelddatabase SNOEP</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">Voorbeelddatabase SNOEP</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">Een beschrijving van de voorbeelddatabase 
+                  <keyword class="- topic/keyword " keyref="example_db_title">Snoep2016</keyword>.
+               </shortdesc>
+               <author class="- topic/author ">Ben Welman</author>
+               <prodinfo class="- topic/prodinfo ">
+                  
+                  <prodname class="- topic/prodname ">Access 2016</prodname>
+                  
+               </prodinfo>
+            </topicmeta>
+         </topic>
+         <topic href="explore/explore_security.html" data-id="explore_security" wh-toc-id="explore_security-d66e1367">
+            <title>Beveiliging macro's</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Hoe om te gaan met beveiligingswaarschuwingen bij het openen van een         database.</p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="explore_security"></resourceid>
+               <navtitle class="- topic/navtitle ">Beveiliging macro's</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">Beveiliging macro's</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">Hoe om te gaan met beveiligingswaarschuwingen bij het openen van een         database.</shortdesc>
+               <author class="- topic/author ">Ben Welman</author>
+               <prodinfo class="- topic/prodinfo ">
+                  
+                  <prodname class="- topic/prodname ">Access 2016</prodname>
+                  
+               </prodinfo>
+            </topicmeta>
+         </topic>
+         <topic href="explore/explore_database.html" data-id="explore_database" wh-toc-id="explore_database-d66e1385">
+            <title>Database verkennen</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Vensters en navigatiemogelijkheden binnen Access.</p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="explore_database"></resourceid>
+               <navtitle class="- topic/navtitle ">Database verkennen</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">Database verkennen</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">Vensters en navigatiemogelijkheden binnen Access.</shortdesc>
+               <author class="- topic/author ">Ben Welman</author>
+               <prodinfo class="- topic/prodinfo ">
+                  
+                  <prodname class="- topic/prodname ">Access 2016</prodname>
+                  
+               </prodinfo>
+            </topicmeta>
+         </topic>
+         <topic href="explore/explore_tables.html" data-id="explore_tables" wh-toc-id="explore_tables-d66e1403">
+            <title>Taak: Tabel verkennen</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">De twee belangrijkste weergaven (gegevensblad en ontwerp) van tabellen.</p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="explore_tables"></resourceid>
+               <navtitle class="- topic/navtitle ">Taak: Tabel verkennen</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">Taak: Tabel verkennen</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">De twee belangrijkste weergaven (gegevensblad en ontwerp) van tabellen.</shortdesc>
+               <author class="- topic/author ">Ben Welman</author>
+               <prodinfo class="- topic/prodinfo ">
+                  
+                  <prodname class="- topic/prodname ">Access 2016</prodname>
+                  
+               </prodinfo>
+            </topicmeta>
+         </topic>
+         <topic href="explore/explore_forms.html" data-id="explore_forms" wh-toc-id="explore_forms-d66e1421">
+            <title>Taak: Formulier verkennen</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">De twee belangrijkste weergaven (formulier en ontwerp) van formulieren.</p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="explore_forms"></resourceid>
+               <navtitle class="- topic/navtitle ">Taak: Formulier verkennen</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">Taak: Formulier verkennen</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">De twee belangrijkste weergaven (formulier en ontwerp) van formulieren.</shortdesc>
+               <author class="- topic/author ">Ben Welman</author>
+               <prodinfo class="- topic/prodinfo ">
+                  
+                  <prodname class="- topic/prodname ">Access 2016</prodname>
+                  
+               </prodinfo>
+            </topicmeta>
+         </topic>
+         <topic href="explore/explore_commandbutton.html" data-id="explore_commandbutton" wh-toc-id="explore_commandbutton-d66e1439">
+            <title>Taak: Opdrachtknop gebruiken</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">De werking van een opdrachtknop op een formulier.</p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="explore_commandbutton"></resourceid>
+               <navtitle class="- topic/navtitle ">Taak: Opdrachtknop gebruiken</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">Taak: Opdrachtknop gebruiken</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">De werking van een opdrachtknop op een formulier.</shortdesc>
+               <author class="- topic/author ">Ben Welman</author>
+               <prodinfo class="- topic/prodinfo ">
+                  
+                  <prodname class="- topic/prodname ">Access 2016</prodname>
+                  
+               </prodinfo>
+            </topicmeta>
+         </topic>
+         <topic href="explore/explore_search_records.html" data-id="explore_search_records" wh-toc-id="explore_search_records-d66e1457">
+            <title>Taak: Record zoeken</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Hoe je een record kunt zoeken via een gedeelte van een naam.</p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="explore_search_records"></resourceid>
+               <navtitle class="- topic/navtitle ">Taak: Record zoeken</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">Taak: Record zoeken</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">Hoe je een record kunt zoeken via een gedeelte van een naam.</shortdesc>
+               <author class="- topic/author ">Ben Welman</author>
+               <prodinfo class="- topic/prodinfo ">
+                  
+                  <prodname class="- topic/prodname ">Access 2016</prodname>
+                  
+               </prodinfo>
+            </topicmeta>
+         </topic>
+         <topic href="explore/explore_queries.html" data-id="explore_queries" wh-toc-id="explore_queries-d66e1475">
+            <title>Taak: Query verkennen</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">De twee belangrijkste weergaven (gegevensblad en ontwerp) van query's.</p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="explore_queries"></resourceid>
+               <navtitle class="- topic/navtitle ">Taak: Query verkennen</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">Taak: Query verkennen</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">De twee belangrijkste weergaven (gegevensblad en ontwerp) van query's.</shortdesc>
+               <author class="- topic/author ">Ben Welman</author>
+               <prodinfo class="- topic/prodinfo ">
+                  
+                  <prodname class="- topic/prodname ">Access 2016</prodname>
+                  
+               </prodinfo>
+            </topicmeta>
+         </topic>
+         <topic href="explore/explore_reports.html" data-id="explore_reports" wh-toc-id="explore_reports-d66e1493">
+            <title>Taak: Rapport verkennen</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">De weergavemogelijkheden van rapporten.</p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="explore_reports"></resourceid>
+               <navtitle class="- topic/navtitle ">Taak: Rapport verkennen</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">Taak: Rapport verkennen</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">De weergavemogelijkheden van rapporten.</shortdesc>
+               <author class="- topic/author ">Ben Welman</author>
+               <prodinfo class="- topic/prodinfo ">
+                  
+                  <prodname class="- topic/prodname ">Access 2016</prodname>
+                  
+               </prodinfo>
+            </topicmeta>
+         </topic>
+         <topic href="explore/explore_sorting.html" data-id="explore_sorting" wh-toc-id="explore_sorting-d66e1511">
+            <title>Taak: Sorteren</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Records oplopend of aflopend sorteren op één of meerdere velden.</p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="explore_sorting"></resourceid>
+               <navtitle class="- topic/navtitle ">Taak: Sorteren</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">Taak: Sorteren</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">Records oplopend of aflopend sorteren op één of meerdere velden.</shortdesc>
+               <author class="- topic/author ">Ben Welman</author>
+               <prodinfo class="- topic/prodinfo ">
+                  
+                  <prodname class="- topic/prodname ">Access 2016</prodname>
+                  
+               </prodinfo>
+            </topicmeta>
+         </topic>
+         <topic href="explore/explore_filtering.html" data-id="explore_filtering" wh-toc-id="explore_filtering-d66e1530">
+            <title>Taak: Filteren</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Records filteren om een selectie van overeenkomstige records te vinden.</p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="explore_filtering"></resourceid>
+               <navtitle class="- topic/navtitle ">Taak: Filteren</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">Taak: Filteren</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">Records filteren om een selectie van overeenkomstige records te vinden.</shortdesc>
+               <author class="- topic/author ">Ben Welman</author>
+               <prodinfo class="- topic/prodinfo ">
+                  
+                  <prodname class="- topic/prodname ">Access 2016</prodname>
+                  
+               </prodinfo>
+            </topicmeta>
+         </topic>
+         <topic href="explore/explore_printing.html" data-id="explore_printing" wh-toc-id="explore_printing-d66e1548">
+            <title>Afdrukken van Access onderdelen</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Hoe de inhoud van tabellen, query's, formulieren en rapporten afdrukken.</p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="explore_printing"></resourceid>
+               <navtitle class="- topic/navtitle ">Afdrukken van Access onderdelen</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">Afdrukken van Access onderdelen</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">Hoe de inhoud van tabellen, query's, formulieren en rapporten afdrukken.</shortdesc>
+               <author class="- topic/author ">Ben Welman</author>
+               <prodinfo class="- topic/prodinfo ">
+                  
+                  <prodname class="- topic/prodname ">Access 2016</prodname>
+                  
+               </prodinfo>
+            </topicmeta>
+         </topic>
+         <topic href="javascript:void(0)" wh-toc-id="tocId-d66e1576">
+            <title>Opgaven</title>
+            <topic href="explore/exercises/ex_expl001.html" data-id="ex_expl001" wh-toc-id="ex_expl001-d66e1577">
+               <title>Opgave: expl001 - Selectie Bonbons</title>
+               <topicmeta>
+                  <resourceid class="- topic/resourceid " oxy-source="topic" appid="ex_expl001"></resourceid>
+                  <navtitle class="- topic/navtitle ">Opgave: expl001 - Selectie Bonbons</navtitle><?ditaot gentext?>
+                  <linktext class="- map/linktext ">Opgave: expl001 - Selectie Bonbons</linktext>
+                  <author class="- topic/author ">Ben Welman</author>
+                  <prodinfo class="- topic/prodinfo ">
+                     
+                     <prodname class="- topic/prodname ">Access 2016</prodname>
+                     
+                  </prodinfo>
+               </topicmeta>
+            </topic>
+            <topic href="explore/exercises/ex_expl002.html" data-id="ex_expl002" wh-toc-id="ex_expl002-d66e1592">
+               <title>Opgave: expl002 - Selectie Klanten op plaatsnaam</title>
+               <topicmeta>
+                  <resourceid class="- topic/resourceid " oxy-source="topic" appid="ex_expl002"></resourceid>
+                  <navtitle class="- topic/navtitle ">Opgave: expl002 - Selectie Klanten op plaatsnaam</navtitle><?ditaot gentext?>
+                  <linktext class="- map/linktext ">Opgave: expl002 - Selectie Klanten op plaatsnaam</linktext>
+                  <author class="- topic/author ">Ben Welman</author>
+                  <prodinfo class="- topic/prodinfo ">
+                     
+                     <prodname class="- topic/prodname ">Access 2016</prodname>
+                     
+                  </prodinfo>
+               </topicmeta>
+            </topic>
+            <topic href="explore/exercises/ex_expl003.html" data-id="ex_expl003" wh-toc-id="ex_expl003-d66e1607">
+               <title>Opgave: expl003 - Selectie Klanten op postcode</title>
+               <topicmeta>
+                  <resourceid class="- topic/resourceid " oxy-source="topic" appid="ex_expl003"></resourceid>
+                  <navtitle class="- topic/navtitle ">Opgave: expl003 - Selectie Klanten op postcode</navtitle><?ditaot gentext?>
+                  <linktext class="- map/linktext ">Opgave: expl003 - Selectie Klanten op postcode</linktext>
+                  <author class="- topic/author ">Ben Welman</author>
+                  <prodinfo class="- topic/prodinfo ">
+                     
+                     <prodname class="- topic/prodname ">Access 2016</prodname>
+                     
+                  </prodinfo>
+               </topicmeta>
+            </topic>
+         </topic>
+      </topic>
+      <topic href="data/data.html" data-id="data" wh-toc-id="data-d66e1898">
+         <title>Gegevens toevoegen/wijzigen</title>
+         <shortdesc>
+            <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc"></p>
+         </shortdesc>
+         <topicmeta>
+            <resourceid class="- topic/resourceid " oxy-source="topic" appid="data"></resourceid>
+            <navtitle class="- topic/navtitle ">Gegevens toevoegen/wijzigen</navtitle><?ditaot gentext?>
+            <linktext class="- map/linktext ">Gegevens toevoegen/wijzigen</linktext><?ditaot genshortdesc?>
+            <shortdesc class="- map/shortdesc "></shortdesc>
+            <author class="- topic/author ">Ben Welman</author>
+            <prodinfo class="- topic/prodinfo ">
+               
+               <prodname class="- topic/prodname ">Access 2016</prodname>
+               
+            </prodinfo>
+         </topicmeta>
+         <topic href="data/data_about.html" data-id="data_about" wh-toc-id="data_about-d66e1915">
+            <title>Over gegevens invoeren</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Waarom een formulier gebruiken voor gegevensinvoer.</p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="data_about"></resourceid>
+               <navtitle class="- topic/navtitle ">Over gegevens invoeren</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">Over gegevens invoeren</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">Waarom een formulier gebruiken voor gegevensinvoer.</shortdesc>
+               <author class="- topic/author ">Ben Welman</author>
+               <prodinfo class="- topic/prodinfo ">
+                  
+                  <prodname class="- topic/prodname ">Access 2016</prodname>
+                  
+               </prodinfo>
+            </topicmeta>
+         </topic>
+         <topic href="data/data_tables.html" data-id="data_tables" wh-toc-id="data_tables-d66e1933">
+            <title>Tabel bewerkingen</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Aanwijzingen hoe je records in een tabel bewerkt, nieuwe records toevoegt of records         verwijdert.</p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="data_tables"></resourceid>
+               <navtitle class="- topic/navtitle ">Tabel bewerkingen</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">Tabel bewerkingen</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">Aanwijzingen hoe je records in een tabel bewerkt, nieuwe records toevoegt of records         verwijdert.</shortdesc>
+               <author class="- topic/author ">Ben Welman</author>
+               <prodinfo class="- topic/prodinfo ">
+                  
+                  <prodname class="- topic/prodname ">Access 2016</prodname>
+                  
+               </prodinfo>
+            </topicmeta>
+         </topic>
+         <topic href="data/data_new_customer.html" data-id="data_new_customer" wh-toc-id="data_new_customer-d66e1951">
+            <title>Taak: Nieuwe klant toevoegen</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Een nieuw record toevoegen met een formulier waarmee je alleen gegevens toe kunt         voegen..</p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="data_new_customer"></resourceid>
+               <navtitle class="- topic/navtitle ">Taak: Nieuwe klant toevoegen</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">Taak: Nieuwe klant toevoegen</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">Een nieuw record toevoegen met een formulier waarmee je alleen gegevens toe kunt         voegen..</shortdesc>
+               <author class="- topic/author ">Ben Welman</author>
+               <prodinfo class="- topic/prodinfo ">
+                  
+                  <prodname class="- topic/prodname ">Access 2016</prodname>
+                  
+               </prodinfo>
+            </topicmeta>
+         </topic>
+         <topic href="data/data_new_praline.html" data-id="data_new_praline" wh-toc-id="data_new_praline-d66e1969">
+            <title>Taak: Nieuwe bonbon toevoegen</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Een nieuw record toevoegen met een formulier dat geschikt is voor toevoegen en         bladeren.</p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="data_new_praline"></resourceid>
+               <navtitle class="- topic/navtitle ">Taak: Nieuwe bonbon toevoegen</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">Taak: Nieuwe bonbon toevoegen</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">Een nieuw record toevoegen met een formulier dat geschikt is voor toevoegen en         bladeren.</shortdesc>
+               <author class="- topic/author ">Ben Welman</author>
+               <prodinfo class="- topic/prodinfo ">
+                  
+                  <prodname class="- topic/prodname ">Access 2016</prodname>
+                  
+               </prodinfo>
+            </topicmeta>
+         </topic>
+         <topic href="data/data_new_box.html" data-id="data_new_box" wh-toc-id="data_new_box-d66e1987">
+            <title>Taak: Nieuwe doos toevoegen</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Een nieuw record toevoegen via een hoofdformulier en een subformulier.</p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="data_new_box"></resourceid>
+               <navtitle class="- topic/navtitle ">Taak: Nieuwe doos toevoegen</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">Taak: Nieuwe doos toevoegen</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">Een nieuw record toevoegen via een hoofdformulier en een subformulier.</shortdesc>
+               <author class="- topic/author ">Ben Welman</author>
+               <prodinfo class="- topic/prodinfo ">
+                  
+                  <prodname class="- topic/prodname ">Access 2016</prodname>
+                  
+               </prodinfo>
+            </topicmeta>
+         </topic>
+         <topic href="data/data_restriction_validation.html" data-id="data_restriction_validation" wh-toc-id="data_restriction_validation-d66e2005">
+            <title>Restrictie en validatie van gegevens</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Mogelijkheden om een correcte en gewenste invoer van gegevens af te         dwingen..</p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="data_restriction_validation"></resourceid>
+               <navtitle class="- topic/navtitle ">Restrictie en validatie van gegevens</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">Restrictie en validatie van gegevens</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">Mogelijkheden om een correcte en gewenste invoer van gegevens af te         dwingen..</shortdesc>
+               <author class="- topic/author ">Ben Welman</author>
+               <prodinfo class="- topic/prodinfo ">
+                  
+                  <prodname class="- topic/prodname ">Access 2016</prodname>
+                  
+               </prodinfo>
+            </topicmeta>
+         </topic>
+         <topic href="javascript:void(0)" wh-toc-id="tocId-d66e2023">
+            <title>Opgaven</title>
+            <topic href="data/exercises/ex_data001.html" data-id="ex_data001" wh-toc-id="ex_data001-d66e2024">
+               <title>Opgave: data001 - Bonbons toevoegen</title>
+               <topicmeta>
+                  <resourceid class="- topic/resourceid " oxy-source="topic" appid="ex_data001"></resourceid>
+                  <navtitle class="- topic/navtitle ">Opgave: data001 - Bonbons toevoegen</navtitle><?ditaot gentext?>
+                  <linktext class="- map/linktext ">Opgave: data001 - Bonbons toevoegen</linktext>
+                  <author class="- topic/author ">Ben Welman</author>
+                  <prodinfo class="- topic/prodinfo ">
+                     
+                     <prodname class="- topic/prodname ">Access 2016</prodname>
+                     
+                  </prodinfo>
+               </topicmeta>
+            </topic>
+            <topic href="data/exercises/ex_data002.html" data-id="ex_data002" wh-toc-id="ex_data002-d66e2039">
+               <title>Opgave: data002 - Order toevoegen</title>
+               <topicmeta>
+                  <resourceid class="- topic/resourceid " oxy-source="topic" appid="ex_data002"></resourceid>
+                  <navtitle class="- topic/navtitle ">Opgave: data002 - Order toevoegen</navtitle><?ditaot gentext?>
+                  <linktext class="- map/linktext ">Opgave: data002 - Order toevoegen</linktext>
+                  <author class="- topic/author ">Ben Welman</author>
+                  <prodinfo class="- topic/prodinfo ">
+                     
+                     <prodname class="- topic/prodname ">Access 2016</prodname>
+                     
+                  </prodinfo>
+               </topicmeta>
+            </topic>
+         </topic>
+      </topic>
+      <topic href="tables/tables.html" format="dita" data-id="tables" wh-toc-id="tables-d66e2401">
+         <title>Tabellen</title>
+         <shortdesc>
+            <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc"></p>
+         </shortdesc>
+         <topicmeta>
+            <resourceid class="- topic/resourceid " oxy-source="topic" appid="tables"></resourceid>
+            <navtitle class="- topic/navtitle ">Tabellen</navtitle><?ditaot gentext?>
+            <linktext class="- map/linktext ">Tabellen</linktext><?ditaot genshortdesc?>
+            <shortdesc class="- map/shortdesc "></shortdesc>
+            <author class="- topic/author ">Ben Welman</author>
+            <prodinfo class="- topic/prodinfo ">
+               
+               <prodname class="- topic/prodname ">Access 2016</prodname>
+               
+            </prodinfo>
+         </topicmeta>
+         <topic href="tables/tables_about.html" format="dita" data-id="tables_about" wh-toc-id="tables_about-d66e2418">
+            <title>Over tabellen</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Tabellen, velden en relaties tussen tabellen. </p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="tables_about"></resourceid>
+               <navtitle class="- topic/navtitle ">Over tabellen</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">Over tabellen</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">Tabellen, velden en relaties tussen tabellen. </shortdesc>
+               <author class="- topic/author ">Ben Welman</author>
+               <prodinfo class="- topic/prodinfo ">
+                  
+                  <prodname class="- topic/prodname ">Access 2016</prodname>
+                  
+               </prodinfo>
+            </topicmeta>
+         </topic>
+         <topic href="tables/tables_fields.html" format="dita" data-id="tables_fields" wh-toc-id="tables_fields-d66e2436">
+            <title>Velden in tabellen</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Uitleg over naam en gegevenstype van een veld.</p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="tables_fields"></resourceid>
+               <navtitle class="- topic/navtitle ">Velden in tabellen</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">Velden in tabellen</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">Uitleg over naam en gegevenstype van een veld.</shortdesc>
+               <author class="- topic/author ">Ben Welman</author>
+               <prodinfo class="- topic/prodinfo ">
+                  
+                  <prodname class="- topic/prodname ">Access 2016</prodname>
+                  
+               </prodinfo>
+            </topicmeta>
+            <topic href="tables/tables_fields_names.html" format="dita" data-id="tables_fields_names" wh-toc-id="tables_fields_names-d66e2454">
+               <title>Veldnamen</title>
+               <shortdesc>
+                  <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">De vereisten voor veldnamen. </p>
+               </shortdesc>
+               <topicmeta>
+                  <resourceid class="- topic/resourceid " oxy-source="topic" appid="tables_fields_names"></resourceid>
+                  <navtitle class="- topic/navtitle ">Veldnamen</navtitle><?ditaot gentext?>
+                  <linktext class="- map/linktext ">Veldnamen</linktext><?ditaot genshortdesc?>
+                  <shortdesc class="- map/shortdesc ">De vereisten voor veldnamen. </shortdesc>
+                  <author class="- topic/author ">Ben Welman</author>
+                  <prodinfo class="- topic/prodinfo ">
+                     
+                     <prodname class="- topic/prodname ">Access 2016</prodname>
+                     
+                  </prodinfo>
+               </topicmeta>
+            </topic>
+            <topic href="tables/tables_fields_datatypes.html" format="dita" data-id="tables_fields_datatypes" wh-toc-id="tables_fields_datatypes-d66e2472">
+               <title>Gegevenstype</title>
+               <shortdesc>
+                  <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">De verschillende gegevenstypes, de mogelijke waarden en het gebruik. </p>
+               </shortdesc>
+               <topicmeta>
+                  <resourceid class="- topic/resourceid " oxy-source="topic" appid="tables_fields_datatypes"></resourceid>
+                  <navtitle class="- topic/navtitle ">Gegevenstype</navtitle><?ditaot gentext?>
+                  <linktext class="- map/linktext ">Gegevenstype</linktext><?ditaot genshortdesc?>
+                  <shortdesc class="- map/shortdesc ">De verschillende gegevenstypes, de mogelijke waarden en het gebruik. </shortdesc>
+                  <author class="- topic/author ">Ben Welman</author>
+                  <prodinfo class="- topic/prodinfo ">
+                     
+                     <prodname class="- topic/prodname ">Access 2016</prodname>
+                     
+                  </prodinfo>
+               </topicmeta>
+            </topic>
+            <topic href="tables/tables_fields_properties.html" format="dita" data-id="tables_fields_properties" wh-toc-id="tables_fields_properties-d66e2490">
+               <title>Eigenschappen van een veld</title>
+               <shortdesc>
+                  <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Aanvullende eigenschappen van een veld zoals veldlengte.</p>
+               </shortdesc>
+               <topicmeta>
+                  <resourceid class="- topic/resourceid " oxy-source="topic" appid="tables_fields_properties"></resourceid>
+                  <navtitle class="- topic/navtitle ">Eigenschappen van een veld</navtitle><?ditaot gentext?>
+                  <linktext class="- map/linktext ">Eigenschappen van een veld</linktext><?ditaot genshortdesc?>
+                  <shortdesc class="- map/shortdesc ">Aanvullende eigenschappen van een veld zoals veldlengte.</shortdesc>
+                  <author class="- topic/author ">Ben Welman</author>
+                  <prodinfo class="- topic/prodinfo ">
+                     
+                     <prodname class="- topic/prodname ">Access 2016</prodname>
+                     
+                  </prodinfo>
+               </topicmeta>
+            </topic>
+            <topic href="tables/tables_fields_size.html" format="dita" data-id="tables_fields_size" wh-toc-id="tables_fields_size-d66e2508">
+               <title>Veldlengte gegevenstype Getal</title>
+               <shortdesc>
+                  <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Mogelijke waarden voor de veldlengte van het gegevenstype getal.</p>
+               </shortdesc>
+               <topicmeta>
+                  <resourceid class="- topic/resourceid " oxy-source="topic" appid="tables_fields_size"></resourceid>
+                  <navtitle class="- topic/navtitle ">Veldlengte gegevenstype Getal</navtitle><?ditaot gentext?>
+                  <linktext class="- map/linktext ">Veldlengte gegevenstype Getal</linktext><?ditaot genshortdesc?>
+                  <shortdesc class="- map/shortdesc ">Mogelijke waarden voor de veldlengte van het gegevenstype getal.</shortdesc>
+                  <author class="- topic/author ">Ben Welman</author>
+                  <prodinfo class="- topic/prodinfo ">
+                     
+                     <prodname class="- topic/prodname ">Access 2016</prodname>
+                     
+                  </prodinfo>
+               </topicmeta>
+            </topic>
+         </topic>
+         <topic href="tables/tables_validation.html" format="dita" data-id="tables_validation" wh-toc-id="tables_validation-d66e2526">
+            <title>Validatie</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Validatie van de invoer van gegevens.</p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="tables_validation"></resourceid>
+               <navtitle class="- topic/navtitle ">Validatie</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">Validatie</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">Validatie van de invoer van gegevens.</shortdesc>
+               <author class="- topic/author ">Ben Welman</author>
+               <prodinfo class="- topic/prodinfo ">
+                  
+                  <prodname class="- topic/prodname ">Access 2016</prodname>
+                  
+               </prodinfo>
+            </topicmeta>
+            <topic href="tables/tables_fields_inputmasks.html" format="dita" data-id="tables_fields_inputmasks" wh-toc-id="tables_fields_inputmasks-d66e2544">
+               <title>Invoermaskers</title>
+               <shortdesc>
+                  <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Over hoe je een gewenste invoer van gegevens kunt afdwingen via         invoermaskers.</p>
+               </shortdesc>
+               <topicmeta>
+                  <resourceid class="- topic/resourceid " oxy-source="topic" appid="tables_fields_inputmasks"></resourceid>
+                  <navtitle class="- topic/navtitle ">Invoermaskers</navtitle><?ditaot gentext?>
+                  <linktext class="- map/linktext ">Invoermaskers</linktext><?ditaot genshortdesc?>
+                  <shortdesc class="- map/shortdesc ">Over hoe je een gewenste invoer van gegevens kunt afdwingen via         invoermaskers.</shortdesc>
+                  <author class="- topic/author ">Ben Welman</author>
+                  <prodinfo class="- topic/prodinfo ">
+                     
+                     <prodname class="- topic/prodname ">Access 2016</prodname>
+                     
+                  </prodinfo>
+               </topicmeta>
+            </topic>
+            <topic href="tables/tables_fields_validationrules.html" format="dita" data-id="tables_fields_validationrules" wh-toc-id="tables_fields_validationrules-d66e2562">
+               <title>Validatieregel en tekst</title>
+               <shortdesc>
+                  <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Over</p>
+               </shortdesc>
+               <topicmeta>
+                  <resourceid class="- topic/resourceid " oxy-source="topic" appid="tables_fields_validationrules"></resourceid>
+                  <navtitle class="- topic/navtitle ">Validatieregel en tekst</navtitle><?ditaot gentext?>
+                  <linktext class="- map/linktext ">Validatieregel en tekst</linktext><?ditaot genshortdesc?>
+                  <shortdesc class="- map/shortdesc ">Over</shortdesc>
+                  <author class="- topic/author ">Ben Welman</author>
+                  <prodinfo class="- topic/prodinfo ">
+                     
+                     <prodname class="- topic/prodname ">Access 2016</prodname>
+                     
+                  </prodinfo>
+               </topicmeta>
+            </topic>
+         </topic>
+         <topic href="tables/tables_new_manually.html" format="dita" data-id="tables_new_manually" wh-toc-id="tables_new_manually-d66e2580">
+            <title>Taak: Nieuwe tabel handmatig maken</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Vanaf het begin een nieuwe tabel maken en een sleutel toekennen.</p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="tables_new_manually"></resourceid>
+               <navtitle class="- topic/navtitle ">Taak: Nieuwe tabel handmatig maken</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">Taak: Nieuwe tabel handmatig maken</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">Vanaf het begin een nieuwe tabel maken en een sleutel toekennen.</shortdesc>
+               <author class="- topic/author ">Ben Welman</author>
+               <prodinfo class="- topic/prodinfo ">
+                  
+                  <prodname class="- topic/prodname ">Access 2016</prodname>
+                  
+               </prodinfo>
+            </topicmeta>
+         </topic>
+         <topic href="tables/tables_new_import_excel.html" format="dita" data-id="tables_new_import_excel" wh-toc-id="tables_new_import_excel-d66e2598">
+            <title>Taak: Nieuwe tabel via Excel import</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Hoe je gegevens in een Excel werkblad in een nieuwe Access tabel kunt         importeren.</p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="tables_new_import_excel"></resourceid>
+               <navtitle class="- topic/navtitle ">Taak: Nieuwe tabel via Excel import</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">Taak: Nieuwe tabel via Excel import</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">Hoe je gegevens in een Excel werkblad in een nieuwe Access tabel kunt         importeren.</shortdesc>
+               <author class="- topic/author ">Ben Welman</author>
+               <prodinfo class="- topic/prodinfo ">
+                  
+                  <prodname class="- topic/prodname ">Access 2016</prodname>
+                  
+               </prodinfo>
+            </topicmeta>
+         </topic>
+         <topic href="tables/tables_lookup_wizard.html" format="dita" data-id="tables_lookup_wizard" wh-toc-id="tables_lookup_wizard-d66e2616">
+            <title>Taak: Keuzelijst maken</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Het maken van een keuzelijst bij een veld zodat de in te voeren waarden uit een lijst         kunnen worden geselecteerd.</p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="tables_lookup_wizard"></resourceid>
+               <navtitle class="- topic/navtitle ">Taak: Keuzelijst maken</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">Taak: Keuzelijst maken</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">Het maken van een keuzelijst bij een veld zodat de in te voeren waarden uit een lijst         kunnen worden geselecteerd.</shortdesc>
+               <author class="- topic/author ">Ben Welman</author>
+               <prodinfo class="- topic/prodinfo ">
+                  
+                  <prodname class="- topic/prodname ">Access 2016</prodname>
+                  
+               </prodinfo>
+            </topicmeta>
+         </topic>
+         <topic href="tables/tables_relations.html" format="dita" data-id="tables_relations" wh-toc-id="tables_relations-d66e2634">
+            <title>Relaties tussen tabellen</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Waarom relaties tussen tabellen van belang zijn.</p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="tables_relations"></resourceid>
+               <navtitle class="- topic/navtitle ">Relaties tussen tabellen</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">Relaties tussen tabellen</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">Waarom relaties tussen tabellen van belang zijn.</shortdesc>
+               <author class="- topic/author ">Ben Welman</author>
+               <prodinfo class="- topic/prodinfo ">
+                  
+                  <prodname class="- topic/prodname ">Access 2016</prodname>
+                  
+               </prodinfo>
+            </topicmeta>
+            <topic href="tables/tables_relationtypes.html" format="dita" data-id="tables_relationtypes" wh-toc-id="tables_relationtypes-d66e2652">
+               <title>Relatietypes</title>
+               <shortdesc>
+                  <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">De verschillende soorten relaties in Access.</p>
+               </shortdesc>
+               <topicmeta>
+                  <resourceid class="- topic/resourceid " oxy-source="topic" appid="tables_relationtypes"></resourceid>
+                  <navtitle class="- topic/navtitle ">Relatietypes</navtitle><?ditaot gentext?>
+                  <linktext class="- map/linktext ">Relatietypes</linktext><?ditaot genshortdesc?>
+                  <shortdesc class="- map/shortdesc ">De verschillende soorten relaties in Access.</shortdesc>
+                  <author class="- topic/author ">Ben Welman</author>
+                  <prodinfo class="- topic/prodinfo ">
+                     
+                     <prodname class="- topic/prodname ">Access 2016</prodname>
+                     
+                  </prodinfo>
+               </topicmeta>
+               <topic href="tables/tables_relationtype_one2many.html" format="dita" data-id="tables_relationtype_one2many" wh-toc-id="tables_relationtype_one2many-d66e2670">
+                  <title>Een-op-veel relatie</title>
+                  <shortdesc>
+                     <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Uitleg over de een-op-veel relatie.</p>
+                  </shortdesc>
+                  <topicmeta>
+                     <resourceid class="- topic/resourceid " oxy-source="topic" appid="tables_relationtype_one2many"></resourceid>
+                     <navtitle class="- topic/navtitle ">Een-op-veel relatie</navtitle><?ditaot gentext?>
+                     <linktext class="- map/linktext ">Een-op-veel relatie</linktext><?ditaot genshortdesc?>
+                     <shortdesc class="- map/shortdesc ">Uitleg over de een-op-veel relatie.</shortdesc>
+                     <author class="- topic/author ">Ben Welman</author>
+                     <prodinfo class="- topic/prodinfo ">
+                        
+                        <prodname class="- topic/prodname ">Access 2016</prodname>
+                        
+                     </prodinfo>
+                  </topicmeta>
+               </topic>
+               <topic href="tables/tables_relationtype_one2one.html" format="dita" data-id="tables_relationtype_one2one" wh-toc-id="tables_relationtype_one2one-d66e2688">
+                  <title>Een-op-een relatie</title>
+                  <shortdesc>
+                     <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Uitleg over de een-op-een relatie.</p>
+                  </shortdesc>
+                  <topicmeta>
+                     <resourceid class="- topic/resourceid " oxy-source="topic" appid="tables_relationtype_one2one"></resourceid>
+                     <navtitle class="- topic/navtitle ">Een-op-een relatie</navtitle><?ditaot gentext?>
+                     <linktext class="- map/linktext ">Een-op-een relatie</linktext><?ditaot genshortdesc?>
+                     <shortdesc class="- map/shortdesc ">Uitleg over de een-op-een relatie.</shortdesc>
+                     <author class="- topic/author ">Ben Welman</author>
+                     <prodinfo class="- topic/prodinfo ">
+                        
+                        <prodname class="- topic/prodname ">Access 2016</prodname>
+                        
+                     </prodinfo>
+                  </topicmeta>
+               </topic>
+               <topic href="tables/tables_relationtype_many2many.html" format="dita" data-id="tables_relationtype_many2many" wh-toc-id="tables_relationtype_many2many-d66e2706">
+                  <title>Veel-op-veel relatie</title>
+                  <shortdesc>
+                     <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Uitleg over de veel-op-veel relatie.</p>
+                  </shortdesc>
+                  <topicmeta>
+                     <resourceid class="- topic/resourceid " oxy-source="topic" appid="tables_relationtype_many2many"></resourceid>
+                     <navtitle class="- topic/navtitle ">Veel-op-veel relatie</navtitle><?ditaot gentext?>
+                     <linktext class="- map/linktext ">Veel-op-veel relatie</linktext><?ditaot genshortdesc?>
+                     <shortdesc class="- map/shortdesc ">Uitleg over de veel-op-veel relatie.</shortdesc>
+                     <author class="- topic/author ">Ben Welman</author>
+                     <prodinfo class="- topic/prodinfo ">
+                        
+                        <prodname class="- topic/prodname ">Access 2016</prodname>
+                        
+                     </prodinfo>
+                  </topicmeta>
+               </topic>
+            </topic>
+            <topic href="tables/tables_relationships_edit.html" format="dita" data-id="tables_relationships_edit" wh-toc-id="tables_relationships_edit-d66e2724">
+               <title>Relaties maken, bewerken of verwijderen</title>
+               <shortdesc>
+                  <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Hoe je een nieuwe relatie maakt en een bestaande relatie wijzigt of         verwijdert.</p>
+               </shortdesc>
+               <topicmeta>
+                  <resourceid class="- topic/resourceid " oxy-source="topic" appid="tables_relationships_edit"></resourceid>
+                  <navtitle class="- topic/navtitle ">Relaties maken, bewerken of verwijderen</navtitle><?ditaot gentext?>
+                  <linktext class="- map/linktext ">Relaties maken, bewerken of verwijderen</linktext><?ditaot genshortdesc?>
+                  <shortdesc class="- map/shortdesc ">Hoe je een nieuwe relatie maakt en een bestaande relatie wijzigt of         verwijdert.</shortdesc>
+                  <author class="- topic/author ">Ben Welman</author>
+                  <prodinfo class="- topic/prodinfo ">
+                     
+                     <prodname class="- topic/prodname ">Access 2016</prodname>
+                     
+                  </prodinfo>
+               </topicmeta>
+            </topic>
+            <topic href="tables/tables_referential_integrity.html" format="dita" data-id="tables_referential_integrity" wh-toc-id="tables_referential_integrity-d66e2742">
+               <title>Referentiële integriteit</title>
+               <shortdesc>
+                  <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Uitleg over het belang van referentiële integriteit en de regels         hiervoor.</p>
+               </shortdesc>
+               <topicmeta>
+                  <resourceid class="- topic/resourceid " oxy-source="topic" appid="tables_referential_integrity"></resourceid>
+                  <navtitle class="- topic/navtitle ">Referentiële integriteit</navtitle><?ditaot gentext?>
+                  <linktext class="- map/linktext ">Referentiële integriteit</linktext><?ditaot genshortdesc?>
+                  <shortdesc class="- map/shortdesc ">Uitleg over het belang van referentiële integriteit en de regels         hiervoor.</shortdesc>
+                  <author class="- topic/author ">Ben Welman</author>
+                  <prodinfo class="- topic/prodinfo ">
+                     
+                     <prodname class="- topic/prodname ">Access 2016</prodname>
+                     
+                  </prodinfo>
+               </topicmeta>
+            </topic>
+            <topic href="tables/tables_relationship_boxes_boxdetails.html" format="dita" data-id="tables_relationship_boxes_boxdetails" wh-toc-id="tables_relationship_boxes_boxdetails-d66e2760">
+               <title>Taak: Relatie Dozen-Doosdetails maken</title>
+               <shortdesc>
+                  <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Het maken van een een-op-veel relatie tussen de tabellen Dozen en         Doosdetails.</p>
+               </shortdesc>
+               <topicmeta>
+                  <resourceid class="- topic/resourceid " oxy-source="topic" appid="tables_relationship_boxes_boxdetails"></resourceid>
+                  <navtitle class="- topic/navtitle ">Taak: Relatie Dozen-Doosdetails maken</navtitle><?ditaot gentext?>
+                  <linktext class="- map/linktext ">Taak: Relatie Dozen-Doosdetails maken</linktext><?ditaot genshortdesc?>
+                  <shortdesc class="- map/shortdesc ">Het maken van een een-op-veel relatie tussen de tabellen Dozen en         Doosdetails.</shortdesc>
+                  <author class="- topic/author ">Ben Welman</author>
+                  <prodinfo class="- topic/prodinfo ">
+                     
+                     <prodname class="- topic/prodname ">Access 2016</prodname>
+                     
+                  </prodinfo>
+               </topicmeta>
+            </topic>
+         </topic>
+         <topic href="javascript:void(0)" format="dita" wh-toc-id="tocId-d66e2788">
+            <title>Opgaven</title>
+            <topic href="tables/exercises/ex_tabl001.html" format="dita" data-id="ex_tabl001" wh-toc-id="ex_tabl001-d66e2789">
+               <title>Opgave: tabl001 - Dubbele namen voorkomen</title>
+               <topicmeta>
+                  <resourceid class="- topic/resourceid " oxy-source="topic" appid="ex_tabl001"></resourceid>
+                  <navtitle class="- topic/navtitle ">Opgave: tabl001 - Dubbele namen voorkomen</navtitle><?ditaot gentext?>
+                  <linktext class="- map/linktext ">Opgave: tabl001 - Dubbele namen voorkomen</linktext>
+                  <author class="- topic/author ">Ben Welman</author>
+                  <prodinfo class="- topic/prodinfo ">
+                     
+                     <prodname class="- topic/prodname ">Access 2016</prodname>
+                     
+                  </prodinfo>
+               </topicmeta>
+            </topic>
+            <topic href="tables/exercises/ex_tabl002.html" format="dita" data-id="ex_tabl002" wh-toc-id="ex_tabl002-d66e2804">
+               <title>Opgave: tabl002 - Tussenvoegsel in namen</title>
+               <topicmeta>
+                  <resourceid class="- topic/resourceid " oxy-source="topic" appid="ex_tabl002"></resourceid>
+                  <navtitle class="- topic/navtitle ">Opgave: tabl002 - Tussenvoegsel in namen</navtitle><?ditaot gentext?>
+                  <linktext class="- map/linktext ">Opgave: tabl002 - Tussenvoegsel in namen</linktext>
+                  <author class="- topic/author ">Ben Welman</author>
+                  <prodinfo class="- topic/prodinfo ">
+                     
+                     <prodname class="- topic/prodname ">Access 2016</prodname>
+                     
+                  </prodinfo>
+               </topicmeta>
+            </topic>
+            <topic href="tables/exercises/ex_tabl003.html" format="dita" data-id="ex_tabl003" wh-toc-id="ex_tabl003-d66e2819">
+               <title>Opgave: tabl003 - Titelveld met keuzelijst</title>
+               <topicmeta>
+                  <resourceid class="- topic/resourceid " oxy-source="topic" appid="ex_tabl003"></resourceid>
+                  <navtitle class="- topic/navtitle ">Opgave: tabl003 - Titelveld met keuzelijst</navtitle><?ditaot gentext?>
+                  <linktext class="- map/linktext ">Opgave: tabl003 - Titelveld met keuzelijst</linktext>
+                  <author class="- topic/author ">Ben Welman</author>
+                  <prodinfo class="- topic/prodinfo ">
+                     
+                     <prodname class="- topic/prodname ">Access 2016</prodname>
+                     
+                  </prodinfo>
+               </topicmeta>
+            </topic>
+            <topic href="tables/exercises/ex_tabl004.html" format="dita" data-id="ex_tabl004" wh-toc-id="ex_tabl004-d66e2834">
+               <title>Opgave: tabl004 - Valutanotatie</title>
+               <topicmeta>
+                  <resourceid class="- topic/resourceid " oxy-source="topic" appid="ex_tabl004"></resourceid>
+                  <navtitle class="- topic/navtitle ">Opgave: tabl004 - Valutanotatie</navtitle><?ditaot gentext?>
+                  <linktext class="- map/linktext ">Opgave: tabl004 - Valutanotatie</linktext>
+                  <author class="- topic/author ">Ben Welman</author>
+                  <prodinfo class="- topic/prodinfo ">
+                     
+                     <prodname class="- topic/prodname ">Access 2016</prodname>
+                     
+                  </prodinfo>
+               </topicmeta>
+            </topic>
+            <topic href="tables/exercises/ex_tabl005.html" format="dita" data-id="ex_tabl005" wh-toc-id="ex_tabl005-d66e2849">
+               <title>Opgave: tabl005 - Samengestelde sleutel</title>
+               <topicmeta>
+                  <resourceid class="- topic/resourceid " oxy-source="topic" appid="ex_tabl005"></resourceid>
+                  <navtitle class="- topic/navtitle ">Opgave: tabl005 - Samengestelde sleutel</navtitle><?ditaot gentext?>
+                  <linktext class="- map/linktext ">Opgave: tabl005 - Samengestelde sleutel</linktext>
+                  <author class="- topic/author ">Ben Welman</author>
+                  <prodinfo class="- topic/prodinfo ">
+                     
+                     <prodname class="- topic/prodname ">Access 2016</prodname>
+                     
+                  </prodinfo>
+               </topicmeta>
+            </topic>
+            <topic href="tables/exercises/ex_tabl006.html" format="dita" data-id="ex_tabl006" wh-toc-id="ex_tabl006-d66e2864">
+               <title>Opgave: tabl006 - Veld doelgroep met keuzelijst</title>
+               <topicmeta>
+                  <resourceid class="- topic/resourceid " oxy-source="topic" appid="ex_tabl006"></resourceid>
+                  <navtitle class="- topic/navtitle ">Opgave: tabl006 - Veld doelgroep met keuzelijst</navtitle><?ditaot gentext?>
+                  <linktext class="- map/linktext ">Opgave: tabl006 - Veld doelgroep met keuzelijst</linktext>
+                  <author class="- topic/author ">Ben Welman</author>
+                  <prodinfo class="- topic/prodinfo ">
+                     
+                     <prodname class="- topic/prodname ">Access 2016</prodname>
+                     
+                  </prodinfo>
+               </topicmeta>
+            </topic>
+            <topic href="tables/exercises/ex_tabl007.html" format="dita" data-id="ex_tabl007" wh-toc-id="ex_tabl007-d66e2879">
+               <title>Opgave: tabl007 - Relatie maken</title>
+               <topicmeta>
+                  <resourceid class="- topic/resourceid " oxy-source="topic" appid="ex_tabl007"></resourceid>
+                  <navtitle class="- topic/navtitle ">Opgave: tabl007 - Relatie maken</navtitle><?ditaot gentext?>
+                  <linktext class="- map/linktext ">Opgave: tabl007 - Relatie maken</linktext>
+                  <author class="- topic/author ">Ben Welman</author>
+                  <prodinfo class="- topic/prodinfo ">
+                     
+                     <prodname class="- topic/prodname ">Access 2016</prodname>
+                     
+                  </prodinfo>
+               </topicmeta>
+            </topic>
+            <topic href="tables/exercises/ex_tabl008.html" format="dita" data-id="ex_tabl008" wh-toc-id="ex_tabl008-d66e2894">
+               <title>Opgave: tabl008 - Tabel Werknemers</title>
+               <topicmeta>
+                  <resourceid class="- topic/resourceid " oxy-source="topic" appid="ex_tabl008"></resourceid>
+                  <navtitle class="- topic/navtitle ">Opgave: tabl008 - Tabel Werknemers</navtitle><?ditaot gentext?>
+                  <linktext class="- map/linktext ">Opgave: tabl008 - Tabel Werknemers</linktext>
+                  <author class="- topic/author ">Ben Welman</author>
+                  <prodinfo class="- topic/prodinfo ">
+                     
+                     <prodname class="- topic/prodname ">Access 2016</prodname>
+                     
+                  </prodinfo>
+               </topicmeta>
+            </topic>
+            <topic href="tables/exercises/ex_tabl009.html" format="dita" data-id="ex_tabl009" wh-toc-id="ex_tabl009-d66e2909">
+               <title>Opgave: tabl009 - Contactregistratie</title>
+               <topicmeta>
+                  <resourceid class="- topic/resourceid " oxy-source="topic" appid="ex_tabl009"></resourceid>
+                  <navtitle class="- topic/navtitle ">Opgave: tabl009 - Contactregistratie</navtitle><?ditaot gentext?>
+                  <linktext class="- map/linktext ">Opgave: tabl009 - Contactregistratie</linktext>
+                  <author class="- topic/author ">Ben Welman</author>
+                  <prodinfo class="- topic/prodinfo ">
+                     
+                     <prodname class="- topic/prodname ">Access 2016</prodname>
+                     
+                  </prodinfo>
+               </topicmeta>
+            </topic>
+            <topic href="tables/exercises/ex_tabl010.html" format="dita" data-id="ex_tabl010" wh-toc-id="ex_tabl010-d66e2924">
+               <title>Opgave: tabl010 - Klachtenregistratie</title>
+               <topicmeta>
+                  <resourceid class="- topic/resourceid " oxy-source="topic" appid="ex_tabl010"></resourceid>
+                  <navtitle class="- topic/navtitle ">Opgave: tabl010 - Klachtenregistratie</navtitle><?ditaot gentext?>
+                  <linktext class="- map/linktext ">Opgave: tabl010 - Klachtenregistratie</linktext>
+                  <author class="- topic/author ">Ben Welman</author>
+                  <prodinfo class="- topic/prodinfo ">
+                     
+                     <prodname class="- topic/prodname ">Access 2016</prodname>
+                     
+                  </prodinfo>
+               </topicmeta>
+            </topic>
+            <topic href="tables/exercises/ex_tabl011.html" format="dita" data-id="ex_tabl011" wh-toc-id="ex_tabl011-d66e2939">
+               <title>Opgave: tabl011 - Referentiële integriteit</title>
+               <topicmeta>
+                  <resourceid class="- topic/resourceid " oxy-source="topic" appid="ex_tabl011"></resourceid>
+                  <navtitle class="- topic/navtitle ">Opgave: tabl011 - Referentiële integriteit</navtitle><?ditaot gentext?>
+                  <linktext class="- map/linktext ">Opgave: tabl011 - Referentiële integriteit</linktext>
+                  <author class="- topic/author ">Ben Welman</author>
+                  <prodinfo class="- topic/prodinfo ">
+                     
+                     <prodname class="- topic/prodname ">Access 2016</prodname>
+                     
+                  </prodinfo>
+               </topicmeta>
+            </topic>
+         </topic>
+      </topic>
+      <topic href="queries/queries.html" data-id="queries" wh-toc-id="queries-d66e3454">
+         <title>Query's</title>
+         <shortdesc>
+            <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc"></p>
+         </shortdesc>
+         <topicmeta>
+            <resourceid class="- topic/resourceid " oxy-source="topic" appid="queries"></resourceid>
+            <navtitle class="- topic/navtitle ">Query's</navtitle><?ditaot gentext?>
+            <linktext class="- map/linktext ">Query's</linktext><?ditaot genshortdesc?>
+            <shortdesc class="- map/shortdesc "></shortdesc>
+            <author class="- topic/author ">Ben Welman</author>
+            <prodinfo class="- topic/prodinfo ">
+               
+               <prodname class="- topic/prodname ">Access 2016</prodname>
+               
+            </prodinfo>
+         </topicmeta>
+         <topic href="queries/queries_about.html" data-id="queries_about" wh-toc-id="queries_about-d66e3471">
+            <title>Over query's maken</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Waarvoor kun je query's gebruiken en welke soorten query's zijn er.</p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="queries_about"></resourceid>
+               <navtitle class="- topic/navtitle ">Over query's maken</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">Over query's maken</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">Waarvoor kun je query's gebruiken en welke soorten query's zijn er.</shortdesc>
+               <author class="- topic/author ">Ben Welman</author>
+               <prodinfo class="- topic/prodinfo ">
+                  
+                  <prodname class="- topic/prodname ">Access 2016</prodname>
+                  
+               </prodinfo>
+            </topicmeta>
+         </topic>
+         <topic href="queries/queries_customername_ordercodes.html" data-id="queries_customername_ordercodes" wh-toc-id="queries_customername_ordercodes-d66e3489">
+            <title>Taak: Klanten en orders</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Het maken van een eenvoudige selectiequery met behulp van de wizard en daarna nog een         handmatige aanpassing.</p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="queries_customername_ordercodes"></resourceid>
+               <navtitle class="- topic/navtitle ">Taak: Klanten en orders</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">Taak: Klanten en orders</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">Het maken van een eenvoudige selectiequery met behulp van de wizard en daarna nog een         handmatige aanpassing.</shortdesc>
+               <author class="- topic/author ">Ben Welman</author>
+               <prodinfo class="- topic/prodinfo ">
+                  
+                  <prodname class="- topic/prodname ">Access 2016</prodname>
+                  
+               </prodinfo>
+            </topicmeta>
+         </topic>
+         <topic href="queries/queries_criteria.html" data-id="queries_criteria" wh-toc-id="queries_criteria-d66e3507">
+            <title>Criteria in query's</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Uitleg over voorwaarden in een query, Like operator en jokertekens.</p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="queries_criteria"></resourceid>
+               <navtitle class="- topic/navtitle ">Criteria in query's</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">Criteria in query's</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">Uitleg over voorwaarden in een query, Like operator en jokertekens.</shortdesc>
+               <author class="- topic/author ">Ben Welman</author>
+               <prodinfo class="- topic/prodinfo ">
+                  
+                  <prodname class="- topic/prodname ">Access 2016</prodname>
+                  
+               </prodinfo>
+            </topicmeta>
+         </topic>
+         <topic href="queries/queries_utrecht_dec2009.html" data-id="queries_utrecht_dec2009" wh-toc-id="queries_utrecht_dec2009-d66e3525">
+            <title>Taak: Orders Utrechtse klanten</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Aan een bestaande query worden handmatig velden en criteria toegevoegd waarna de         query onder een andere naam wordt
+                  opgeslagen.
+               </p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="queries_utrecht_dec2009"></resourceid>
+               <navtitle class="- topic/navtitle ">Taak: Orders Utrechtse klanten</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">Taak: Orders Utrechtse klanten</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">Aan een bestaande query worden handmatig velden en criteria toegevoegd waarna de         query onder een andere naam wordt
+                  opgeslagen.
+               </shortdesc>
+               <author class="- topic/author ">Ben Welman</author>
+               <prodinfo class="- topic/prodinfo ">
+                  
+                  <prodname class="- topic/prodname ">Access 2016</prodname>
+                  
+               </prodinfo>
+            </topicmeta>
+         </topic>
+         <topic href="queries/queries_customers_cher.html" data-id="queries_customers_cher" wh-toc-id="queries_customers_cher-d66e3543">
+            <title>Taak: Klanten met doos Kers</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Een selectiequery met drie tabellen.</p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="queries_customers_cher"></resourceid>
+               <navtitle class="- topic/navtitle ">Taak: Klanten met doos Kers</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">Taak: Klanten met doos Kers</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">Een selectiequery met drie tabellen.</shortdesc>
+               <author class="- topic/author ">Ben Welman</author>
+               <prodinfo class="- topic/prodinfo ">
+                  
+                  <prodname class="- topic/prodname ">Access 2016</prodname>
+                  
+               </prodinfo>
+            </topicmeta>
+         </topic>
+         <topic href="queries/queries_summarizing.html" data-id="queries_summarizing" wh-toc-id="queries_summarizing-d66e3561">
+            <title>Groeperen en Berekeningen</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Uitleg over groeperen en berekeningen in een query.</p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="queries_summarizing"></resourceid>
+               <navtitle class="- topic/navtitle ">Groeperen en Berekeningen</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">Groeperen en Berekeningen</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">Uitleg over groeperen en berekeningen in een query.</shortdesc>
+               <author class="- topic/author ">Ben Welman</author>
+               <prodinfo class="- topic/prodinfo ">
+                  
+                  <prodname class="- topic/prodname ">Access 2016</prodname>
+                  
+               </prodinfo>
+            </topicmeta>
+         </topic>
+         <topic href="queries/queries_customers_province.html" data-id="queries_customers_province" wh-toc-id="queries_customers_province-d66e3579">
+            <title>Taak: Aantal klanten per provincie</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Oefening van een selectiequery met groeperen en berekening met de functie         Aantal.</p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="queries_customers_province"></resourceid>
+               <navtitle class="- topic/navtitle ">Taak: Aantal klanten per provincie</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">Taak: Aantal klanten per provincie</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">Oefening van een selectiequery met groeperen en berekening met de functie         Aantal.</shortdesc>
+               <author class="- topic/author ">Ben Welman</author>
+               <prodinfo class="- topic/prodinfo ">
+                  
+                  <prodname class="- topic/prodname ">Access 2016</prodname>
+                  
+               </prodinfo>
+            </topicmeta>
+         </topic>
+         <topic href="queries/queries_column_heading.html" data-id="queries_column_heading" wh-toc-id="queries_column_heading-d66e3597">
+            <title>Taak: Kolomtitel wijzigen</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Het wijzigen van de titel van een kolom in een query.</p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="queries_column_heading"></resourceid>
+               <navtitle class="- topic/navtitle ">Taak: Kolomtitel wijzigen</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">Taak: Kolomtitel wijzigen</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">Het wijzigen van de titel van een kolom in een query.</shortdesc>
+               <author class="- topic/author ">Ben Welman</author>
+               <prodinfo class="- topic/prodinfo ">
+                  
+                  <prodname class="- topic/prodname ">Access 2016</prodname>
+                  
+               </prodinfo>
+            </topicmeta>
+         </topic>
+         <topic href="queries/queries_calculated_field.html" data-id="queries_calculated_field" wh-toc-id="queries_calculated_field-d66e3615">
+            <title>Taak: Berekend veld</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Een query met daarin een kolom waarin een berekening is uitgevoerd.</p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="queries_calculated_field"></resourceid>
+               <navtitle class="- topic/navtitle ">Taak: Berekend veld</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">Taak: Berekend veld</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">Een query met daarin een kolom waarin een berekening is uitgevoerd.</shortdesc>
+               <author class="- topic/author ">Ben Welman</author>
+               <prodinfo class="- topic/prodinfo ">
+                  
+                  <prodname class="- topic/prodname ">Access 2016</prodname>
+                  
+               </prodinfo>
+            </topicmeta>
+         </topic>
+         <topic href="queries/queries_first_order_dates.html" data-id="queries_first_order_dates" wh-toc-id="queries_first_order_dates-d66e3633">
+            <title>Taak: Eerste order per klant</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Oefening van een selectiequery met groeperen en berekening met de functie         Min.</p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="queries_first_order_dates"></resourceid>
+               <navtitle class="- topic/navtitle ">Taak: Eerste order per klant</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">Taak: Eerste order per klant</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">Oefening van een selectiequery met groeperen en berekening met de functie         Min.</shortdesc>
+               <author class="- topic/author ">Ben Welman</author>
+               <prodinfo class="- topic/prodinfo ">
+                  
+                  <prodname class="- topic/prodname ">Access 2016</prodname>
+                  
+               </prodinfo>
+            </topicmeta>
+         </topic>
+         <topic href="queries/queries_parameters.html" data-id="queries_parameters" wh-toc-id="queries_parameters-d66e3652">
+            <title>Taak: Parameterquery</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Een query waarbij voor de uitvoering om input gevraagd wordt.</p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="queries_parameters"></resourceid>
+               <navtitle class="- topic/navtitle ">Taak: Parameterquery</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">Taak: Parameterquery</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">Een query waarbij voor de uitvoering om input gevraagd wordt.</shortdesc>
+               <author class="- topic/author ">Ben Welman</author>
+               <prodinfo class="- topic/prodinfo ">
+                  
+                  <prodname class="- topic/prodname ">Access 2016</prodname>
+                  
+               </prodinfo>
+            </topicmeta>
+         </topic>
+         <topic href="queries/queries_actions.html" data-id="queries_actions" wh-toc-id="queries_actions-d66e3670">
+            <title>Actiequery's</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Een introductie in query’s die gegevens veranderen.</p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="queries_actions"></resourceid>
+               <navtitle class="- topic/navtitle ">Actiequery's</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">Actiequery's</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">Een introductie in query’s die gegevens veranderen.</shortdesc>
+               <author class="- topic/author ">Ben Welman</author>
+               <prodinfo class="- topic/prodinfo ">
+                  
+                  <prodname class="- topic/prodname ">Access 2016</prodname>
+                  
+               </prodinfo>
+            </topicmeta>
+         </topic>
+         <topic href="queries/queries_action_update.html" data-id="queries_action_update" wh-toc-id="queries_action_update-d66e3688">
+            <title>Taak: Bijwerkquery</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Een voorbeeld van een eenvoudige bijwerkquery waarmee in alle records van een tabel         die aan een bepaalde voorwaarde
+                  voldoen de waarde van een veld gewijzigd wordt.
+               </p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="queries_action_update"></resourceid>
+               <navtitle class="- topic/navtitle ">Taak: Bijwerkquery</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">Taak: Bijwerkquery</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">Een voorbeeld van een eenvoudige bijwerkquery waarmee in alle records van een tabel         die aan een bepaalde voorwaarde
+                  voldoen de waarde van een veld gewijzigd wordt.
+               </shortdesc>
+               <author class="- topic/author ">Ben Welman</author>
+               <prodinfo class="- topic/prodinfo ">
+                  
+                  <prodname class="- topic/prodname ">Access 2016</prodname>
+                  
+               </prodinfo>
+            </topicmeta>
+         </topic>
+         <topic href="queries/queries_action_maketable.html" data-id="queries_action_maketable" wh-toc-id="queries_action_maketable-d66e3706">
+            <title>Taak: Tabelmaakquery</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Een voorbeeld van een eenvoudige tabelmaakquery waarmee</p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="queries_action_maketable"></resourceid>
+               <navtitle class="- topic/navtitle ">Taak: Tabelmaakquery</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">Taak: Tabelmaakquery</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">Een voorbeeld van een eenvoudige tabelmaakquery waarmee</shortdesc>
+               <author class="- topic/author ">Ben Welman</author>
+               <prodinfo class="- topic/prodinfo ">
+                  
+                  <prodname class="- topic/prodname ">Access 2016</prodname>
+                  
+               </prodinfo>
+            </topicmeta>
+         </topic>
+         <topic href="queries/queries_crosstab.html" data-id="queries_crosstab" wh-toc-id="queries_crosstab-d66e3724">
+            <title>Taak: Kruistabelquery</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Een query waarbij voor de uitvoering om input gevraagd wordt.</p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="queries_crosstab"></resourceid>
+               <navtitle class="- topic/navtitle ">Taak: Kruistabelquery</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">Taak: Kruistabelquery</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">Een query waarbij voor de uitvoering om input gevraagd wordt.</shortdesc>
+               <author class="- topic/author ">Ben Welman</author>
+               <prodinfo class="- topic/prodinfo ">
+                  
+                  <prodname class="- topic/prodname ">Access 2016</prodname>
+                  
+               </prodinfo>
+            </topicmeta>
+         </topic>
+         <topic href="javascript:void(0)" wh-toc-id="tocId-d66e3976">
+            <title>Opgaven</title>
+            <topic href="queries/exercises/ex_quer001.html" data-id="ex_quer001" wh-toc-id="ex_quer001-d66e3977">
+               <title>Opgave: quer001 - Klanten uit Friesland en Groningen</title>
+               <topicmeta>
+                  <resourceid class="- topic/resourceid " oxy-source="topic" appid="ex_quer001"></resourceid>
+                  <navtitle class="- topic/navtitle ">Opgave: quer001 - Klanten uit Friesland en Groningen</navtitle><?ditaot gentext?>
+                  <linktext class="- map/linktext ">Opgave: quer001 - Klanten uit Friesland en Groningen</linktext>
+                  <author class="- topic/author ">Ben Welman</author>
+                  <prodinfo class="- topic/prodinfo ">
+                     
+                     <prodname class="- topic/prodname ">Access 2016</prodname>
+                     
+                  </prodinfo>
+               </topicmeta>
+            </topic>
+            <topic href="queries/exercises/ex_quer002.html" data-id="ex_quer002" wh-toc-id="ex_quer002-d66e3992">
+               <title>Opgave: quer002 - Direct mail campagne doos MARS</title>
+               <topicmeta>
+                  <resourceid class="- topic/resourceid " oxy-source="topic" appid="ex_quer002"></resourceid>
+                  <navtitle class="- topic/navtitle ">Opgave: quer002 - Direct mail campagne doos MARS</navtitle><?ditaot gentext?>
+                  <linktext class="- map/linktext ">Opgave: quer002 - Direct mail campagne doos MARS</linktext>
+                  <author class="- topic/author ">Ben Welman</author>
+                  <prodinfo class="- topic/prodinfo ">
+                     
+                     <prodname class="- topic/prodname ">Access 2016</prodname>
+                     
+                  </prodinfo>
+               </topicmeta>
+            </topic>
+            <topic href="queries/exercises/ex_quer003.html" data-id="ex_quer003" wh-toc-id="ex_quer003-d66e4007">
+               <title>Opgave: quer003 - Bonbondozen met lage prijs</title>
+               <topicmeta>
+                  <resourceid class="- topic/resourceid " oxy-source="topic" appid="ex_quer003"></resourceid>
+                  <navtitle class="- topic/navtitle ">Opgave: quer003 - Bonbondozen met lage prijs</navtitle><?ditaot gentext?>
+                  <linktext class="- map/linktext ">Opgave: quer003 - Bonbondozen met lage prijs</linktext>
+                  <author class="- topic/author ">Ben Welman</author>
+                  <prodinfo class="- topic/prodinfo ">
+                     
+                     <prodname class="- topic/prodname ">Access 2016</prodname>
+                     
+                  </prodinfo>
+               </topicmeta>
+            </topic>
+            <topic href="queries/exercises/ex_quer004.html" data-id="ex_quer004" wh-toc-id="ex_quer004-d66e4022">
+               <title>Opgave: quer004 - Bonbons melk en puur met lage kosten</title>
+               <topicmeta>
+                  <resourceid class="- topic/resourceid " oxy-source="topic" appid="ex_quer004"></resourceid>
+                  <navtitle class="- topic/navtitle ">Opgave: quer004 - Bonbons melk en puur met lage kosten</navtitle><?ditaot gentext?>
+                  <linktext class="- map/linktext ">Opgave: quer004 - Bonbons melk en puur met lage kosten</linktext>
+                  <author class="- topic/author ">Ben Welman</author>
+                  <prodinfo class="- topic/prodinfo ">
+                     
+                     <prodname class="- topic/prodname ">Access 2016</prodname>
+                     
+                  </prodinfo>
+               </topicmeta>
+            </topic>
+            <topic href="queries/exercises/ex_quer005.html" data-id="ex_quer005" wh-toc-id="ex_quer005-d66e4037">
+               <title>Opgave: quer005 - Klanten uit Enschede, Hengelo of Almelo</title>
+               <topicmeta>
+                  <resourceid class="- topic/resourceid " oxy-source="topic" appid="ex_quer005"></resourceid>
+                  <navtitle class="- topic/navtitle ">Opgave: quer005 - Klanten uit Enschede, Hengelo of Almelo</navtitle><?ditaot gentext?>
+                  <linktext class="- map/linktext ">Opgave: quer005 - Klanten uit Enschede, Hengelo of Almelo</linktext>
+                  <author class="- topic/author ">Ben Welman</author>
+                  <prodinfo class="- topic/prodinfo ">
+                     
+                     <prodname class="- topic/prodname ">Access 2016</prodname>
+                     
+                  </prodinfo>
+               </topicmeta>
+            </topic>
+            <topic href="queries/exercises/ex_quer006.html" data-id="ex_quer006" wh-toc-id="ex_quer006-d66e4052">
+               <title>Opgave: quer006 - Klanten uit Amsterdam met postcode 20*</title>
+               <topicmeta>
+                  <resourceid class="- topic/resourceid " oxy-source="topic" appid="ex_quer006"></resourceid>
+                  <navtitle class="- topic/navtitle ">Opgave: quer006 - Klanten uit Amsterdam met postcode 20*</navtitle><?ditaot gentext?>
+                  <linktext class="- map/linktext ">Opgave: quer006 - Klanten uit Amsterdam met postcode 20*</linktext>
+                  <author class="- topic/author ">Ben Welman</author>
+                  <prodinfo class="- topic/prodinfo ">
+                     
+                     <prodname class="- topic/prodname ">Access 2016</prodname>
+                     
+                  </prodinfo>
+               </topicmeta>
+            </topic>
+            <topic href="queries/exercises/ex_quer007.html" data-id="ex_quer007" wh-toc-id="ex_quer007-d66e4067">
+               <title>Opgave: quer007 - Bonbons zonder vulling</title>
+               <topicmeta>
+                  <resourceid class="- topic/resourceid " oxy-source="topic" appid="ex_quer007"></resourceid>
+                  <navtitle class="- topic/navtitle ">Opgave: quer007 - Bonbons zonder vulling</navtitle><?ditaot gentext?>
+                  <linktext class="- map/linktext ">Opgave: quer007 - Bonbons zonder vulling</linktext>
+                  <author class="- topic/author ">Ben Welman</author>
+                  <prodinfo class="- topic/prodinfo ">
+                     
+                     <prodname class="- topic/prodname ">Access 2016</prodname>
+                     
+                  </prodinfo>
+               </topicmeta>
+            </topic>
+            <topic href="queries/exercises/ex_quer008.html" data-id="ex_quer008" wh-toc-id="ex_quer008-d66e4082">
+               <title>Opgave: quer008 - Klanten niet uit Amsterdam</title>
+               <topicmeta>
+                  <resourceid class="- topic/resourceid " oxy-source="topic" appid="ex_quer008"></resourceid>
+                  <navtitle class="- topic/navtitle ">Opgave: quer008 - Klanten niet uit Amsterdam</navtitle><?ditaot gentext?>
+                  <linktext class="- map/linktext ">Opgave: quer008 - Klanten niet uit Amsterdam</linktext>
+                  <author class="- topic/author ">Ben Welman</author>
+                  <prodinfo class="- topic/prodinfo ">
+                     
+                     <prodname class="- topic/prodname ">Access 2016</prodname>
+                     
+                  </prodinfo>
+               </topicmeta>
+            </topic>
+            <topic href="queries/exercises/ex_quer009.html" data-id="ex_quer009" wh-toc-id="ex_quer009-d66e4097">
+               <title>Opgave: quer009 - Aantal bonbons per doos</title>
+               <topicmeta>
+                  <resourceid class="- topic/resourceid " oxy-source="topic" appid="ex_quer009"></resourceid>
+                  <navtitle class="- topic/navtitle ">Opgave: quer009 - Aantal bonbons per doos</navtitle><?ditaot gentext?>
+                  <linktext class="- map/linktext ">Opgave: quer009 - Aantal bonbons per doos</linktext>
+                  <author class="- topic/author ">Ben Welman</author>
+                  <prodinfo class="- topic/prodinfo ">
+                     
+                     <prodname class="- topic/prodname ">Access 2016</prodname>
+                     
+                  </prodinfo>
+               </topicmeta>
+            </topic>
+            <topic href="queries/exercises/ex_quer010.html" data-id="ex_quer010" wh-toc-id="ex_quer010-d66e4112">
+               <title>Opgave: quer010 - Aantal bonbonsoorten per doos</title>
+               <topicmeta>
+                  <resourceid class="- topic/resourceid " oxy-source="topic" appid="ex_quer010"></resourceid>
+                  <navtitle class="- topic/navtitle ">Opgave: quer010 - Aantal bonbonsoorten per doos</navtitle><?ditaot gentext?>
+                  <linktext class="- map/linktext ">Opgave: quer010 - Aantal bonbonsoorten per doos</linktext>
+                  <author class="- topic/author ">Ben Welman</author>
+                  <prodinfo class="- topic/prodinfo ">
+                     
+                     <prodname class="- topic/prodname ">Access 2016</prodname>
+                     
+                  </prodinfo>
+               </topicmeta>
+            </topic>
+            <topic href="queries/exercises/ex_quer011.html" data-id="ex_quer011" wh-toc-id="ex_quer011-d66e4127">
+               <title>Opgave: quer011 - Aantal orders per regio</title>
+               <topicmeta>
+                  <resourceid class="- topic/resourceid " oxy-source="topic" appid="ex_quer011"></resourceid>
+                  <navtitle class="- topic/navtitle ">Opgave: quer011 - Aantal orders per regio</navtitle><?ditaot gentext?>
+                  <linktext class="- map/linktext ">Opgave: quer011 - Aantal orders per regio</linktext>
+                  <author class="- topic/author ">Ben Welman</author>
+                  <prodinfo class="- topic/prodinfo ">
+                     
+                     <prodname class="- topic/prodname ">Access 2016</prodname>
+                     
+                  </prodinfo>
+               </topicmeta>
+            </topic>
+            <topic href="queries/exercises/ex_quer012.html" data-id="ex_quer012" wh-toc-id="ex_quer012-d66e4143">
+               <title>Opgave: quer012 - Totale omzet per klant</title>
+               <topicmeta>
+                  <resourceid class="- topic/resourceid " oxy-source="topic" appid="ex_quer012"></resourceid>
+                  <navtitle class="- topic/navtitle ">Opgave: quer012 - Totale omzet per klant</navtitle><?ditaot gentext?>
+                  <linktext class="- map/linktext ">Opgave: quer012 - Totale omzet per klant</linktext>
+                  <author class="- topic/author ">Ben Welman</author>
+                  <prodinfo class="- topic/prodinfo ">
+                     
+                     <prodname class="- topic/prodname ">Access 2016</prodname>
+                     
+                  </prodinfo>
+               </topicmeta>
+            </topic>
+            <topic href="queries/exercises/ex_quer013.html" data-id="ex_quer013" wh-toc-id="ex_quer013-d66e4158">
+               <title>Opgave: quer013 - Klanten die order geplaatst hebben</title>
+               <topicmeta>
+                  <resourceid class="- topic/resourceid " oxy-source="topic" appid="ex_quer013"></resourceid>
+                  <navtitle class="- topic/navtitle ">Opgave: quer013 - Klanten die order geplaatst hebben</navtitle><?ditaot gentext?>
+                  <linktext class="- map/linktext ">Opgave: quer013 - Klanten die order geplaatst hebben</linktext>
+                  <author class="- topic/author ">Ben Welman</author>
+                  <prodinfo class="- topic/prodinfo ">
+                     
+                     <prodname class="- topic/prodname ">Access 2016</prodname>
+                     
+                  </prodinfo>
+               </topicmeta>
+            </topic>
+            <topic href="queries/exercises/ex_quer014.html" data-id="ex_quer014" wh-toc-id="ex_quer014-d66e4173">
+               <title>Opgave: quer014 - Klanten waarvan achternaam Jansen of Janssen is uit regio Noord</title>
+               <topicmeta>
+                  <resourceid class="- topic/resourceid " oxy-source="topic" appid="ex_quer014"></resourceid>
+                  <navtitle class="- topic/navtitle ">Opgave: quer014 - Klanten waarvan achternaam Jansen of Janssen is uit regio Noord</navtitle><?ditaot gentext?>
+                  <linktext class="- map/linktext ">Opgave: quer014 - Klanten waarvan achternaam Jansen of Janssen is uit regio Noord</linktext>
+                  <author class="- topic/author ">Ben Welman</author>
+                  <prodinfo class="- topic/prodinfo ">
+                     
+                     <prodname class="- topic/prodname ">Access 2016</prodname>
+                     
+                  </prodinfo>
+               </topicmeta>
+            </topic>
+            <topic href="queries/exercises/ex_quer015.html" data-id="ex_quer015" wh-toc-id="ex_quer015-d66e4188">
+               <title>Opgave: quer015 - Bonbons met vulling en zonder noot</title>
+               <topicmeta>
+                  <resourceid class="- topic/resourceid " oxy-source="topic" appid="ex_quer015"></resourceid>
+                  <navtitle class="- topic/navtitle ">Opgave: quer015 - Bonbons met vulling en zonder noot</navtitle><?ditaot gentext?>
+                  <linktext class="- map/linktext ">Opgave: quer015 - Bonbons met vulling en zonder noot</linktext>
+                  <author class="- topic/author ">Ben Welman</author>
+                  <prodinfo class="- topic/prodinfo ">
+                     
+                     <prodname class="- topic/prodname ">Access 2016</prodname>
+                     
+                  </prodinfo>
+               </topicmeta>
+            </topic>
+            <topic href="queries/exercises/ex_quer016.html" data-id="ex_quer016" wh-toc-id="ex_quer016-d66e4203">
+               <title>Opgave: quer016 - Dozen zwaarder dan 150 gram met prijs van hoogstens 35 euro</title>
+               <topicmeta>
+                  <resourceid class="- topic/resourceid " oxy-source="topic" appid="ex_quer016"></resourceid>
+                  <navtitle class="- topic/navtitle ">Opgave: quer016 - Dozen zwaarder dan 150 gram met prijs van hoogstens 35 euro</navtitle><?ditaot gentext?>
+                  <linktext class="- map/linktext ">Opgave: quer016 - Dozen zwaarder dan 150 gram met prijs van hoogstens 35 euro</linktext>
+                  <author class="- topic/author ">Ben Welman</author>
+                  <prodinfo class="- topic/prodinfo ">
+                     
+                     <prodname class="- topic/prodname ">Access 2016</prodname>
+                     
+                  </prodinfo>
+               </topicmeta>
+            </topic>
+            <topic href="queries/exercises/ex_quer017.html" data-id="ex_quer017" wh-toc-id="ex_quer017-d66e4218">
+               <title>Opgave: quer017 - Dozen met prijs tussen 17 en 25 en voorraad van minstens 400</title>
+               <topicmeta>
+                  <resourceid class="- topic/resourceid " oxy-source="topic" appid="ex_quer017"></resourceid>
+                  <navtitle class="- topic/navtitle ">Opgave: quer017 - Dozen met prijs tussen 17 en 25 en voorraad van minstens 400</navtitle><?ditaot gentext?>
+                  <linktext class="- map/linktext ">Opgave: quer017 - Dozen met prijs tussen 17 en 25 en voorraad van minstens 400</linktext>
+                  <author class="- topic/author ">Ben Welman</author>
+                  <prodinfo class="- topic/prodinfo ">
+                     
+                     <prodname class="- topic/prodname ">Access 2016</prodname>
+                     
+                  </prodinfo>
+               </topicmeta>
+            </topic>
+            <topic href="queries/exercises/ex_quer018.html" data-id="ex_quer018" wh-toc-id="ex_quer018-d66e4233">
+               <title>Opgave: quer018 - Totale omzet per provincie</title>
+               <topicmeta>
+                  <resourceid class="- topic/resourceid " oxy-source="topic" appid="ex_quer018"></resourceid>
+                  <navtitle class="- topic/navtitle ">Opgave: quer018 - Totale omzet per provincie</navtitle><?ditaot gentext?>
+                  <linktext class="- map/linktext ">Opgave: quer018 - Totale omzet per provincie</linktext>
+                  <author class="- topic/author ">Ben Welman</author>
+                  <prodinfo class="- topic/prodinfo ">
+                     
+                     <prodname class="- topic/prodname ">Access 2016</prodname>
+                     
+                  </prodinfo>
+               </topicmeta>
+            </topic>
+            <topic href="queries/exercises/ex_quer019.html" data-id="ex_quer019" wh-toc-id="ex_quer019-d66e4248">
+               <title>Opgave: quer019 - Klanten die week voor de kerst besteld hebben</title>
+               <topicmeta>
+                  <resourceid class="- topic/resourceid " oxy-source="topic" appid="ex_quer019"></resourceid>
+                  <navtitle class="- topic/navtitle ">Opgave: quer019 - Klanten die week voor de kerst besteld hebben</navtitle><?ditaot gentext?>
+                  <linktext class="- map/linktext ">Opgave: quer019 - Klanten die week voor de kerst besteld hebben</linktext>
+                  <author class="- topic/author ">Ben Welman</author>
+                  <prodinfo class="- topic/prodinfo ">
+                     
+                     <prodname class="- topic/prodname ">Access 2016</prodname>
+                     
+                  </prodinfo>
+               </topicmeta>
+            </topic>
+            <topic href="queries/exercises/ex_quer020.html" data-id="ex_quer020" wh-toc-id="ex_quer020-d66e4263">
+               <title>Opgave: quer020 - Dozen met lage omzet</title>
+               <topicmeta>
+                  <resourceid class="- topic/resourceid " oxy-source="topic" appid="ex_quer020"></resourceid>
+                  <navtitle class="- topic/navtitle ">Opgave: quer020 - Dozen met lage omzet</navtitle><?ditaot gentext?>
+                  <linktext class="- map/linktext ">Opgave: quer020 - Dozen met lage omzet</linktext>
+                  <author class="- topic/author ">Ben Welman</author>
+                  <prodinfo class="- topic/prodinfo ">
+                     
+                     <prodname class="- topic/prodname ">Access 2016</prodname>
+                     
+                  </prodinfo>
+               </topicmeta>
+            </topic>
+            <topic href="queries/exercises/ex_quer021.html" data-id="ex_quer021" wh-toc-id="ex_quer021-d66e4278">
+               <title>Opgave: quer021 - Klanten met omzet hoogstens 50 en postcode beginnend met 22</title>
+               <topicmeta>
+                  <resourceid class="- topic/resourceid " oxy-source="topic" appid="ex_quer021"></resourceid>
+                  <navtitle class="- topic/navtitle ">Opgave: quer021 - Klanten met omzet hoogstens 50 en postcode beginnend met 22</navtitle><?ditaot gentext?>
+                  <linktext class="- map/linktext ">Opgave: quer021 - Klanten met omzet hoogstens 50 en postcode beginnend met 22</linktext>
+                  <author class="- topic/author ">Ben Welman</author>
+                  <prodinfo class="- topic/prodinfo ">
+                     
+                     <prodname class="- topic/prodname ">Access 2016</prodname>
+                     
+                  </prodinfo>
+               </topicmeta>
+            </topic>
+            <topic href="queries/exercises/ex_quer023.html" data-id="ex_quer023" wh-toc-id="ex_quer023-d66e4293">
+               <title>Opgave: quer023 - Klanten voor Zoet en bitter</title>
+               <topicmeta>
+                  <resourceid class="- topic/resourceid " oxy-source="topic" appid="ex_quer023"></resourceid>
+                  <navtitle class="- topic/navtitle ">Opgave: quer023 - Klanten voor Zoet en bitter</navtitle><?ditaot gentext?>
+                  <linktext class="- map/linktext ">Opgave: quer023 - Klanten voor Zoet en bitter</linktext>
+                  <author class="- topic/author ">Ben Welman</author>
+                  <prodinfo class="- topic/prodinfo ">
+                     
+                     <prodname class="- topic/prodname ">Access 2016</prodname>
+                     
+                  </prodinfo>
+               </topicmeta>
+            </topic>
+            <topic href="queries/exercises/ex_quer024.html" data-id="ex_quer024" wh-toc-id="ex_quer024-d66e4309">
+               <title>Opgave: quer024 - Plaatsen met minstens 2 klanten</title>
+               <topicmeta>
+                  <resourceid class="- topic/resourceid " oxy-source="topic" appid="ex_quer024"></resourceid>
+                  <navtitle class="- topic/navtitle ">Opgave: quer024 - Plaatsen met minstens 2 klanten</navtitle><?ditaot gentext?>
+                  <linktext class="- map/linktext ">Opgave: quer024 - Plaatsen met minstens 2 klanten</linktext>
+                  <author class="- topic/author ">Ben Welman</author>
+                  <prodinfo class="- topic/prodinfo ">
+                     
+                     <prodname class="- topic/prodname ">Access 2016</prodname>
+                     
+                  </prodinfo>
+               </topicmeta>
+            </topic>
+            <topic href="queries/exercises/ex_quer025.html" data-id="ex_quer025" wh-toc-id="ex_quer025-d66e4324">
+               <title>Opgave: quer025 - Parameterquery bonbons</title>
+               <topicmeta>
+                  <resourceid class="- topic/resourceid " oxy-source="topic" appid="ex_quer025"></resourceid>
+                  <navtitle class="- topic/navtitle ">Opgave: quer025 - Parameterquery bonbons</navtitle><?ditaot gentext?>
+                  <linktext class="- map/linktext ">Opgave: quer025 - Parameterquery bonbons</linktext>
+                  <author class="- topic/author ">Ben Welman</author>
+                  <prodinfo class="- topic/prodinfo ">
+                     
+                     <prodname class="- topic/prodname ">Access 2016</prodname>
+                     
+                  </prodinfo>
+               </topicmeta>
+            </topic>
+            <topic href="queries/exercises/ex_quer026.html" data-id="ex_quer026" wh-toc-id="ex_quer026-d66e4339">
+               <title>Opgave: quer026 - Bijwerkquery prijsverlaging</title>
+               <topicmeta>
+                  <resourceid class="- topic/resourceid " oxy-source="topic" appid="ex_quer026"></resourceid>
+                  <navtitle class="- topic/navtitle ">Opgave: quer026 - Bijwerkquery prijsverlaging</navtitle><?ditaot gentext?>
+                  <linktext class="- map/linktext ">Opgave: quer026 - Bijwerkquery prijsverlaging</linktext>
+                  <author class="- topic/author ">Ben Welman</author>
+                  <prodinfo class="- topic/prodinfo ">
+                     
+                     <prodname class="- topic/prodname ">Access 2016</prodname>
+                     
+                  </prodinfo>
+               </topicmeta>
+            </topic>
+            <topic href="queries/exercises/ex_quer027.html" data-id="ex_quer027" wh-toc-id="ex_quer027-d66e4354">
+               <title>Opgave: quer027 - Kruistabel dozen per gewicht</title>
+               <topicmeta>
+                  <resourceid class="- topic/resourceid " oxy-source="topic" appid="ex_quer027"></resourceid>
+                  <navtitle class="- topic/navtitle ">Opgave: quer027 - Kruistabel dozen per gewicht</navtitle><?ditaot gentext?>
+                  <linktext class="- map/linktext ">Opgave: quer027 - Kruistabel dozen per gewicht</linktext>
+                  <author class="- topic/author ">Ben Welman</author>
+                  <prodinfo class="- topic/prodinfo ">
+                     
+                     <prodname class="- topic/prodname ">Access 2016</prodname>
+                     
+                  </prodinfo>
+               </topicmeta>
+            </topic>
+            <topic href="queries/exercises/ex_quer028.html" data-id="ex_quer028" wh-toc-id="ex_quer028-d66e4369">
+               <title>Opgave: quer028 - Bijwerkquery prijsverhoging</title>
+               <topicmeta>
+                  <resourceid class="- topic/resourceid " oxy-source="topic" appid="ex_quer028"></resourceid>
+                  <navtitle class="- topic/navtitle ">Opgave: quer028 - Bijwerkquery prijsverhoging</navtitle><?ditaot gentext?>
+                  <linktext class="- map/linktext ">Opgave: quer028 - Bijwerkquery prijsverhoging</linktext>
+                  <author class="- topic/author ">Ben Welman</author>
+                  <prodinfo class="- topic/prodinfo ">
+                     
+                     <prodname class="- topic/prodname ">Access 2016</prodname>
+                     
+                  </prodinfo>
+               </topicmeta>
+            </topic>
+            <topic href="queries/exercises/ex_quer029.html" data-id="ex_quer029" wh-toc-id="ex_quer029-d66e4384">
+               <title>Opgave: quer029 - Kruistabel omzet per klant per maand</title>
+               <topicmeta>
+                  <resourceid class="- topic/resourceid " oxy-source="topic" appid="ex_quer029"></resourceid>
+                  <navtitle class="- topic/navtitle ">Opgave: quer029 - Kruistabel omzet per klant per maand</navtitle><?ditaot gentext?>
+                  <linktext class="- map/linktext ">Opgave: quer029 - Kruistabel omzet per klant per maand</linktext>
+                  <author class="- topic/author ">Ben Welman</author>
+                  <prodinfo class="- topic/prodinfo ">
+                     
+                     <prodname class="- topic/prodname ">Access 2016</prodname>
+                     
+                  </prodinfo>
+               </topicmeta>
+            </topic>
+         </topic>
+      </topic>
+      <topic href="forms/forms.html" data-id="forms" wh-toc-id="forms-d66e4807">
+         <title>Formulieren maken</title>
+         <shortdesc>
+            <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc"></p>
+         </shortdesc>
+         <topicmeta>
+            <resourceid class="- topic/resourceid " oxy-source="topic" appid="forms"></resourceid>
+            <navtitle class="- topic/navtitle ">Formulieren maken</navtitle><?ditaot gentext?>
+            <linktext class="- map/linktext ">Formulieren maken</linktext><?ditaot genshortdesc?>
+            <shortdesc class="- map/shortdesc "></shortdesc>
+            <author class="- topic/author ">Ben Welman</author>
+            <prodinfo class="- topic/prodinfo ">
+               
+               <prodname class="- topic/prodname ">Access 2016</prodname>
+               
+            </prodinfo>
+         </topicmeta>
+         <topic href="forms/forms_about.html" format="dita" data-id="forms_about" wh-toc-id="forms_about-d66e4824">
+            <title>Over formulieren maken</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc"></p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="forms_about"></resourceid>
+               <navtitle class="- topic/navtitle ">Over formulieren maken</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">Over formulieren maken</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc "></shortdesc>
+               <author class="- topic/author ">Ben Welman</author>
+               <prodinfo class="- topic/prodinfo ">
+                  
+                  <prodname class="- topic/prodname ">Access 2016</prodname>
+                  
+               </prodinfo>
+            </topicmeta>
+            <topic href="forms/forms_explanation_mainsub.html" format="dita" data-id="forms_explanation_mainsub" wh-toc-id="forms_explanation_mainsub-d66e4841">
+               <title>Hoofd- en subformulieren</title>
+               <shortdesc>
+                  <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Achtergronden van een hoofdformulier en subformulier.</p>
+               </shortdesc>
+               <topicmeta>
+                  <resourceid class="- topic/resourceid " oxy-source="topic" appid="forms_explanation_mainsub"></resourceid>
+                  <navtitle class="- topic/navtitle ">Hoofd- en subformulieren</navtitle><?ditaot gentext?>
+                  <linktext class="- map/linktext ">Hoofd- en subformulieren</linktext><?ditaot genshortdesc?>
+                  <shortdesc class="- map/shortdesc ">Achtergronden van een hoofdformulier en subformulier.</shortdesc>
+                  <author class="- topic/author ">Ben Welman</author>
+                  <prodinfo class="- topic/prodinfo ">
+                     
+                     <prodname class="- topic/prodname ">Access 2016</prodname>
+                     
+                  </prodinfo>
+               </topicmeta>
+            </topic>
+            <topic href="forms/forms_explanation_linked.html" format="dita" data-id="forms_explanation_linked" wh-toc-id="forms_explanation_linked-d66e4859">
+               <title>Gekoppelde formulieren</title>
+               <shortdesc>
+                  <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Uitleg over wat gekoppelde formulieren zijn.</p>
+               </shortdesc>
+               <topicmeta>
+                  <resourceid class="- topic/resourceid " oxy-source="topic" appid="forms_explanation_linked"></resourceid>
+                  <navtitle class="- topic/navtitle ">Gekoppelde formulieren</navtitle><?ditaot gentext?>
+                  <linktext class="- map/linktext ">Gekoppelde formulieren</linktext><?ditaot genshortdesc?>
+                  <shortdesc class="- map/shortdesc ">Uitleg over wat gekoppelde formulieren zijn.</shortdesc>
+                  <author class="- topic/author ">Ben Welman</author>
+                  <prodinfo class="- topic/prodinfo ">
+                     
+                     <prodname class="- topic/prodname ">Access 2016</prodname>
+                     
+                  </prodinfo>
+               </topicmeta>
+            </topic>
+         </topic>
+         <topic href="forms/forms_controls_layout.html" format="dita" data-id="forms_controls_layout" wh-toc-id="forms_controls_layout-d66e4877">
+            <title>Besturingselementen en Indelingen</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Hoe je met besturingselementen kunt werken.</p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="forms_controls_layout"></resourceid>
+               <navtitle class="- topic/navtitle ">Besturingselementen en Indelingen</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">Besturingselementen en Indelingen</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">Hoe je met besturingselementen kunt werken.</shortdesc>
+               <author class="- topic/author ">Ben Welman</author>
+               <prodinfo class="- topic/prodinfo ">
+                  
+                  <prodname class="- topic/prodname ">Access 2016</prodname>
+                  
+               </prodinfo>
+            </topicmeta>
+         </topic>
+         <topic href="forms/forms_autoform.html" format="dita" data-id="forms_autoform" wh-toc-id="forms_autoform-d66e4895">
+            <title>Taak: Automatisch formulier</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Een oefening waarbij een formulier gegenereerd wordt wat vervolgens handmatig wordt         aangepast.</p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="forms_autoform"></resourceid>
+               <navtitle class="- topic/navtitle ">Taak: Automatisch formulier</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">Taak: Automatisch formulier</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">Een oefening waarbij een formulier gegenereerd wordt wat vervolgens handmatig wordt         aangepast.</shortdesc>
+               <author class="- topic/author ">Ben Welman</author>
+               <prodinfo class="- topic/prodinfo ">
+                  
+                  <prodname class="- topic/prodname ">Access 2016</prodname>
+                  
+               </prodinfo>
+            </topicmeta>
+         </topic>
+         <topic href="forms/forms_customers_orders.html" format="dita" data-id="forms_customers_orders" wh-toc-id="forms_customers_orders-d66e4913">
+            <title>Taak: Hoofd- en subformulier</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Met de Wizard een hoofdformulier met subformulier maken.</p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="forms_customers_orders"></resourceid>
+               <navtitle class="- topic/navtitle ">Taak: Hoofd- en subformulier</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">Taak: Hoofd- en subformulier</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">Met de Wizard een hoofdformulier met subformulier maken.</shortdesc>
+               <author class="- topic/author ">Ben Welman</author>
+               <prodinfo class="- topic/prodinfo ">
+                  
+                  <prodname class="- topic/prodname ">Access 2016</prodname>
+                  
+               </prodinfo>
+            </topicmeta>
+         </topic>
+         <topic href="forms/forms_customers_data_entry.html" format="dita" data-id="forms_customers_data_entry" wh-toc-id="forms_customers_data_entry-d66e4931">
+            <title>Taak: Invoerformulier Klanten</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Het maken van een formulier gebaseerd op één tabel met diverse wijzigingen in de         opmaak.</p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="forms_customers_data_entry"></resourceid>
+               <navtitle class="- topic/navtitle ">Taak: Invoerformulier Klanten</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">Taak: Invoerformulier Klanten</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">Het maken van een formulier gebaseerd op één tabel met diverse wijzigingen in de         opmaak.</shortdesc>
+               <author class="- topic/author ">Ben Welman</author>
+               <prodinfo class="- topic/prodinfo ">
+                  
+                  <prodname class="- topic/prodname ">Access 2016</prodname>
+                  
+               </prodinfo>
+            </topicmeta>
+         </topic>
+         <topic href="forms/forms_pralines_data_entry.html" format="dita" data-id="forms_pralines_data_entry" wh-toc-id="forms_pralines_data_entry-d66e4949">
+            <title>Taak: Invoerformulier Bonbons</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Het maken van een formulier voor bonbons, gebaseerd op één tabel waarin een aantal         tekstvakken vervangen worden door
+                  keuzelijsten. Verder de nodige wijzigingen in de         opmaak.
+               </p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="forms_pralines_data_entry"></resourceid>
+               <navtitle class="- topic/navtitle ">Taak: Invoerformulier Bonbons</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">Taak: Invoerformulier Bonbons</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">Het maken van een formulier voor bonbons, gebaseerd op één tabel waarin een aantal         tekstvakken vervangen worden door
+                  keuzelijsten. Verder de nodige wijzigingen in de         opmaak.
+               </shortdesc>
+               <author class="- topic/author ">Ben Welman</author>
+               <prodinfo class="- topic/prodinfo ">
+                  
+                  <prodname class="- topic/prodname ">Access 2016</prodname>
+                  
+               </prodinfo>
+            </topicmeta>
+         </topic>
+         <topic href="forms/forms_boxes_data_entry.html" format="dita" data-id="forms_boxes_data_entry" wh-toc-id="forms_boxes_data_entry-d66e4967">
+            <title>Taak: Invoerformulier Dozen</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">In een bestaand subformulier wordt een tekstvak vervangen door een keuzelijst met         invoervak en moet een bijbehorende
+                  query gemaakt worden.
+               </p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="forms_boxes_data_entry"></resourceid>
+               <navtitle class="- topic/navtitle ">Taak: Invoerformulier Dozen</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">Taak: Invoerformulier Dozen</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">In een bestaand subformulier wordt een tekstvak vervangen door een keuzelijst met         invoervak en moet een bijbehorende
+                  query gemaakt worden.
+               </shortdesc>
+               <author class="- topic/author ">Ben Welman</author>
+               <prodinfo class="- topic/prodinfo ">
+                  
+                  <prodname class="- topic/prodname ">Access 2016</prodname>
+                  
+               </prodinfo>
+            </topicmeta>
+         </topic>
+         <topic href="forms/forms_orders_data_entry.html" format="dita" data-id="forms_orders_data_entry" wh-toc-id="forms_orders_data_entry-d66e4985">
+            <title>Taak: Invoerformulier Orders</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Het maken van een hoofdformulier met subformulier, gebaseerd op een         query.</p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="forms_orders_data_entry"></resourceid>
+               <navtitle class="- topic/navtitle ">Taak: Invoerformulier Orders</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">Taak: Invoerformulier Orders</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">Het maken van een hoofdformulier met subformulier, gebaseerd op een         query.</shortdesc>
+               <author class="- topic/author ">Ben Welman</author>
+               <prodinfo class="- topic/prodinfo ">
+                  
+                  <prodname class="- topic/prodname ">Access 2016</prodname>
+                  
+               </prodinfo>
+            </topicmeta>
+         </topic>
+         <topic href="forms/forms_orders_total.html" format="dita" data-id="forms_orders_total" wh-toc-id="forms_orders_total-d66e5003">
+            <title>Taak: Ordertotaal</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Berekening van het totale orderbedrag op een formulier.</p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="forms_orders_total"></resourceid>
+               <navtitle class="- topic/navtitle ">Taak: Ordertotaal</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">Taak: Ordertotaal</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">Berekening van het totale orderbedrag op een formulier.</shortdesc>
+               <author class="- topic/author ">Ben Welman</author>
+               <prodinfo class="- topic/prodinfo ">
+                  
+                  <prodname class="- topic/prodname ">Access 2016</prodname>
+                  
+               </prodinfo>
+            </topicmeta>
+         </topic>
+         <topic href="forms/forms_sales_boxes.html" format="dita" data-id="forms_sales_boxes" wh-toc-id="forms_sales_boxes-d66e5021">
+            <title>Taak: Formulier met grafiek</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Het maken van een formulier met daarop een grafiek.</p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="forms_sales_boxes"></resourceid>
+               <navtitle class="- topic/navtitle ">Taak: Formulier met grafiek</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">Taak: Formulier met grafiek</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">Het maken van een formulier met daarop een grafiek.</shortdesc>
+               <author class="- topic/author ">Ben Welman</author>
+               <prodinfo class="- topic/prodinfo ">
+                  
+                  <prodname class="- topic/prodname ">Access 2016</prodname>
+                  
+               </prodinfo>
+            </topicmeta>
+         </topic>
+         <topic href="forms/forms_customerorders.html" format="dita" data-id="forms_customerorders" wh-toc-id="forms_customerorders-d66e5040">
+            <title>Taak: Gekoppelde formulieren</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Met de Wizard Formulier gekoppelde formulieren maken met gesynchroniseerde         gegevens.</p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="forms_customerorders"></resourceid>
+               <navtitle class="- topic/navtitle ">Taak: Gekoppelde formulieren</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">Taak: Gekoppelde formulieren</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">Met de Wizard Formulier gekoppelde formulieren maken met gesynchroniseerde         gegevens.</shortdesc>
+               <author class="- topic/author ">Ben Welman</author>
+               <prodinfo class="- topic/prodinfo ">
+                  
+                  <prodname class="- topic/prodname ">Access 2016</prodname>
+                  
+               </prodinfo>
+            </topicmeta>
+         </topic>
+         <topic href="javascript:void(0)" wh-toc-id="tocId-d66e5073">
+            <title>Opgaven</title>
+            <topic href="forms/exercises/ex_form001.html" data-id="ex_form001" wh-toc-id="ex_form001-d66e5074">
+               <title>Opgave: form001 - Klanten</title>
+               <topicmeta>
+                  <resourceid class="- topic/resourceid " oxy-source="topic" appid="ex_form001"></resourceid>
+                  <navtitle class="- topic/navtitle ">Opgave: form001 - Klanten</navtitle><?ditaot gentext?>
+                  <linktext class="- map/linktext ">Opgave: form001 - Klanten</linktext>
+                  <author class="- topic/author ">Ben Welman</author>
+                  <prodinfo class="- topic/prodinfo ">
+                     
+                     <prodname class="- topic/prodname ">Access 2016</prodname>
+                     
+                  </prodinfo>
+               </topicmeta>
+            </topic>
+            <topic href="forms/exercises/ex_form002.html" data-id="ex_form002" wh-toc-id="ex_form002-d66e5089">
+               <title>Opgave: form002 - Bonbons in dozen</title>
+               <topicmeta>
+                  <resourceid class="- topic/resourceid " oxy-source="topic" appid="ex_form002"></resourceid>
+                  <navtitle class="- topic/navtitle ">Opgave: form002 - Bonbons in dozen</navtitle><?ditaot gentext?>
+                  <linktext class="- map/linktext ">Opgave: form002 - Bonbons in dozen</linktext>
+                  <author class="- topic/author ">Ben Welman</author>
+                  <prodinfo class="- topic/prodinfo ">
+                     
+                     <prodname class="- topic/prodname ">Access 2016</prodname>
+                     
+                  </prodinfo>
+               </topicmeta>
+            </topic>
+            <topic href="forms/exercises/ex_form003.html" data-id="ex_form003" wh-toc-id="ex_form003-d66e5104">
+               <title>Opgave: form003 - Dozen per klant</title>
+               <topicmeta>
+                  <resourceid class="- topic/resourceid " oxy-source="topic" appid="ex_form003"></resourceid>
+                  <navtitle class="- topic/navtitle ">Opgave: form003 - Dozen per klant</navtitle><?ditaot gentext?>
+                  <linktext class="- map/linktext ">Opgave: form003 - Dozen per klant</linktext>
+                  <author class="- topic/author ">Ben Welman</author>
+                  <prodinfo class="- topic/prodinfo ">
+                     
+                     <prodname class="- topic/prodname ">Access 2016</prodname>
+                     
+                  </prodinfo>
+               </topicmeta>
+            </topic>
+         </topic>
+      </topic>
+      <topic href="reports/reports.html" data-id="reports" wh-toc-id="reports-d66e5476">
+         <title>Rapporten maken</title>
+         <shortdesc>
+            <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc"></p>
+         </shortdesc>
+         <topicmeta>
+            <resourceid class="- topic/resourceid " oxy-source="topic" appid="reports"></resourceid>
+            <navtitle class="- topic/navtitle ">Rapporten maken</navtitle><?ditaot gentext?>
+            <linktext class="- map/linktext ">Rapporten maken</linktext><?ditaot genshortdesc?>
+            <shortdesc class="- map/shortdesc "></shortdesc>
+            <author class="- topic/author ">Ben Welman</author>
+            <prodinfo class="- topic/prodinfo ">
+               
+               <prodname class="- topic/prodname ">Access 2016</prodname>
+               
+            </prodinfo>
+         </topicmeta>
+         <topic href="reports/reports_about.html" data-id="reports_about" wh-toc-id="reports_about-d66e5493">
+            <title>Over rapporten maken</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Waarvoor je rapporten kunt gebruiken.</p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="reports_about"></resourceid>
+               <navtitle class="- topic/navtitle ">Over rapporten maken</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">Over rapporten maken</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">Waarvoor je rapporten kunt gebruiken.</shortdesc>
+               <author class="- topic/author ">Ben Welman</author>
+               <prodinfo class="- topic/prodinfo ">
+                  
+                  <prodname class="- topic/prodname ">Access 2016</prodname>
+                  
+               </prodinfo>
+            </topicmeta>
+         </topic>
+         <topic href="reports/reports_labels.html" data-id="reports_labels" wh-toc-id="reports_labels-d66e5511">
+            <title>Taak: Etiketten maken</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Hoe je etiketten met de Wizard kunt maken.</p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="reports_labels"></resourceid>
+               <navtitle class="- topic/navtitle ">Taak: Etiketten maken</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">Taak: Etiketten maken</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">Hoe je etiketten met de Wizard kunt maken.</shortdesc>
+               <author class="- topic/author ">Ben Welman</author>
+               <prodinfo class="- topic/prodinfo ">
+                  
+                  <prodname class="- topic/prodname ">Access 2016</prodname>
+                  
+               </prodinfo>
+            </topicmeta>
+         </topic>
+         <topic href="reports/reports_autoreport.html" data-id="reports_autoreport" wh-toc-id="reports_autoreport-d66e5529">
+            <title>Taak: Automatisch rapport</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Een automatisch gegenereerd rapport met een handmatige aanpassing.</p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="reports_autoreport"></resourceid>
+               <navtitle class="- topic/navtitle ">Taak: Automatisch rapport</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">Taak: Automatisch rapport</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">Een automatisch gegenereerd rapport met een handmatige aanpassing.</shortdesc>
+               <author class="- topic/author ">Ben Welman</author>
+               <prodinfo class="- topic/prodinfo ">
+                  
+                  <prodname class="- topic/prodname ">Access 2016</prodname>
+                  
+               </prodinfo>
+            </topicmeta>
+         </topic>
+         <topic href="reports/reports_grouping.html" data-id="reports_grouping" wh-toc-id="reports_grouping-d66e5547">
+            <title>Taak: Groepsrapport</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">het maken van een gegroepeerd rapport, met de Wizard rapport op basis van een         query.</p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="reports_grouping"></resourceid>
+               <navtitle class="- topic/navtitle ">Taak: Groepsrapport</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">Taak: Groepsrapport</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">het maken van een gegroepeerd rapport, met de Wizard rapport op basis van een         query.</shortdesc>
+               <author class="- topic/author ">Ben Welman</author>
+               <prodinfo class="- topic/prodinfo ">
+                  
+                  <prodname class="- topic/prodname ">Access 2016</prodname>
+                  
+               </prodinfo>
+            </topicmeta>
+         </topic>
+         <topic href="reports/reports_pictures.html" data-id="reports_pictures" wh-toc-id="reports_pictures-d66e5565">
+            <title>Taak: Bonbon afbeeldingen</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Een voorbeeld van een rapport met afbeeldingen van bonbons op etiketten.</p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="reports_pictures"></resourceid>
+               <navtitle class="- topic/navtitle ">Taak: Bonbon afbeeldingen</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">Taak: Bonbon afbeeldingen</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">Een voorbeeld van een rapport met afbeeldingen van bonbons op etiketten.</shortdesc>
+               <author class="- topic/author ">Ben Welman</author>
+               <prodinfo class="- topic/prodinfo ">
+                  
+                  <prodname class="- topic/prodname ">Access 2016</prodname>
+                  
+               </prodinfo>
+            </topicmeta>
+         </topic>
+         <topic href="javascript:void(0)" wh-toc-id="tocId-d66e5619">
+            <title>Opgaven</title>
+            <topic href="reports/exercises/ex_rapp001.html" data-id="ex_rapp001" wh-toc-id="ex_rapp001-d66e5620">
+               <title>Opgave: rapp001 - Verkoop per regio per doos</title>
+               <topicmeta>
+                  <resourceid class="- topic/resourceid " oxy-source="topic" appid="ex_rapp001"></resourceid>
+                  <navtitle class="- topic/navtitle ">Opgave: rapp001 - Verkoop per regio per doos</navtitle><?ditaot gentext?>
+                  <linktext class="- map/linktext ">Opgave: rapp001 - Verkoop per regio per doos</linktext>
+                  <author class="- topic/author ">Ben Welman</author>
+                  <prodinfo class="- topic/prodinfo ">
+                     
+                     <prodname class="- topic/prodname ">Access 2016</prodname>
+                     
+                  </prodinfo>
+               </topicmeta>
+            </topic>
+            <topic href="reports/exercises/ex_rapp002.html" data-id="ex_rapp002" wh-toc-id="ex_rapp002-d66e5635">
+               <title>Opgave: rapp002 - Omzet per doos per regio</title>
+               <topicmeta>
+                  <resourceid class="- topic/resourceid " oxy-source="topic" appid="ex_rapp002"></resourceid>
+                  <navtitle class="- topic/navtitle ">Opgave: rapp002 - Omzet per doos per regio</navtitle><?ditaot gentext?>
+                  <linktext class="- map/linktext ">Opgave: rapp002 - Omzet per doos per regio</linktext>
+                  <author class="- topic/author ">Ben Welman</author>
+                  <prodinfo class="- topic/prodinfo ">
+                     
+                     <prodname class="- topic/prodname ">Access 2016</prodname>
+                     
+                  </prodinfo>
+               </topicmeta>
+            </topic>
+            <topic href="reports/exercises/ex_rapp003.html" data-id="ex_rapp003" wh-toc-id="ex_rapp003-d66e5650">
+               <title>Opgave: rapp003 - Dooskosten met Bonbonkosten</title>
+               <topicmeta>
+                  <resourceid class="- topic/resourceid " oxy-source="topic" appid="ex_rapp003"></resourceid>
+                  <navtitle class="- topic/navtitle ">Opgave: rapp003 - Dooskosten met Bonbonkosten</navtitle><?ditaot gentext?>
+                  <linktext class="- map/linktext ">Opgave: rapp003 - Dooskosten met Bonbonkosten</linktext>
+                  <author class="- topic/author ">Ben Welman</author>
+                  <prodinfo class="- topic/prodinfo ">
+                     
+                     <prodname class="- topic/prodname ">Access 2016</prodname>
+                     
+                  </prodinfo>
+               </topicmeta>
+            </topic>
+            <topic href="reports/exercises/ex_rapp004.html" data-id="ex_rapp004" wh-toc-id="ex_rapp004-d66e5665">
+               <title>Opgave: rapp004 - Dooskosten met Bonbonkosten gegroepeerd</title>
+               <topicmeta>
+                  <resourceid class="- topic/resourceid " oxy-source="topic" appid="ex_rapp004"></resourceid>
+                  <navtitle class="- topic/navtitle ">Opgave: rapp004 - Dooskosten met Bonbonkosten gegroepeerd</navtitle><?ditaot gentext?>
+                  <linktext class="- map/linktext ">Opgave: rapp004 - Dooskosten met Bonbonkosten gegroepeerd</linktext>
+                  <author class="- topic/author ">Ben Welman</author>
+                  <prodinfo class="- topic/prodinfo ">
+                     
+                     <prodname class="- topic/prodname ">Access 2016</prodname>
+                     
+                  </prodinfo>
+               </topicmeta>
+            </topic>
+            <topic href="reports/exercises/ex_rapp005.html" data-id="ex_rapp005" wh-toc-id="ex_rapp005-d66e5680">
+               <title>Opgave: rapp005 - Omzet per doos per order per periode</title>
+               <topicmeta>
+                  <resourceid class="- topic/resourceid " oxy-source="topic" appid="ex_rapp005"></resourceid>
+                  <navtitle class="- topic/navtitle ">Opgave: rapp005 - Omzet per doos per order per periode</navtitle><?ditaot gentext?>
+                  <linktext class="- map/linktext ">Opgave: rapp005 - Omzet per doos per order per periode</linktext>
+                  <author class="- topic/author ">Ben Welman</author>
+                  <prodinfo class="- topic/prodinfo ">
+                     
+                     <prodname class="- topic/prodname ">Access 2016</prodname>
+                     
+                  </prodinfo>
+               </topicmeta>
+            </topic>
+            <topic href="reports/exercises/ex_rapp006.html" data-id="ex_rapp006" wh-toc-id="ex_rapp006-d66e5695">
+               <title>Opgave: rapp006 - Doos per pagina</title>
+               <topicmeta>
+                  <resourceid class="- topic/resourceid " oxy-source="topic" appid="ex_rapp006"></resourceid>
+                  <navtitle class="- topic/navtitle ">Opgave: rapp006 - Doos per pagina</navtitle><?ditaot gentext?>
+                  <linktext class="- map/linktext ">Opgave: rapp006 - Doos per pagina</linktext>
+                  <author class="- topic/author ">Ben Welman</author>
+                  <prodinfo class="- topic/prodinfo ">
+                     
+                     <prodname class="- topic/prodname ">Access 2016</prodname>
+                     
+                  </prodinfo>
+               </topicmeta>
+            </topic>
+            <topic href="reports/exercises/ex_rapp007.html" data-id="ex_rapp007" wh-toc-id="ex_rapp007-d66e5710">
+               <title>Opgave: rapp007 - Doosetiketten</title>
+               <topicmeta>
+                  <resourceid class="- topic/resourceid " oxy-source="topic" appid="ex_rapp007"></resourceid>
+                  <navtitle class="- topic/navtitle ">Opgave: rapp007 - Doosetiketten</navtitle><?ditaot gentext?>
+                  <linktext class="- map/linktext ">Opgave: rapp007 - Doosetiketten</linktext>
+                  <author class="- topic/author ">Ben Welman</author>
+                  <prodinfo class="- topic/prodinfo ">
+                     
+                     <prodname class="- topic/prodname ">Access 2016</prodname>
+                     
+                  </prodinfo>
+               </topicmeta>
+            </topic>
+            <topic href="reports/exercises/ex_rapp008.html" data-id="ex_rapp008" wh-toc-id="ex_rapp008-d66e5725">
+               <title>Opgave: rapp008 - Jaarafzet dozen per regio</title>
+               <shortdesc>
+                  <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Een rapport gebaseerd op een parameterquery en met groeperen.</p>
+               </shortdesc>
+               <topicmeta>
+                  <resourceid class="- topic/resourceid " oxy-source="topic" appid="ex_rapp008"></resourceid>
+                  <navtitle class="- topic/navtitle ">Opgave: rapp008 - Jaarafzet dozen per regio</navtitle><?ditaot gentext?>
+                  <linktext class="- map/linktext ">Opgave: rapp008 - Jaarafzet dozen per regio</linktext><?ditaot genshortdesc?>
+                  <shortdesc class="- map/shortdesc ">Een rapport gebaseerd op een parameterquery en met groeperen.</shortdesc>
+                  <author class="- topic/author ">Ben Welman</author>
+                  <prodinfo class="- topic/prodinfo ">
+                     
+                     <prodname class="- topic/prodname ">Access 2016</prodname>
+                     
+                  </prodinfo>
+               </topicmeta>
+            </topic>
+         </topic>
+      </topic>
+   </topic>
+   <topic href="part_advanced.html" data-id="part_advanced" wh-toc-id="part_advanced-d66e5744">
+      <title>Gevorderd</title>
+      <topicmeta>
+         <resourceid class="- topic/resourceid " oxy-source="topic" appid="part_advanced"></resourceid>
+         <navtitle class="- topic/navtitle ">Gevorderd</navtitle><?ditaot gentext?>
+         <linktext class="- map/linktext ">Gevorderd</linktext>
+         <author class="- topic/author ">Ben Welman</author>
+         <prodinfo class="- topic/prodinfo ">
+            
+            <prodname class="- topic/prodname ">Access 2016</prodname>
+            
+         </prodinfo>
+      </topicmeta>
+      <topic href="integration/integration.html" data-id="integration" wh-toc-id="integration-d66e6050">
+         <title>Integratie met Office</title>
+         <shortdesc>
+            <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc"></p>
+         </shortdesc>
+         <topicmeta>
+            <resourceid class="- topic/resourceid " oxy-source="topic" appid="integration"></resourceid>
+            <navtitle class="- topic/navtitle ">Integratie met Office</navtitle><?ditaot gentext?>
+            <linktext class="- map/linktext ">Integratie met Office</linktext><?ditaot genshortdesc?>
+            <shortdesc class="- map/shortdesc "></shortdesc>
+            <author class="- topic/author ">Ben Welman</author>
+            <prodinfo class="- topic/prodinfo ">
+               
+               <prodname class="- topic/prodname ">Access 2016</prodname>
+               
+            </prodinfo>
+         </topicmeta>
+         <topic href="integration/integration_about.html" data-id="integration_about" wh-toc-id="integration_about-d66e6067">
+            <title>Over integratie met Office</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Mogelijkheden voor het uitwisselen van gegevens van Access met Excel en         Word.</p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="integration_about"></resourceid>
+               <navtitle class="- topic/navtitle ">Over integratie met Office</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">Over integratie met Office</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">Mogelijkheden voor het uitwisselen van gegevens van Access met Excel en         Word.</shortdesc>
+               <author class="- topic/author ">Ben Welman</author>
+               <prodinfo class="- topic/prodinfo ">
+                  
+                  <prodname class="- topic/prodname ">Access 2016</prodname>
+                  
+               </prodinfo>
+            </topicmeta>
+         </topic>
+         <topic href="integration/mailmerge.html" data-id="mailmerge" wh-toc-id="mailmerge-d66e6085">
+            <title>Taak: Mailmerge</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Vanuit Access wordt de Wizard Afdruk samenvoegen gestart om een standaardbrief in         Word te maken met een adressenbestand
+                  in Access.
+               </p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="mailmerge"></resourceid>
+               <navtitle class="- topic/navtitle ">Taak: Mailmerge</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">Taak: Mailmerge</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">Vanuit Access wordt de Wizard Afdruk samenvoegen gestart om een standaardbrief in         Word te maken met een adressenbestand
+                  in Access.
+               </shortdesc>
+               <author class="- topic/author ">Ben Welman</author>
+               <prodinfo class="- topic/prodinfo ">
+                  
+                  <prodname class="- topic/prodname ">Access 2016</prodname>
+                  
+               </prodinfo>
+            </topicmeta>
+         </topic>
+         <topic href="integration/export_word.html" data-id="export_word" wh-toc-id="export_word-d66e6103">
+            <title>Taak: Export naar Word</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Een tabel wordt geëxporteerd naar een nieuw RTF document.</p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="export_word"></resourceid>
+               <navtitle class="- topic/navtitle ">Taak: Export naar Word</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">Taak: Export naar Word</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">Een tabel wordt geëxporteerd naar een nieuw RTF document.</shortdesc>
+               <author class="- topic/author ">Ben Welman</author>
+               <prodinfo class="- topic/prodinfo ">
+                  
+                  <prodname class="- topic/prodname ">Access 2016</prodname>
+                  
+               </prodinfo>
+            </topicmeta>
+         </topic>
+         <topic href="integration/export_excel.html" data-id="export_excel" wh-toc-id="export_excel-d66e6121">
+            <title>Taak: Export naar Excel</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Een tabel wordt geëxporteerd naar Excel.</p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="export_excel"></resourceid>
+               <navtitle class="- topic/navtitle ">Taak: Export naar Excel</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">Taak: Export naar Excel</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">Een tabel wordt geëxporteerd naar Excel.</shortdesc>
+               <author class="- topic/author ">Ben Welman</author>
+               <prodinfo class="- topic/prodinfo ">
+                  
+                  <prodname class="- topic/prodname ">Access 2016</prodname>
+                  
+               </prodinfo>
+            </topicmeta>
+         </topic>
+         <topic href="javascript:void(0)" wh-toc-id="tocId-d66e6139">
+            <title>Opgaven</title>
+            <topic href="integration/exercises/ex_intg001.html" data-id="ex_intg001" wh-toc-id="ex_intg001-d66e6140">
+               <title>Opgave: intg001 - Standaardbrief</title>
+               <topicmeta>
+                  <resourceid class="- topic/resourceid " oxy-source="topic" appid="ex_intg001"></resourceid>
+                  <navtitle class="- topic/navtitle ">Opgave: intg001 - Standaardbrief</navtitle><?ditaot gentext?>
+                  <linktext class="- map/linktext ">Opgave: intg001 - Standaardbrief</linktext>
+                  <author class="- topic/author ">Ben Welman</author>
+                  <prodinfo class="- topic/prodinfo ">
+                     
+                     <prodname class="- topic/prodname ">Access 2016</prodname>
+                     
+                  </prodinfo>
+               </topicmeta>
+            </topic>
+            <topic href="integration/exercises/ex_intg002.html" data-id="ex_intg002" wh-toc-id="ex_intg002-d66e6155">
+               <title>Opgave: intg002 - Export klantgegevens</title>
+               <topicmeta>
+                  <resourceid class="- topic/resourceid " oxy-source="topic" appid="ex_intg002"></resourceid>
+                  <navtitle class="- topic/navtitle ">Opgave: intg002 - Export klantgegevens</navtitle><?ditaot gentext?>
+                  <linktext class="- map/linktext ">Opgave: intg002 - Export klantgegevens</linktext>
+                  <author class="- topic/author ">Ben Welman</author>
+                  <prodinfo class="- topic/prodinfo ">
+                     
+                     <prodname class="- topic/prodname ">Access 2016</prodname>
+                     
+                  </prodinfo>
+               </topicmeta>
+            </topic>
+         </topic>
+      </topic>
+      <topic href="tools/tools.html" data-id="tools" wh-toc-id="tools-d66e6461">
+         <title>Hulpmiddelen</title>
+         <shortdesc>
+            <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc"></p>
+         </shortdesc>
+         <topicmeta>
+            <resourceid class="- topic/resourceid " oxy-source="topic" appid="tools"></resourceid>
+            <navtitle class="- topic/navtitle ">Hulpmiddelen</navtitle><?ditaot gentext?>
+            <linktext class="- map/linktext ">Hulpmiddelen</linktext><?ditaot genshortdesc?>
+            <shortdesc class="- map/shortdesc "></shortdesc>
+            <author class="- topic/author ">Ben Welman</author>
+            <prodinfo class="- topic/prodinfo ">
+               
+               <prodname class="- topic/prodname ">Access 2016</prodname>
+               
+            </prodinfo>
+         </topicmeta>
+         <topic href="tools/tools_about.html" data-id="tools_about" wh-toc-id="tools_about-d66e6478">
+            <title>Over hulpmiddelen</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Beschikbare hulpmiddelen voor het onderhoud en verbeteren van databases.</p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="tools_about"></resourceid>
+               <navtitle class="- topic/navtitle ">Over hulpmiddelen</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">Over hulpmiddelen</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">Beschikbare hulpmiddelen voor het onderhoud en verbeteren van databases.</shortdesc>
+               <author class="- topic/author ">Ben Welman</author>
+               <prodinfo class="- topic/prodinfo ">
+                  
+                  <prodname class="- topic/prodname ">Access 2016</prodname>
+                  
+               </prodinfo>
+            </topicmeta>
+         </topic>
+         <topic href="tools/analyse_tables.html" data-id="analyse_tables" wh-toc-id="analyse_tables-d66e6496">
+            <title>Taak: Analyse van een tabel</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Onderzoek naar inconsistentie van tabellen.</p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="analyse_tables"></resourceid>
+               <navtitle class="- topic/navtitle ">Taak: Analyse van een tabel</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">Taak: Analyse van een tabel</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">Onderzoek naar inconsistentie van tabellen.</shortdesc>
+               <author class="- topic/author ">Ben Welman</author>
+               <prodinfo class="- topic/prodinfo ">
+                  
+                  <prodname class="- topic/prodname ">Access 2016</prodname>
+                  
+               </prodinfo>
+            </topicmeta>
+         </topic>
+         <topic href="tools/compact_repair.html" data-id="compact_repair" wh-toc-id="compact_repair-d66e6514">
+            <title>Database comprimeren</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Defragmenteren en repareren van databases.</p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="compact_repair"></resourceid>
+               <navtitle class="- topic/navtitle ">Database comprimeren</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">Database comprimeren</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">Defragmenteren en repareren van databases.</shortdesc>
+               <author class="- topic/author ">Ben Welman</author>
+               <prodinfo class="- topic/prodinfo ">
+                  
+                  <prodname class="- topic/prodname ">Access 2016</prodname>
+                  
+               </prodinfo>
+            </topicmeta>
+         </topic>
+      </topic>
+      <topic href="macros/macros.html" data-id="macros" wh-toc-id="macros-d66e6843">
+         <title>Macro's</title>
+         <shortdesc>
+            <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc"></p>
+         </shortdesc>
+         <topicmeta>
+            <resourceid class="- topic/resourceid " oxy-source="topic" appid="macros"></resourceid>
+            <navtitle class="- topic/navtitle ">Macro's</navtitle><?ditaot gentext?>
+            <linktext class="- map/linktext ">Macro's</linktext><?ditaot genshortdesc?>
+            <shortdesc class="- map/shortdesc "></shortdesc>
+            <author class="- topic/author ">Ben Welman</author>
+            <prodinfo class="- topic/prodinfo ">
+               
+               <prodname class="- topic/prodname ">Access 2016</prodname>
+               
+            </prodinfo>
+         </topicmeta>
+         <topic href="macros/macros_about.html" data-id="macros_about" wh-toc-id="macros_about-d66e6860">
+            <title>Over macro's maken</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Waarom macro's maken en hoe doe je dat.</p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="macros_about"></resourceid>
+               <navtitle class="- topic/navtitle ">Over macro's maken</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">Over macro's maken</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">Waarom macro's maken en hoe doe je dat.</shortdesc>
+               <author class="- topic/author ">Ben Welman</author>
+               <prodinfo class="- topic/prodinfo ">
+                  
+                  <prodname class="- topic/prodname ">Access 2016</prodname>
+                  
+               </prodinfo>
+            </topicmeta>
+         </topic>
+         <topic href="macros/macros_customercode.html" data-id="macros_customercode" wh-toc-id="macros_customercode-d66e6878">
+            <title>Taak: Klant zoeken op code</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Op een formulier wordt een keuzelijst gemaakt en via een hieraan toegekende macro         wordt het bijbehorende record opgezocht.</p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="macros_customercode"></resourceid>
+               <navtitle class="- topic/navtitle ">Taak: Klant zoeken op code</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">Taak: Klant zoeken op code</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">Op een formulier wordt een keuzelijst gemaakt en via een hieraan toegekende macro         wordt het bijbehorende record opgezocht.</shortdesc>
+               <author class="- topic/author ">Ben Welman</author>
+               <prodinfo class="- topic/prodinfo ">
+                  
+                  <prodname class="- topic/prodname ">Access 2016</prodname>
+                  
+               </prodinfo>
+            </topicmeta>
+         </topic>
+         <topic href="macros/macros_customername.html" data-id="macros_customername" wh-toc-id="macros_customername-d66e6896">
+            <title>Taak: Klant zoeken op naam</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Maak twee keuzelijsten op een formulier met bijbehorende macro's.</p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="macros_customername"></resourceid>
+               <navtitle class="- topic/navtitle ">Taak: Klant zoeken op naam</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">Taak: Klant zoeken op naam</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">Maak twee keuzelijsten op een formulier met bijbehorende macro's.</shortdesc>
+               <author class="- topic/author ">Ben Welman</author>
+               <prodinfo class="- topic/prodinfo ">
+                  
+                  <prodname class="- topic/prodname ">Access 2016</prodname>
+                  
+               </prodinfo>
+            </topicmeta>
+         </topic>
+         <topic href="macros/macros_boxcode.html" data-id="macros_boxcode" wh-toc-id="macros_boxcode-d66e6914">
+            <title>Taak: Keuzelijst dooscode</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Op een nieuw te maken formulier wordt een keuzelijst gemaakt en via een hieraan         toegekende macro wordt het bijbehorende
+                  record opgezocht.
+               </p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="macros_boxcode"></resourceid>
+               <navtitle class="- topic/navtitle ">Taak: Keuzelijst dooscode</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">Taak: Keuzelijst dooscode</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">Op een nieuw te maken formulier wordt een keuzelijst gemaakt en via een hieraan         toegekende macro wordt het bijbehorende
+                  record opgezocht.
+               </shortdesc>
+               <author class="- topic/author ">Ben Welman</author>
+               <prodinfo class="- topic/prodinfo ">
+                  
+                  <prodname class="- topic/prodname ">Access 2016</prodname>
+                  
+               </prodinfo>
+            </topicmeta>
+         </topic>
+      </topic>
+   </topic>
+   <topic href="common/colofon.html" data-id="colofon" wh-toc-id="colofon-d66e6936">
+      <title>Colofon</title>
+      <shortdesc>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc"></p>
+      </shortdesc>
+      <topicmeta>
+         <resourceid class="- topic/resourceid " oxy-source="topic" appid="colofon"></resourceid>
+         <navtitle class="- topic/navtitle ">Colofon</navtitle><?ditaot gentext?>
+         <linktext class="- map/linktext ">Colofon</linktext><?ditaot genshortdesc?>
+         <shortdesc class="- map/shortdesc "></shortdesc>
+         <author class="- topic/author ">Ben Welman</author>
+         <prodinfo class="- topic/prodinfo ">
+            
+            <prodname class="- topic/prodname ">Access 2016</prodname>
+            
+         </prodinfo>
+      </topicmeta>
+   </topic>
+</toc>

@@ -1,0 +1,346 @@
+
+<!DOCTYPE html
+  PUBLIC "" "about:legacy-compat">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:whc="http://www.oxygenxml.com/webhelp/components" xml:lang="nl-nl" lang="nl-nl">
+    <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta charset="UTF-8" /><meta name="copyright" content="(C) Copyright 2018" /><meta name="DC.rights.owner" content="(C) Copyright 2018" /><meta name="DC.Type" content="concept" /><meta name="description" content="Over hoe je een gewenste invoer van gegevens kunt afdwingen via invoermaskers." /><meta name="indexterms" content="Invoermasker" /><meta name="DC.subject" content="Invoermasker" /><meta name="keywords" content="Invoermasker" /><meta name="DC.Relation" scheme="URI" content="../tables/tables_validation.html" /><meta name="DC.Relation" scheme="URI" content="../data/data_restriction_validation.html" /><meta name="prodname" content="Access 2016" /><meta name="DC.Creator" content="Ben Welman" /><meta name="DC.Date.Created" content="2017-10-05" /><meta name="DC.Date.Modified" content="2017-10-05" /><meta name="DC.Format" content="XHTML" /><meta name="DC.Identifier" content="tables_fields_inputmasks" /><meta name="DC.Language" content="nl-NL" />        
+      <title>Invoermaskers</title><!--  Generated with Oxygen version 20.1-SNAPSHOT, build number 2018080803.  --><meta name="wh-path2root" content="../" /><meta name="wh-toc-id" content="tables_fields_inputmasks-d66e2544" /><link rel="stylesheet" type="text/css" href="../oxygen-webhelp/lib/bootstrap/css/bootstrap.min.css" /><link rel="stylesheet" href="../oxygen-webhelp/lib/bootstrap/css/bootstrap-theme.min.css" /><link rel="stylesheet" href="../oxygen-webhelp/lib/jquery-ui/jquery-ui.min.css" /><link rel="stylesheet" type="text/css" href="../oxygen-webhelp/app/topic-page.css?buildId=2018080803" /><script type="text/javascript" src="../oxygen-webhelp/lib/jquery/jquery-3.1.1.min.js"><!----></script><script data-main="../oxygen-webhelp/app/topic-page.js" src="../oxygen-webhelp/lib/requirejs/require.js"></script><link rel="stylesheet" type="text/css" href="../oxygen-webhelp/template/light.css?buildId=2018080803" /></head>
+
+    <body id="tables_fields_inputmasks" class="wh_topic_page frmBody">
+        <a href="#wh_topic_body" class="sr-only sr-only-focusable">Ga naar de hoofdinhoud</a>
+        <!-- EXM-36950 - Expand the args.hdr parameter here -->
+        
+        
+        
+        <header class="navbar navbar-default wh_header">
+    <div class="container-fluid">
+        <div class="wh_header_flex_container">
+            <div class="wh_logo_and_publication_title_container">
+                <div class="wh_logo_and_publication_title">
+                    
+                    <!--
+                            This component will be generated when the next parameters are specified in the transformation scenario:
+                            'webhelp.logo.image' and 'webhelp.logo.image.target.url'.
+                            See: http://oxygenxml.com/doc/versions/17.1/ug-editor/#topics/dita_webhelp_output.html.
+                    -->
+                    <a href="https://softwijs.nl/" class=" wh_logo hidden-xs "><img src="../LogoSW.gif" alt="  Leer Access 2016  Een taakgericht studieboek  " /></a>
+                    <div class=" wh_publication_title "><a href="../index.html"><span class="booktitle">  <span class="ph mainbooktitle">Leer Access 2016</span>  <span class="ph booktitlealt">Een taakgericht studieboek</span>  </span></a></div>
+                    
+                </div>
+                
+                <!-- The menu button for mobile devices is copied in the output only when the 'webhelp.show.top.menu' parameter is set to 'yes' -->
+                <button type="button" data-target="#wh_top_menu_and_indexterms_link" id="wh_menu_mobile_button" data-toggle="collapse" class="navbar-toggle collapsed wh_toggle_button" aria-expanded="false" aria-label="Menu wisselen">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+            <div class="wh_top_menu_and_indexterms_link collapse navbar-collapse" id="wh_top_menu_and_indexterms_link">
+                
+                <nav class=" wh_top_menu "><ul>
+   <li><span data-tocid="preface-online-d66e341" data-state="leaf" class=" topicref " data-id="preface-online"><span class="title"><a href="../common/preface-online.html">Voorwoord</a></span></span></li>
+   <li class="has-children"><span data-tocid="part_basic-d66e357" data-state="not-ready" class=" topicref " data-id="part_basic"><span class="title"><a href="../part_basic.html">Basis</a></span></span></li>
+   <li class="has-children"><span data-tocid="part_advanced-d66e5744" data-state="not-ready" class=" topicref " data-id="part_advanced"><span class="title"><a href="../part_advanced.html">Gevorderd</a></span></span></li>
+   <li><span data-tocid="colofon-d66e6936" data-state="leaf" class=" topicref " data-id="colofon"><span class="title"><a href="../common/colofon.html">Colofon</a></span></span></li>
+</ul></nav>
+                <div class=" wh_indexterms_link "><a href="../indexTerms.html" title="Index" aria-label="Ga naar pagina met indextermen"><span>Index</span></a></div>
+                
+            </div>
+        </div>
+    </div>
+</header>
+        
+        <div class=" wh_search_input "><form id="searchForm" method="get" role="search" action="../search.html"><div><input type="search" placeholder="Zoek " class="wh_search_textfield" id="textToSearch" name="searchQuery" aria-label="Zoekopdracht" /><button type="submit" class="wh_search_button" aria-label="Zoek"><span>Zoek</span></button></div><script><!--
+                                    $(document).ready(function () {
+                                        $('#searchForm').submit(function (e) {
+                                            if ($('.wh_search_textfield').val().length < 1) {
+                                                e.preventDefault();
+                                            }
+                                        });
+                                    });
+                                --></script></form></div>
+        
+        <div class="container-fluid">
+            <div class="row">
+
+                <nav class="wh_tools hidden-print">
+                    <div data-tooltip-position="bottom" class=" wh_breadcrumb "><ol xmlns:html="http://www.w3.org/1999/xhtml" class="hidden-print"><li><span class="home"><a href="../index.html"><span>Startpagina</span></a></span></li>
+   <li><span class="topicref" data-id="part_basic"><span class="title"><a href="../part_basic.html">Basis</a></span></span></li>
+   <li><span class="topicref" data-id="tables"><span class="title"><a href="../tables/tables.html">Tabellen</a><span class="wh-tooltip">
+               
+               <p xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" class="shortdesc"></p>
+               </span></span></span></li>
+   <li><span class="topicref" data-id="tables_validation"><span class="title"><a href="../tables/tables_validation.html">Validatie</a><span class="wh-tooltip">
+               
+               <p xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" class="shortdesc">Validatie van de invoer van gegevens.</p>
+               </span></span></span></li>
+   <li class="active"><span class="topicref" data-id="tables_fields_inputmasks"><span class="title"><a href="../tables/tables_fields_inputmasks.html">Invoermaskers</a><span class="wh-tooltip">
+               
+               <p xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" class="shortdesc">Over hoe je een gewenste invoer van gegevens kunt afdwingen via         invoermaskers.</p>
+               </span></span></span></li>
+</ol></div>
+
+                    <div class="wh_right_tools hidden-sm hidden-xs">
+                        <div class=" wh_navigation_links "><span id="topic_navigation_links" class="navheader">
+  </span></div>
+                        <button class="wh_hide_highlight" aria-label="Zoekmarkeringen wisselen" title="Zoekmarkeringen wisselen"></button>
+                        <button class="webhelp_expand_collapse_sections" data-next-state="collapsed" aria-label="Secties samenvouwen" title="Secties samenvouwen"></button>
+                        <div class=" wh_print_link print "><button onClick="window.print()" title="Druk deze pagina af" aria-label="Druk deze pagina af"></button></div>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="wh_content_area">
+                <div class="row">
+                    
+                        <nav role="navigation" id="wh_publication_toc" class="col-lg-3 col-md-3 col-sm-3 hidden-xs navbar hidden-print">
+                            <div class=" wh_publication_toc " data-tooltip-position="right"><ul role="tree" aria-label="Table of Contents"><span class="expand-button-action-labels"><span id="button-expand-action" aria-label="Expand"></span><span id="button-collapse-action" aria-label="Collapse"></span><span id="button-pending-action" aria-label="Pending"></span></span><li role="treeitem" aria-expanded="true"><span data-tocid="part_basic-d66e357" class="topicref" data-id="part_basic" data-state="expanded"><span role="button" tabindex="0" aria-labelledby="button-collapse-action part_basic-d66e357-link" class="wh-expand-btn"></span><span class="title"><a href="../part_basic.html" id="part_basic-d66e357-link">Basis</a></span></span><ul role="group" class="nav nav-list"><span class="expand-button-action-labels"><span id="button-expand-action" aria-label="Expand"></span><span id="button-collapse-action" aria-label="Collapse"></span><span id="button-pending-action" aria-label="Pending"></span></span><li role="treeitem" aria-expanded="false"><span data-tocid="intro-d66e668" class="topicref" data-id="intro" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action intro-d66e668-link" class="wh-expand-btn"></span><span class="title"><a href="../intro/intro.html" id="intro-d66e668-link">Beginnen met Access</a><span class="wh-tooltip">
+                     
+                     <p xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" class="shortdesc"></p>
+                     </span></span></span></li>
+         <li role="treeitem" aria-expanded="false"><span data-tocid="explore-d66e1329" class="topicref" data-id="explore" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action explore-d66e1329-link" class="wh-expand-btn"></span><span class="title"><a href="../explore/explore.html" id="explore-d66e1329-link">Database SNOEP verkennen</a><span class="wh-tooltip">
+                     
+                     <p xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" class="shortdesc"></p>
+                     </span></span></span></li>
+         <li role="treeitem" aria-expanded="false"><span data-tocid="data-d66e1898" class="topicref" data-id="data" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action data-d66e1898-link" class="wh-expand-btn"></span><span class="title"><a href="../data/data.html" id="data-d66e1898-link">Gegevens toevoegen/wijzigen</a><span class="wh-tooltip">
+                     
+                     <p xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" class="shortdesc"></p>
+                     </span></span></span></li>
+         <li role="treeitem" aria-expanded="true"><span data-tocid="tables-d66e2401" class="topicref" data-id="tables" data-state="expanded"><span role="button" tabindex="0" aria-labelledby="button-collapse-action tables-d66e2401-link" class="wh-expand-btn"></span><span class="title"><a href="../tables/tables.html" id="tables-d66e2401-link">Tabellen</a><span class="wh-tooltip">
+                     
+                     <p xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" class="shortdesc"></p>
+                     </span></span></span><ul role="group" class="nav nav-list"><span class="expand-button-action-labels"><span id="button-expand-action" aria-label="Expand"></span><span id="button-collapse-action" aria-label="Collapse"></span><span id="button-pending-action" aria-label="Pending"></span></span><li role="treeitem"><span data-tocid="tables_about-d66e2418" class="topicref" data-id="tables_about" data-state="leaf"><span role="button" class="wh-expand-btn"></span><span class="title"><a href="../tables/tables_about.html" id="tables_about-d66e2418-link">Over tabellen</a><span class="wh-tooltip">
+                           
+                           <p xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" class="shortdesc">Tabellen, velden en relaties tussen tabellen. </p>
+                           </span></span></span></li>
+               <li role="treeitem" aria-expanded="false"><span data-tocid="tables_fields-d66e2436" class="topicref" data-id="tables_fields" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action tables_fields-d66e2436-link" class="wh-expand-btn"></span><span class="title"><a href="../tables/tables_fields.html" id="tables_fields-d66e2436-link">Velden in tabellen</a><span class="wh-tooltip">
+                           
+                           <p xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" class="shortdesc">Uitleg over naam en gegevenstype van een veld.</p>
+                           </span></span></span></li>
+               <li role="treeitem" aria-expanded="true"><span data-tocid="tables_validation-d66e2526" class="topicref" data-id="tables_validation" data-state="expanded"><span role="button" tabindex="0" aria-labelledby="button-collapse-action tables_validation-d66e2526-link" class="wh-expand-btn"></span><span class="title"><a href="../tables/tables_validation.html" id="tables_validation-d66e2526-link">Validatie</a><span class="wh-tooltip">
+                           
+                           <p xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" class="shortdesc">Validatie van de invoer van gegevens.</p>
+                           </span></span></span><ul role="group" class="nav nav-list"><span class="expand-button-action-labels"><span id="button-expand-action" aria-label="Expand"></span><span id="button-collapse-action" aria-label="Collapse"></span><span id="button-pending-action" aria-label="Pending"></span></span><li role="treeitem" class="active"><span data-tocid="tables_fields_inputmasks-d66e2544" class="topicref" data-id="tables_fields_inputmasks" data-state="leaf"><span role="button" class="wh-expand-btn"></span><span class="title"><a href="../tables/tables_fields_inputmasks.html" id="tables_fields_inputmasks-d66e2544-link">Invoermaskers</a><span class="wh-tooltip">
+                                 
+                                 <p xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" class="shortdesc">Over hoe je een gewenste invoer van gegevens kunt afdwingen via         invoermaskers.</p>
+                                 </span></span></span></li>
+                     <li role="treeitem"><span data-tocid="tables_fields_validationrules-d66e2562" class="topicref" data-id="tables_fields_validationrules" data-state="leaf"><span role="button" class="wh-expand-btn"></span><span class="title"><a href="../tables/tables_fields_validationrules.html" id="tables_fields_validationrules-d66e2562-link">Validatieregel en tekst</a><span class="wh-tooltip">
+                                 
+                                 <p xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" class="shortdesc">Over</p>
+                                 </span></span></span></li>
+                  </ul>
+               </li>
+               <li role="treeitem"><span data-tocid="tables_new_manually-d66e2580" class="topicref" data-id="tables_new_manually" data-state="leaf"><span role="button" class="wh-expand-btn"></span><span class="title"><a href="../tables/tables_new_manually.html" id="tables_new_manually-d66e2580-link">Taak: Nieuwe tabel handmatig maken</a><span class="wh-tooltip">
+                           
+                           <p xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" class="shortdesc">Vanaf het begin een nieuwe tabel maken en een sleutel toekennen.</p>
+                           </span></span></span></li>
+               <li role="treeitem"><span data-tocid="tables_new_import_excel-d66e2598" class="topicref" data-id="tables_new_import_excel" data-state="leaf"><span role="button" class="wh-expand-btn"></span><span class="title"><a href="../tables/tables_new_import_excel.html" id="tables_new_import_excel-d66e2598-link">Taak: Nieuwe tabel via Excel import</a><span class="wh-tooltip">
+                           
+                           <p xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" class="shortdesc">Hoe je gegevens in een Excel werkblad in een nieuwe Access tabel kunt         importeren.</p>
+                           </span></span></span></li>
+               <li role="treeitem"><span data-tocid="tables_lookup_wizard-d66e2616" class="topicref" data-id="tables_lookup_wizard" data-state="leaf"><span role="button" class="wh-expand-btn"></span><span class="title"><a href="../tables/tables_lookup_wizard.html" id="tables_lookup_wizard-d66e2616-link">Taak: Keuzelijst maken</a><span class="wh-tooltip">
+                           
+                           <p xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" class="shortdesc">Het maken van een keuzelijst bij een veld zodat de in te voeren waarden uit een lijst         kunnen worden geselecteerd.</p>
+                           </span></span></span></li>
+               <li role="treeitem" aria-expanded="false"><span data-tocid="tables_relations-d66e2634" class="topicref" data-id="tables_relations" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action tables_relations-d66e2634-link" class="wh-expand-btn"></span><span class="title"><a href="../tables/tables_relations.html" id="tables_relations-d66e2634-link">Relaties tussen tabellen</a><span class="wh-tooltip">
+                           
+                           <p xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" class="shortdesc">Waarom relaties tussen tabellen van belang zijn.</p>
+                           </span></span></span></li>
+               <li role="treeitem" aria-expanded="false"><span data-tocid="tocId-d66e2788" class="topicref" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action tocId-d66e2788-link" class="wh-expand-btn"></span><span class="title"><a href="../tables/exercises/ex_tabl001.html" id="tocId-d66e2788-link">Opgaven</a></span></span></li>
+            </ul>
+         </li>
+         <li role="treeitem" aria-expanded="false"><span data-tocid="queries-d66e3454" class="topicref" data-id="queries" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action queries-d66e3454-link" class="wh-expand-btn"></span><span class="title"><a href="../queries/queries.html" id="queries-d66e3454-link">Query's</a><span class="wh-tooltip">
+                     
+                     <p xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" class="shortdesc"></p>
+                     </span></span></span></li>
+         <li role="treeitem" aria-expanded="false"><span data-tocid="forms-d66e4807" class="topicref" data-id="forms" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action forms-d66e4807-link" class="wh-expand-btn"></span><span class="title"><a href="../forms/forms.html" id="forms-d66e4807-link">Formulieren maken</a><span class="wh-tooltip">
+                     
+                     <p xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" class="shortdesc"></p>
+                     </span></span></span></li>
+         <li role="treeitem" aria-expanded="false"><span data-tocid="reports-d66e5476" class="topicref" data-id="reports" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action reports-d66e5476-link" class="wh-expand-btn"></span><span class="title"><a href="../reports/reports.html" id="reports-d66e5476-link">Rapporten maken</a><span class="wh-tooltip">
+                     
+                     <p xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" class="shortdesc"></p>
+                     </span></span></span></li>
+      </ul>
+   </li>
+</ul></div>
+                        </nav>
+                    
+                    
+                    <div class="col-lg-7 col-md-9 col-sm-9 col-xs-12" id="wh_topic_body">
+                        <div class=" wh_topic_content body "><main role="main"><article role="article" aria-labelledby="ariaid-title1">
+    <h1 class="title topictitle1" id="ariaid-title1">Invoermaskers</h1>
+    
+    
+    <div class="body conbody"><p class="shortdesc">Over hoe je een gewenste invoer van gegevens kunt afdwingen via
+        invoermaskers.</p>
+        <p class="p">Een invoermasker zorgt voor een vaste, verplichte indeling voor de invoer van gegevens in
+            een veld. Een invoermasker bestaat uit een serie tekens en symbolen. De in te voeren
+            gegevens moeten aan het patroon van het masker voldoen. Zo kun je er bijvoorbeeld voor
+            zorgen dat een telefoonnummer uit precies 10 cijfers bestaat. Invoermaskers zijn
+            mogelijk voor de gegevenstypen Tekst, Numeriek, Valuta en Datum/tijd. </p>
+        <div class="p">Het invoermasker bepaalt ook het aantal tekens dat ingevoerd kan worden. Invoermaskers
+            bestaan uit een verplicht onderdeel en twee optionele onderdelen. De onderdelen worden
+            met een puntkomma gescheiden.<ul class="ul">
+                <li class="li">Het eerste onderdeel is verplicht. Dit onderdeel bevat het patroon met de tekens
+                    en symbolen.</li>
+                <li class="li">Het tweede onderdeel is optioneel en geeft aan of ook de maskertekens moeten
+                    worden opgeslagen in het veld. Bij de waarde <kbd class="ph userinput">0</kbd> worden de
+                    maskertekens samen met de gegevens opgeslagen. Bij de waarde
+                        <kbd class="ph userinput">1</kbd> worden de tekens wel weergegeven maar niet
+                        opgeslagen.<div class="note tip note_tip"><span class="note__title">Tip:</span> Je kunt opslagruimte in de database besparen
+                        door het tweede onderdeel in te stellen op
+                    <kbd class="ph userinput">1</kbd>.</div></li>
+                <li class="li">Het derde onderdeel van het invoermasker is ook optioneel en bevat één teken of
+                    spatie dat als tijdelijke plaatsaanduiding wordt gebruikt. Standaard gebruikt
+                    Access het onderstrepingsteken (_). Alleen wanneer je een ander teken wilt
+                    gebruiken moet je dit teken in het derde gedeelte van het masker opnemen.</li>
+            </ul></div>
+        <p class="p">In de volgende tabel staan de symbolen die in het masker gebruikt mogen worden en hun
+            betekenis.</p>
+        <table class="table"><caption><span class="table--title-label">Tabel 1. </span><span class="title">Symbolen invoermasker</span></caption><colgroup><col /><col /></colgroup><thead class="thead">
+                    <tr>
+                        <th class="entry" id="tables_fields_inputmasks__entry__1">Symbool</th>
+                        <th class="entry" id="tables_fields_inputmasks__entry__2">Betekenis</th>
+                    </tr>
+                </thead><tbody class="tbody">
+                    <tr>
+                        <td class="entry" headers="tables_fields_inputmasks__entry__1 ">0</td>
+                        <td class="entry" headers="tables_fields_inputmasks__entry__2 ">Gebruiker moet een cijfer (0 t/m 9) invoeren.</td>
+                    </tr>
+                    <tr>
+                        <td class="entry" headers="tables_fields_inputmasks__entry__1 ">9</td>
+                        <td class="entry" headers="tables_fields_inputmasks__entry__2 ">Gebruiker mag een cijfer (0 t/m 9) invoeren.</td>
+                    </tr>
+                    <tr>
+                        <td class="entry" headers="tables_fields_inputmasks__entry__1 ">#</td>
+                        <td class="entry" headers="tables_fields_inputmasks__entry__2 ">Gebruiker kan een cijfer, een spatie of een plus- of minteken
+                            invoeren. Als dit wordt overgeslagen, wordt een spatie
+                            ingevoerd.</td>
+                    </tr>
+                    <tr>
+                        <td class="entry" headers="tables_fields_inputmasks__entry__1 ">L</td>
+                        <td class="entry" headers="tables_fields_inputmasks__entry__2 ">Gebruiker moet een letter invoeren.</td>
+                    </tr>
+                    <tr>
+                        <td class="entry" headers="tables_fields_inputmasks__entry__1 ">?</td>
+                        <td class="entry" headers="tables_fields_inputmasks__entry__2 ">Gebruiker mag een letter invoeren.</td>
+                    </tr>
+                    <tr>
+                        <td class="entry" headers="tables_fields_inputmasks__entry__1 ">A</td>
+                        <td class="entry" headers="tables_fields_inputmasks__entry__2 ">Gebruiker moet een letter of een cijfer invoeren.</td>
+                    </tr>
+                    <tr>
+                        <td class="entry" headers="tables_fields_inputmasks__entry__1 ">a</td>
+                        <td class="entry" headers="tables_fields_inputmasks__entry__2 ">Gebruiker mag een letter of een cijfer invoeren.</td>
+                    </tr>
+                    <tr>
+                        <td class="entry" headers="tables_fields_inputmasks__entry__1 ">&amp;</td>
+                        <td class="entry" headers="tables_fields_inputmasks__entry__2 ">Er moet een teken of een spatie ingevoerd worden.</td>
+                    </tr>
+                    <tr>
+                        <td class="entry" headers="tables_fields_inputmasks__entry__1 ">C</td>
+                        <td class="entry" headers="tables_fields_inputmasks__entry__2 ">Gebruiker mag tekens of spaties invoeren.</td>
+                    </tr>
+                    <tr>
+                        <td class="entry" headers="tables_fields_inputmasks__entry__1 ">. , : ; - /</td>
+                        <td class="entry" headers="tables_fields_inputmasks__entry__2 ">Tijdelijke plaatsaanduidingen voor decimalen, duizendtallen, en
+                            scheidingstekens voor datum en tijd. Het teken dat je kiest hangt af van
+                            de landinstellingen van Windows.</td>
+                    </tr>
+                    <tr>
+                        <td class="entry" headers="tables_fields_inputmasks__entry__1 ">&gt;</td>
+                        <td class="entry" headers="tables_fields_inputmasks__entry__2 ">Alle tekens die hierop volgen, worden omgezet naar
+                            hoofdletters.</td>
+                    </tr>
+                    <tr>
+                        <td class="entry" headers="tables_fields_inputmasks__entry__1 ">&lt;</td>
+                        <td class="entry" headers="tables_fields_inputmasks__entry__2 ">Alle tekens die hierop volgen, worden omgezet naar kleine
+                            letters.</td>
+                    </tr>
+                    <tr>
+                        <td class="entry" headers="tables_fields_inputmasks__entry__1 ">!</td>
+                        <td class="entry" headers="tables_fields_inputmasks__entry__2 ">Het invoermasker wordt van links naar rechts opgevuld in plaats van
+                            andersom.</td>
+                    </tr>
+                    <tr>
+                        <td class="entry" headers="tables_fields_inputmasks__entry__1 ">\</td>
+                        <td class="entry" headers="tables_fields_inputmasks__entry__2 ">De tekens die hier rechtstreeks op volgen worden letterlijk
+                            weergegeven.</td>
+                    </tr>
+                    <tr>
+                        <td class="entry" headers="tables_fields_inputmasks__entry__1 ">""</td>
+                        <td class="entry" headers="tables_fields_inputmasks__entry__2 ">De tekens die tussen dubbele aanhalingstekens staan worden letterlijk
+                            weergegeven.</td>
+                    </tr>
+                </tbody></table>
+        <p class="p">Je kunt of snel een invoermasker toevoegen via de <span class="keyword wintitle">Wizard
+                Invoermasker</span>, of een masker handmatig specificeren door deze in te typen
+            bij de eigenschap invoermasker van het veld. helemaal naar wens een invoermasker
+            samenstellen en dat bij veldeigenschap invoeren.</p>
+        <div class="example"><h2 class="title sectiontitle">Voorbeeld: US telefoonnummer</h2>
+            
+            <p class="p">Invoermasker: <code class="ph codeph">(999) 000-000;0;-</code></p>
+            <div class="p">Toelichting<ul class="ul">
+                    <li class="li"><code class="ph codeph">(999)</code> gebruiker kan drie cijfers invoeren voor het
+                        kengetal.</li>
+                    <li class="li"><code class="ph codeph">000-000</code> gebruiker moet zes cijfers invoeren.</li>
+                    <li class="li"><code class="ph codeph">;0</code> geeft aan dat de maskertekens samen met de gegevens
+                        worden opgeslagen.</li>
+                    <li class="li"><code class="ph codeph">;-</code> geeft aan dat een minteken als tijdelijke
+                        plaatsaanduiding wordt gebruikt i.p.v. een onderstrepingsteken.</li>
+                </ul></div>
+        </div>
+        <div class="example"><h2 class="title sectiontitle">Voorbeeld: Postcode</h2>
+            
+            <p class="p">Invoermasker: <code class="ph codeph">0000\ &gt;LL</code></p>
+            <div class="p">Toelichting<ul class="ul">
+                    <li class="li"><code class="ph codeph">0000</code> gebruiker moet vier cijfers (0 t/m 9) achter elkaar
+                        invoeren.</li>
+                    <li class="li"><code class="ph codeph">\ </code> geeft aan dat er een spatie wordt weergegeven. Deze
+                        hoeft niet te worden ingevoerd.</li>
+                    <li class="li"><code class="ph codeph">&gt;LL</code> gebruiker moet twee letters invoeren die worden omgezet
+                        naar hoofdletters.</li>
+                </ul></div>
+        </div>
+    </div>
+</article></main></div>
+                        
+                        <div class=" wh_related_links "><nav role="navigation" class="related-links"><div class="linklist relinfo relconcepts"><strong>Verwante onderwerpen</strong><br /><div class="related_link"><a class="navheader_parent_path" href="../data/data_restriction_validation.html" title="Mogelijkheden om een correcte en gewenste invoer van gegevens af te dwingen..">Restrictie en validatie van gegevens</a></div></div></nav></div>
+                        
+                    </div>
+                    
+                        <nav role="navigation" id="wh_topic_toc" class="col-lg-2 hidden-md hidden-sm hidden-xs navbar hidden-print"> 
+                            <div class=" wh_topic_toc "><div class="wh_topic_label">Op deze pagina</div><ul><li class="section-title"><a href="#" data-tocid="">Voorbeeld: US telefoonnummer</a></li><li class="section-title"><a href="#" data-tocid="">Voorbeeld: Postcode</a></li></ul></div>
+                        </nav>
+                    
+                </div>
+            </div>
+        </div> 
+        <footer class="navbar navbar-default wh_footer">
+  <div class=" footer-container text-center ">
+    
+            Generated by <a class="oxyFooter" href="http://www.oxygenxml.com/xml_webhelp.html" target="_blank">
+            &lt;oXygen/&gt; XML WebHelp
+            </a>
+        
+  </div>
+</footer>
+        
+        <div id="go2top">
+            <span class="glyphicon glyphicon-chevron-up"></span>
+        </div>
+        
+        <!-- The modal container for images -->
+        <div id="modal_img_large" class="modal">
+            <span class="close glyphicon glyphicon-remove"></span>
+            <!-- Modal Content (The Image) -->
+            <img class="modal-content" id="modal-img" />
+            <!-- Modal Caption (Image Text) -->
+            <div id="caption"></div>
+        </div>
+        
+        <script src="../oxygen-webhelp/lib/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+        S:\office\leeraccess/googleAnalytics.html
+    </body>
+</html>

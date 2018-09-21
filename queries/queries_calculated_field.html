@@ -1,0 +1,332 @@
+
+<!DOCTYPE html
+  PUBLIC "" "about:legacy-compat">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:whc="http://www.oxygenxml.com/webhelp/components" xml:lang="nl-nl" lang="nl-nl">
+    <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta charset="UTF-8" /><meta name="copyright" content="(C) Copyright 2018" /><meta name="DC.rights.owner" content="(C) Copyright 2018" /><meta name="DC.Type" content="task" /><meta name="description" content="Een query met daarin een kolom waarin een berekening is uitgevoerd." /><meta name="indexterms" content="Query, berekeningen" /><meta name="DC.subject" content="Query, berekeningen" /><meta name="keywords" content="Query, berekeningen" /><meta name="DC.Relation" scheme="URI" content="../queries/queries.html" /><meta name="prodname" content="Access 2016" /><meta name="DC.Creator" content="Ben Welman" /><meta name="DC.Date.Created" content="2017-10-05" /><meta name="DC.Date.Modified" content="2017-10-05" /><meta name="DC.Format" content="XHTML" /><meta name="DC.Identifier" content="queries_calculated_field" /><meta name="DC.Language" content="nl-NL" />        
+      <title>Taak: Berekend veld</title><!--  Generated with Oxygen version 20.1-SNAPSHOT, build number 2018080803.  --><meta name="wh-path2root" content="../" /><meta name="wh-toc-id" content="queries_calculated_field-d66e3615" /><link rel="stylesheet" type="text/css" href="../oxygen-webhelp/lib/bootstrap/css/bootstrap.min.css" /><link rel="stylesheet" href="../oxygen-webhelp/lib/bootstrap/css/bootstrap-theme.min.css" /><link rel="stylesheet" href="../oxygen-webhelp/lib/jquery-ui/jquery-ui.min.css" /><link rel="stylesheet" type="text/css" href="../oxygen-webhelp/app/topic-page.css?buildId=2018080803" /><script type="text/javascript" src="../oxygen-webhelp/lib/jquery/jquery-3.1.1.min.js"><!----></script><script data-main="../oxygen-webhelp/app/topic-page.js" src="../oxygen-webhelp/lib/requirejs/require.js"></script><link rel="stylesheet" type="text/css" href="../oxygen-webhelp/template/light.css?buildId=2018080803" /></head>
+
+    <body id="queries_calculated_field" class="wh_topic_page frmBody">
+        <a href="#wh_topic_body" class="sr-only sr-only-focusable">Ga naar de hoofdinhoud</a>
+        <!-- EXM-36950 - Expand the args.hdr parameter here -->
+        
+        
+        
+        <header class="navbar navbar-default wh_header">
+    <div class="container-fluid">
+        <div class="wh_header_flex_container">
+            <div class="wh_logo_and_publication_title_container">
+                <div class="wh_logo_and_publication_title">
+                    
+                    <!--
+                            This component will be generated when the next parameters are specified in the transformation scenario:
+                            'webhelp.logo.image' and 'webhelp.logo.image.target.url'.
+                            See: http://oxygenxml.com/doc/versions/17.1/ug-editor/#topics/dita_webhelp_output.html.
+                    -->
+                    <a href="https://softwijs.nl/" class=" wh_logo hidden-xs "><img src="../LogoSW.gif" alt="  Leer Access 2016  Een taakgericht studieboek  " /></a>
+                    <div class=" wh_publication_title "><a href="../index.html"><span class="booktitle">  <span class="ph mainbooktitle">Leer Access 2016</span>  <span class="ph booktitlealt">Een taakgericht studieboek</span>  </span></a></div>
+                    
+                </div>
+                
+                <!-- The menu button for mobile devices is copied in the output only when the 'webhelp.show.top.menu' parameter is set to 'yes' -->
+                <button type="button" data-target="#wh_top_menu_and_indexterms_link" id="wh_menu_mobile_button" data-toggle="collapse" class="navbar-toggle collapsed wh_toggle_button" aria-expanded="false" aria-label="Menu wisselen">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+            <div class="wh_top_menu_and_indexterms_link collapse navbar-collapse" id="wh_top_menu_and_indexterms_link">
+                
+                <nav class=" wh_top_menu "><ul>
+   <li><span data-tocid="preface-online-d66e341" data-state="leaf" class=" topicref " data-id="preface-online"><span class="title"><a href="../common/preface-online.html">Voorwoord</a></span></span></li>
+   <li class="has-children"><span data-tocid="part_basic-d66e357" data-state="not-ready" class=" topicref " data-id="part_basic"><span class="title"><a href="../part_basic.html">Basis</a></span></span></li>
+   <li class="has-children"><span data-tocid="part_advanced-d66e5744" data-state="not-ready" class=" topicref " data-id="part_advanced"><span class="title"><a href="../part_advanced.html">Gevorderd</a></span></span></li>
+   <li><span data-tocid="colofon-d66e6936" data-state="leaf" class=" topicref " data-id="colofon"><span class="title"><a href="../common/colofon.html">Colofon</a></span></span></li>
+</ul></nav>
+                <div class=" wh_indexterms_link "><a href="../indexTerms.html" title="Index" aria-label="Ga naar pagina met indextermen"><span>Index</span></a></div>
+                
+            </div>
+        </div>
+    </div>
+</header>
+        
+        <div class=" wh_search_input "><form id="searchForm" method="get" role="search" action="../search.html"><div><input type="search" placeholder="Zoek " class="wh_search_textfield" id="textToSearch" name="searchQuery" aria-label="Zoekopdracht" /><button type="submit" class="wh_search_button" aria-label="Zoek"><span>Zoek</span></button></div><script><!--
+                                    $(document).ready(function () {
+                                        $('#searchForm').submit(function (e) {
+                                            if ($('.wh_search_textfield').val().length < 1) {
+                                                e.preventDefault();
+                                            }
+                                        });
+                                    });
+                                --></script></form></div>
+        
+        <div class="container-fluid">
+            <div class="row">
+
+                <nav class="wh_tools hidden-print">
+                    <div data-tooltip-position="bottom" class=" wh_breadcrumb "><ol xmlns:html="http://www.w3.org/1999/xhtml" class="hidden-print"><li><span class="home"><a href="../index.html"><span>Startpagina</span></a></span></li>
+   <li><span class="topicref" data-id="part_basic"><span class="title"><a href="../part_basic.html">Basis</a></span></span></li>
+   <li><span class="topicref" data-id="queries"><span class="title"><a href="../queries/queries.html">Query's</a><span class="wh-tooltip">
+               
+               <p xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" class="shortdesc"></p>
+               </span></span></span></li>
+   <li class="active"><span class="topicref" data-id="queries_calculated_field"><span class="title"><a href="../queries/queries_calculated_field.html">Taak: Berekend veld</a><span class="wh-tooltip">
+               
+               <p xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" class="shortdesc">Een query met daarin een kolom waarin een berekening is uitgevoerd.</p>
+               </span></span></span></li>
+</ol></div>
+
+                    <div class="wh_right_tools hidden-sm hidden-xs">
+                        <div class=" wh_navigation_links "><span id="topic_navigation_links" class="navheader">
+  </span></div>
+                        <button class="wh_hide_highlight" aria-label="Zoekmarkeringen wisselen" title="Zoekmarkeringen wisselen"></button>
+                        <button class="webhelp_expand_collapse_sections" data-next-state="collapsed" aria-label="Secties samenvouwen" title="Secties samenvouwen"></button>
+                        <div class=" wh_print_link print "><button onClick="window.print()" title="Druk deze pagina af" aria-label="Druk deze pagina af"></button></div>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="wh_content_area">
+                <div class="row">
+                    
+                        <nav role="navigation" id="wh_publication_toc" class="col-lg-3 col-md-3 col-sm-3 hidden-xs navbar hidden-print">
+                            <div class=" wh_publication_toc " data-tooltip-position="right"><ul role="tree" aria-label="Table of Contents"><span class="expand-button-action-labels"><span id="button-expand-action" aria-label="Expand"></span><span id="button-collapse-action" aria-label="Collapse"></span><span id="button-pending-action" aria-label="Pending"></span></span><li role="treeitem" aria-expanded="true"><span data-tocid="part_basic-d66e357" class="topicref" data-id="part_basic" data-state="expanded"><span role="button" tabindex="0" aria-labelledby="button-collapse-action part_basic-d66e357-link" class="wh-expand-btn"></span><span class="title"><a href="../part_basic.html" id="part_basic-d66e357-link">Basis</a></span></span><ul role="group" class="nav nav-list"><span class="expand-button-action-labels"><span id="button-expand-action" aria-label="Expand"></span><span id="button-collapse-action" aria-label="Collapse"></span><span id="button-pending-action" aria-label="Pending"></span></span><li role="treeitem" aria-expanded="false"><span data-tocid="intro-d66e668" class="topicref" data-id="intro" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action intro-d66e668-link" class="wh-expand-btn"></span><span class="title"><a href="../intro/intro.html" id="intro-d66e668-link">Beginnen met Access</a><span class="wh-tooltip">
+                     
+                     <p xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" class="shortdesc"></p>
+                     </span></span></span></li>
+         <li role="treeitem" aria-expanded="false"><span data-tocid="explore-d66e1329" class="topicref" data-id="explore" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action explore-d66e1329-link" class="wh-expand-btn"></span><span class="title"><a href="../explore/explore.html" id="explore-d66e1329-link">Database SNOEP verkennen</a><span class="wh-tooltip">
+                     
+                     <p xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" class="shortdesc"></p>
+                     </span></span></span></li>
+         <li role="treeitem" aria-expanded="false"><span data-tocid="data-d66e1898" class="topicref" data-id="data" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action data-d66e1898-link" class="wh-expand-btn"></span><span class="title"><a href="../data/data.html" id="data-d66e1898-link">Gegevens toevoegen/wijzigen</a><span class="wh-tooltip">
+                     
+                     <p xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" class="shortdesc"></p>
+                     </span></span></span></li>
+         <li role="treeitem" aria-expanded="false"><span data-tocid="tables-d66e2401" class="topicref" data-id="tables" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action tables-d66e2401-link" class="wh-expand-btn"></span><span class="title"><a href="../tables/tables.html" id="tables-d66e2401-link">Tabellen</a><span class="wh-tooltip">
+                     
+                     <p xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" class="shortdesc"></p>
+                     </span></span></span></li>
+         <li role="treeitem" aria-expanded="true"><span data-tocid="queries-d66e3454" class="topicref" data-id="queries" data-state="expanded"><span role="button" tabindex="0" aria-labelledby="button-collapse-action queries-d66e3454-link" class="wh-expand-btn"></span><span class="title"><a href="../queries/queries.html" id="queries-d66e3454-link">Query's</a><span class="wh-tooltip">
+                     
+                     <p xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" class="shortdesc"></p>
+                     </span></span></span><ul role="group" class="nav nav-list"><span class="expand-button-action-labels"><span id="button-expand-action" aria-label="Expand"></span><span id="button-collapse-action" aria-label="Collapse"></span><span id="button-pending-action" aria-label="Pending"></span></span><li role="treeitem"><span data-tocid="queries_about-d66e3471" class="topicref" data-id="queries_about" data-state="leaf"><span role="button" class="wh-expand-btn"></span><span class="title"><a href="../queries/queries_about.html" id="queries_about-d66e3471-link">Over query's maken</a><span class="wh-tooltip">
+                           
+                           <p xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" class="shortdesc">Waarvoor kun je query's gebruiken en welke soorten query's zijn er.</p>
+                           </span></span></span></li>
+               <li role="treeitem"><span data-tocid="queries_customername_ordercodes-d66e3489" class="topicref" data-id="queries_customername_ordercodes" data-state="leaf"><span role="button" class="wh-expand-btn"></span><span class="title"><a href="../queries/queries_customername_ordercodes.html" id="queries_customername_ordercodes-d66e3489-link">Taak: Klanten en orders</a><span class="wh-tooltip">
+                           
+                           <p xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" class="shortdesc">Het maken van een eenvoudige selectiequery met behulp van de wizard en daarna nog een         handmatige aanpassing.</p>
+                           </span></span></span></li>
+               <li role="treeitem"><span data-tocid="queries_criteria-d66e3507" class="topicref" data-id="queries_criteria" data-state="leaf"><span role="button" class="wh-expand-btn"></span><span class="title"><a href="../queries/queries_criteria.html" id="queries_criteria-d66e3507-link">Criteria in query's</a><span class="wh-tooltip">
+                           
+                           <p xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" class="shortdesc">Uitleg over voorwaarden in een query, Like operator en jokertekens.</p>
+                           </span></span></span></li>
+               <li role="treeitem"><span data-tocid="queries_utrecht_dec2009-d66e3525" class="topicref" data-id="queries_utrecht_dec2009" data-state="leaf"><span role="button" class="wh-expand-btn"></span><span class="title"><a href="../queries/queries_utrecht_dec2009.html" id="queries_utrecht_dec2009-d66e3525-link">Taak: Orders Utrechtse klanten</a><span class="wh-tooltip">
+                           
+                           <p xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" class="shortdesc">Aan een bestaande query worden handmatig velden en criteria toegevoegd waarna de         query onder een andere naam wordt
+                              opgeslagen.
+                              
+                           </p>
+                           </span></span></span></li>
+               <li role="treeitem"><span data-tocid="queries_customers_cher-d66e3543" class="topicref" data-id="queries_customers_cher" data-state="leaf"><span role="button" class="wh-expand-btn"></span><span class="title"><a href="../queries/queries_customers_cher.html" id="queries_customers_cher-d66e3543-link">Taak: Klanten met doos Kers</a><span class="wh-tooltip">
+                           
+                           <p xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" class="shortdesc">Een selectiequery met drie tabellen.</p>
+                           </span></span></span></li>
+               <li role="treeitem"><span data-tocid="queries_summarizing-d66e3561" class="topicref" data-id="queries_summarizing" data-state="leaf"><span role="button" class="wh-expand-btn"></span><span class="title"><a href="../queries/queries_summarizing.html" id="queries_summarizing-d66e3561-link">Groeperen en Berekeningen</a><span class="wh-tooltip">
+                           
+                           <p xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" class="shortdesc">Uitleg over groeperen en berekeningen in een query.</p>
+                           </span></span></span></li>
+               <li role="treeitem"><span data-tocid="queries_customers_province-d66e3579" class="topicref" data-id="queries_customers_province" data-state="leaf"><span role="button" class="wh-expand-btn"></span><span class="title"><a href="../queries/queries_customers_province.html" id="queries_customers_province-d66e3579-link">Taak: Aantal klanten per provincie</a><span class="wh-tooltip">
+                           
+                           <p xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" class="shortdesc">Oefening van een selectiequery met groeperen en berekening met de functie         Aantal.</p>
+                           </span></span></span></li>
+               <li role="treeitem"><span data-tocid="queries_column_heading-d66e3597" class="topicref" data-id="queries_column_heading" data-state="leaf"><span role="button" class="wh-expand-btn"></span><span class="title"><a href="../queries/queries_column_heading.html" id="queries_column_heading-d66e3597-link">Taak: Kolomtitel wijzigen</a><span class="wh-tooltip">
+                           
+                           <p xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" class="shortdesc">Het wijzigen van de titel van een kolom in een query.</p>
+                           </span></span></span></li>
+               <li role="treeitem" class="active"><span data-tocid="queries_calculated_field-d66e3615" class="topicref" data-id="queries_calculated_field" data-state="leaf"><span role="button" class="wh-expand-btn"></span><span class="title"><a href="../queries/queries_calculated_field.html" id="queries_calculated_field-d66e3615-link">Taak: Berekend veld</a><span class="wh-tooltip">
+                           
+                           <p xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" class="shortdesc">Een query met daarin een kolom waarin een berekening is uitgevoerd.</p>
+                           </span></span></span></li>
+               <li role="treeitem"><span data-tocid="queries_first_order_dates-d66e3633" class="topicref" data-id="queries_first_order_dates" data-state="leaf"><span role="button" class="wh-expand-btn"></span><span class="title"><a href="../queries/queries_first_order_dates.html" id="queries_first_order_dates-d66e3633-link">Taak: Eerste order per klant</a><span class="wh-tooltip">
+                           
+                           <p xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" class="shortdesc">Oefening van een selectiequery met groeperen en berekening met de functie         Min.</p>
+                           </span></span></span></li>
+               <li role="treeitem"><span data-tocid="queries_parameters-d66e3652" class="topicref" data-id="queries_parameters" data-state="leaf"><span role="button" class="wh-expand-btn"></span><span class="title"><a href="../queries/queries_parameters.html" id="queries_parameters-d66e3652-link">Taak: Parameterquery</a><span class="wh-tooltip">
+                           
+                           <p xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" class="shortdesc">Een query waarbij voor de uitvoering om input gevraagd wordt.</p>
+                           </span></span></span></li>
+               <li role="treeitem"><span data-tocid="queries_actions-d66e3670" class="topicref" data-id="queries_actions" data-state="leaf"><span role="button" class="wh-expand-btn"></span><span class="title"><a href="../queries/queries_actions.html" id="queries_actions-d66e3670-link">Actiequery's</a><span class="wh-tooltip">
+                           
+                           <p xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" class="shortdesc">Een introductie in query’s die gegevens veranderen.</p>
+                           </span></span></span></li>
+               <li role="treeitem"><span data-tocid="queries_action_update-d66e3688" class="topicref" data-id="queries_action_update" data-state="leaf"><span role="button" class="wh-expand-btn"></span><span class="title"><a href="../queries/queries_action_update.html" id="queries_action_update-d66e3688-link">Taak: Bijwerkquery</a><span class="wh-tooltip">
+                           
+                           <p xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" class="shortdesc">Een voorbeeld van een eenvoudige bijwerkquery waarmee in alle records van een tabel         die aan een bepaalde voorwaarde
+                              voldoen de waarde van een veld gewijzigd wordt.
+                              
+                           </p>
+                           </span></span></span></li>
+               <li role="treeitem"><span data-tocid="queries_action_maketable-d66e3706" class="topicref" data-id="queries_action_maketable" data-state="leaf"><span role="button" class="wh-expand-btn"></span><span class="title"><a href="../queries/queries_action_maketable.html" id="queries_action_maketable-d66e3706-link">Taak: Tabelmaakquery</a><span class="wh-tooltip">
+                           
+                           <p xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" class="shortdesc">Een voorbeeld van een eenvoudige tabelmaakquery waarmee</p>
+                           </span></span></span></li>
+               <li role="treeitem"><span data-tocid="queries_crosstab-d66e3724" class="topicref" data-id="queries_crosstab" data-state="leaf"><span role="button" class="wh-expand-btn"></span><span class="title"><a href="../queries/queries_crosstab.html" id="queries_crosstab-d66e3724-link">Taak: Kruistabelquery</a><span class="wh-tooltip">
+                           
+                           <p xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" class="shortdesc">Een query waarbij voor de uitvoering om input gevraagd wordt.</p>
+                           </span></span></span></li>
+               <li role="treeitem" aria-expanded="false"><span data-tocid="tocId-d66e3976" class="topicref" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action tocId-d66e3976-link" class="wh-expand-btn"></span><span class="title"><a href="../queries/exercises/ex_quer001.html" id="tocId-d66e3976-link">Opgaven</a></span></span></li>
+            </ul>
+         </li>
+         <li role="treeitem" aria-expanded="false"><span data-tocid="forms-d66e4807" class="topicref" data-id="forms" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action forms-d66e4807-link" class="wh-expand-btn"></span><span class="title"><a href="../forms/forms.html" id="forms-d66e4807-link">Formulieren maken</a><span class="wh-tooltip">
+                     
+                     <p xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" class="shortdesc"></p>
+                     </span></span></span></li>
+         <li role="treeitem" aria-expanded="false"><span data-tocid="reports-d66e5476" class="topicref" data-id="reports" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action reports-d66e5476-link" class="wh-expand-btn"></span><span class="title"><a href="../reports/reports.html" id="reports-d66e5476-link">Rapporten maken</a><span class="wh-tooltip">
+                     
+                     <p xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" class="shortdesc"></p>
+                     </span></span></span></li>
+      </ul>
+   </li>
+</ul></div>
+                        </nav>
+                    
+                    
+                    <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12" id="wh_topic_body">
+                        <div class=" wh_topic_content body "><main role="main"><article role="article" aria-labelledby="ariaid-title1">
+    <h1 class="title topictitle1" id="ariaid-title1">Taak: Berekend veld</h1>
+    
+    
+    <div class="body taskbody"><p class="shortdesc">Een query met daarin een kolom waarin een berekening is uitgevoerd.</p>
+        <section class="section context">
+            <p class="p">INFORMATIEBEHOEFTE</p>
+            <p class="p">Maak een gesorteerd overzicht van alle orderregels met daarop per order: ordercode,
+                dooscode, aantal dozen, doosprijs en het regelbedrag.</p>
+            <p class="p">ANALYSE</p>
+            <p class="p">Voor elke order kun je de ordercode, dooscode en het aantal dozen vinden in de tabel
+                Orderdetails. De doosprijs zit in de tabel Dozen. Je hebt dus de tabellen
+                Orderdetails en Dozen nodig. Het bedrag van de orderregel zit in geen enkele tabel
+                omdat dit bedrag uit de andere gegevens berekend kan worden:
+                    <code class="ph codeph">Orderregelbedrag = Hoeveelheid * Doosprijs</code>.</p>
+        </section>
+        <ol class="ol steps"><li class="li step stepexpand">
+                <span class="ph cmd">Open de database <span class="keyword">snoep2016.accdb</span>.</span>
+            </li><li class="li step stepexpand">
+                <span class="ph cmd">Kies <span class="ph menucascade"><span class="ph uicontrol">tab Maken</span><abbr> &gt; </abbr><span class="ph uicontrol">Queryontwerp (groep Query's)</span></span>.</span>
+                <div class="itemgroup stepresult">Access maakt een nieuw leeg queryvenster en toont het dialoogvenster
+                        <span class="keyword wintitle">Tabel weergeven</span>.<figure class="fig fignone"><figcaption class="figcap"><span class="figtitleprefix">Figuur: </span>Dialoogvenster <span class="keyword wintitle">Tabel weergeven</span></figcaption>
+                        
+                        <img class="image" src="images/q_show_table.png" alt="Dialoogvenster tabellen weergeven" />
+                    </figure></div>
+            </li><li class="li step stepexpand">
+                <span class="ph cmd">Voeg achtereenvolgens de tabellen <var class="keyword varname">Orderdetails</var> en
+                        <var class="keyword varname">Dozen</var> toe en klik daarna op
+                        <span class="ph uicontrol">Sluiten</span>.</span>
+                <div class="itemgroup stepresult">De tabellen Orderdetails en Dozen zijn nu aan het queryvenster
+                    toegevoegd.</div>
+            </li><li class="li step stepexpand">
+                <span class="ph cmd">Voeg achtereenvolgens de velden <var class="keyword varname">Ordercode</var>,
+                        <var class="keyword varname">Dooscode</var>, <var class="keyword varname">Hoeveelheid</var> (uit tabel
+                        <var class="keyword varname">Orderdetails</var>) en <var class="keyword varname">Doosprijs</var> (uit tabel
+                        <var class="keyword varname">Dozen</var>) aan het queryraster toe door dubbel te klikken op
+                    het veld.</span>
+                <div class="itemgroup stepresult">
+                    <figure class="fig fignone"><figcaption class="figcap"><span class="figtitleprefix">Figuur: </span>Ontwerp met tabellen en velden</figcaption>
+                        
+                        <img class="image" src="images/q_orderrow_amount_design1.png" alt="Ontwerp met tabellen en velden" />
+                    </figure>
+                </div>
+            </li><li class="li step stepexpand">
+                <span class="ph cmd">Zet de sorteervolgorde bij <var class="keyword varname">Ordercode</var> en
+                        <var class="keyword varname">Dooscode</var> op <span class="ph uicontrol">Oplopend</span>. Klik in rij
+                    veld van de eerste lege kolom en typ in <kbd class="ph userinput">Regelbedrag:
+                        Hoeveelheid*Doosprijs</kbd>.</span>
+                <div class="itemgroup stepresult">Access zet blokhaken om de veldnamen.<figure class="fig fignone"><figcaption class="figcap"><span class="figtitleprefix">Figuur: </span>Ontwerp uitgebreid met berekend veld</figcaption>
+                        
+                        <img class="image" src="images/q_orderrow_amount_design2.png" alt="Ontwerp uitgebreid met berekend veld" />
+                    </figure></div>
+            </li><li class="li step stepexpand">
+                <span class="ph cmd">Schakel naar de <span class="ph uicontrol">Gegevensbladweergave</span>.</span>
+                <div class="itemgroup stepresult">
+                    <figure class="fig fignone"><figcaption class="figcap"><span class="figtitleprefix">Figuur: </span>Resultaat query zonder financiële opmaak</figcaption>
+                        
+                        <img class="image" src="images/q_orderrow_amount_result_unformatted.png" alt="Resultaat query zonder financiële opmaak van de bedragen" />
+                    </figure>
+                    <p class="p">De bedragen moeten nog in een financiële getalnotatie worden opgemaakt.</p>
+                </div>
+            </li><li class="li step stepexpand">
+                <span class="ph cmd">Schakel over naar de <span class="ph uicontrol">Ontwerpweergave</span>.</span>
+                <div class="itemgroup tutorialinfo"><p class="p">Alle objecten in Access hebben <dfn class="term">eigenschappen</dfn>. Deze
+                            <dfn class="term">eigenschappen</dfn> bepalen onder andere het uiterlijk van het
+                        object. De instellingen van de eigenschappen en het wijzigen ervan gaat via
+                        het <span class="keyword wintitle">Eigenschappenvenster</span>. Het in- en uitschakelen van
+                        de zichtbaarheid van het eigenschappenvenster gaat via <span class="ph menucascade"><span class="ph uicontrol">tab Ontwerp</span><abbr> &gt; </abbr><span class="ph uicontrol">Eigenschappenvenster (groep Weergeven/verbergen)</span></span>. Nog sneller is het gebruik van de sneltoets
+                            <span class="ph uicontrol">F4</span>.</p><p class="p">Om geldbedragen van een valutasymbool
+                        te voorzien moet de eigenschap <span class="ph uicontrol">Notatie</span> van het veld
+                            <var class="keyword varname">Regelbedrag</var> gewijzigd worden.</p></div>
+            </li><li class="li step stepexpand">
+                <span class="ph cmd">Zorg dat het <span class="keyword wintitle">Eigenschappenvenster</span> zichtbaar is. Klik
+                    ergens in het veld <var class="keyword varname">Regelbedrag</var>.</span>
+                <div class="itemgroup stepresult">
+                    <figure class="fig fignone"><figcaption class="figcap"><span class="figtitleprefix">Figuur: </span>Eigenschappen veld Regelbedrag</figcaption>
+                        
+                        <img class="image" src="images/field_format_currency.png" alt="Eigenschappenvenster van het veld" />
+                    </figure>
+                </div>
+            </li><li class="li step stepexpand">
+                <span class="ph cmd">Klik in het vak <span class="ph uicontrol">Notatie</span> en kies dan met de keuzelijst
+                    voor <span class="ph uicontrol">Euro</span>.</span>
+            </li><li class="li step stepexpand">
+                <span class="ph cmd">Schakel over naar de <span class="ph uicontrol">Gegevensbladweergave</span>.</span>
+                <div class="itemgroup stepresult">
+                    <figure class="fig fignone"><figcaption class="figcap"><span class="figtitleprefix">Figuur: </span>Resultaat query met financiële opmaak</figcaption>
+                        
+                        <img class="image" src="images/q_orderrow_amount_result_formatted.png" alt="Resultaat query met financiële opmaak van de bedragen" />
+                    </figure>
+                </div>
+            </li><li class="li step stepexpand">
+                <span class="ph cmd">Sluit de query en beantwoord de vraag of de wijzigingen bewaard moeten worden
+                    met <span class="ph uicontrol">Ja</span>.</span>
+                <div class="itemgroup stepresult">Het venster <span class="keyword wintitle">Opslaan als</span> verschijnt zodat de naam
+                    van de query kan worden opgegeven.</div>
+            </li><li class="li step stepexpand">
+                <span class="ph cmd">Typ als naam in <kbd class="ph userinput">Orderregelbedrag</kbd> en klik op
+                        <span class="ph uicontrol">OK</span>.</span>
+            </li></ol>
+    </div>
+</article></main></div>
+                        
+                        
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </div> 
+        <footer class="navbar navbar-default wh_footer">
+  <div class=" footer-container text-center ">
+    
+            Generated by <a class="oxyFooter" href="http://www.oxygenxml.com/xml_webhelp.html" target="_blank">
+            &lt;oXygen/&gt; XML WebHelp
+            </a>
+        
+  </div>
+</footer>
+        
+        <div id="go2top">
+            <span class="glyphicon glyphicon-chevron-up"></span>
+        </div>
+        
+        <!-- The modal container for images -->
+        <div id="modal_img_large" class="modal">
+            <span class="close glyphicon glyphicon-remove"></span>
+            <!-- Modal Content (The Image) -->
+            <img class="modal-content" id="modal-img" />
+            <!-- Modal Caption (Image Text) -->
+            <div id="caption"></div>
+        </div>
+        
+        <script src="../oxygen-webhelp/lib/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+        S:\office\leeraccess/googleAnalytics.html
+    </body>
+</html>

@@ -1,0 +1,159 @@
+
+<!DOCTYPE html
+  PUBLIC "" "about:legacy-compat">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:whc="http://www.oxygenxml.com/webhelp/components" lang="nl-NL" dir="ltr">
+
+    <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="wh-path2root" content="" /><title>Leer Access 2016</title>
+        
+                
+        <script>
+            /**
+             * If an old URL is given, redirect to the corresponding topic from the WebHelp Responsive
+             */
+            var actualLocation = window.location.href;
+            var newLocation;
+            if (actualLocation.indexOf('/#')!=-1) {
+                newLocation = actualLocation.replace(/\/#/g, "/");
+                window.location.replace(newLocation);
+            }
+            if (actualLocation.match(/\/index\.(.*)#/gi)!=null) {
+                newLocation = actualLocation.replace(/\/index\.(.*)#/gi, "/");
+                window.location.replace(newLocation);
+            }
+        </script>
+
+        <link rel="stylesheet" href="./oxygen-webhelp/lib/jquery-ui/jquery-ui.min.css" />
+
+        <!-- Latest compiled and minified Bootstrap CSS -->
+        <link rel="stylesheet" type="text/css" href="./oxygen-webhelp/lib/bootstrap/css/bootstrap.min.css" />
+        
+        <!-- Bootstrap Optional theme -->
+        <link rel="stylesheet" type="text/css" href="./oxygen-webhelp/lib/bootstrap/css/bootstrap-theme.min.css" />
+        
+        <!-- Template default styles  -->
+        <link rel="stylesheet" type="text/css" href="./oxygen-webhelp/app/main-page.css?buildId=2018080803" />
+
+        
+        <script type="text/javascript" src="./oxygen-webhelp/lib/jquery/jquery-3.1.1.min.js"></script>
+
+        <script data-main="./oxygen-webhelp/app/main-page.js" src="./oxygen-webhelp/lib/requirejs/require.js"></script>
+        
+        <!-- Skin resources -->
+        <link rel="stylesheet" type="text/css" href="oxygen-webhelp/template/light.css?buildId=2018080803" />
+        <!-- EXM-36950 - Expand the args.hdf parameter here -->
+        
+        
+    </head>
+    <body class="wh_main_page">
+        <a href="#content" class="sr-only sr-only-focusable">Ga naar de hoofdinhoud</a>
+        <!-- EXM-36950 - Expand the args.hdr parameter here -->
+        
+        
+        
+        <header class="navbar navbar-default wh_header">
+    <div class="container-fluid">
+        <div class="wh_header_flex_container">
+            <div class="wh_logo_and_publication_title_container">
+                <div class="wh_logo_and_publication_title">
+                    
+                    <!--
+                            This component will be generated when the next parameters are specified in the transformation scenario:
+                            'webhelp.logo.image' and 'webhelp.logo.image.target.url'.
+                            See: http://oxygenxml.com/doc/versions/17.1/ug-editor/#topics/dita_webhelp_output.html.
+                    -->
+                    <a href="https://softwijs.nl/" class=" wh_logo hidden-xs "><img src="LogoSW.gif" alt="  Leer Access 2016  Een taakgericht studieboek  " /></a>
+                    <div class=" wh_publication_title "><a href="index.html"><span xmlns="" class="booktitle">  <span class="ph mainbooktitle">Leer Access 2016</span>  <span class="ph booktitlealt">Een taakgericht studieboek</span>  </span></a></div>
+                    
+                </div>
+                
+                <!-- The menu button for mobile devices is copied in the output only when the 'webhelp.show.top.menu' parameter is set to 'yes' -->
+                <button type="button" data-target="#wh_top_menu_and_indexterms_link" id="wh_menu_mobile_button" data-toggle="collapse" class="navbar-toggle collapsed wh_toggle_button" aria-expanded="false" aria-label="Menu wisselen">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+            <div class="wh_top_menu_and_indexterms_link collapse navbar-collapse" id="wh_top_menu_and_indexterms_link">
+                
+                <nav class=" wh_top_menu "><ul>
+   <li><span data-tocid="preface-online-d66e341" data-state="leaf" class=" topicref " data-id="preface-online"><span class="title"><a href="common/preface-online.html">Voorwoord</a></span></span></li>
+   <li class="has-children"><span data-tocid="part_basic-d66e357" data-state="not-ready" class=" topicref " data-id="part_basic"><span class="title"><a href="part_basic.html">Basis</a></span></span></li>
+   <li class="has-children"><span data-tocid="part_advanced-d66e5744" data-state="not-ready" class=" topicref " data-id="part_advanced"><span class="title"><a href="part_advanced.html">Gevorderd</a></span></span></li>
+   <li><span data-tocid="colofon-d66e6936" data-state="leaf" class=" topicref " data-id="colofon"><span class="title"><a href="common/colofon.html">Colofon</a></span></span></li>
+</ul></nav>
+                <div class=" wh_indexterms_link "><a href="indexTerms.html" title="Index" aria-label="Ga naar pagina met indextermen"><span>Index</span></a></div>
+                
+            </div>
+        </div>
+    </div>
+</header>        
+        
+        <!-- Search form -->
+        <div class=" wh_search_input navbar-form wh_main_page_search " role="form">
+          
+          <div class="wh_welcome"></div>          
+          <form id="searchForm" method="get" role="search" action="search.html"><div><input type="search" placeholder="Zoek " class="wh_search_textfield" id="textToSearch" name="searchQuery" aria-label="Zoekopdracht" /><button type="submit" class="wh_search_button" aria-label="Zoek"><span>Zoek</span></button></div><script><!--
+                                    $(document).ready(function () {
+                                        $('#searchForm').submit(function (e) {
+                                            if ($('.wh_search_textfield').val().length < 1) {
+                                                e.preventDefault();
+                                            }
+                                        });
+                                    });
+                                --></script></form>
+          
+        </div>
+        <div class="wh_content_area " id="content">
+            
+            <!-- This is the placeholder for the main page tiles. -->
+            <div class="container-fluid wh_content_flex_container">
+                <!-- This is the placeholder for the main page tiles. -->
+                
+                <!--
+                    This is the placeholder for the main page entries
+                    presented in a tree-like fashion.
+                -->
+                <div class=" wh_main_page_toc "><div class=" wh_main_page_toc_entry "><span class="topicref"><a href="common/preface-online.html" data-id="preface-online">Voorwoord</a></span></div><div class=" wh_main_page_toc_accordion_header "><span role="heading" aria-level="1" id="part_basic-d66e357-heading"><span role="button" aria-expanded="false" class="header-button" aria-controls="part_basic-d66e357-entries" tabindex="0"><span class="topicref"><a href="part_basic.html" data-id="part_basic">Basis</a></span></span></span></div><div class=" wh_main_page_toc_accordion_entries " id="part_basic-d66e357-entries" role="region" aria-labelledby="part_basic-d66e357-heading"><div class=" wh_main_page_toc_entry "><span class="topicref"><a href="intro/intro.html" data-id="intro">Beginnen met Access</a></span><div class=" wh_toc_shortdesc " href="intro/intro.html" data-id="intro">
+            
+         </div></div><div class=" wh_main_page_toc_entry "><span class="topicref"><a href="explore/explore.html" data-id="explore">Database SNOEP verkennen</a></span><div class=" wh_toc_shortdesc " href="explore/explore.html" data-id="explore">
+            
+         </div></div><div class=" wh_main_page_toc_entry "><span class="topicref"><a href="data/data.html" data-id="data">Gegevens toevoegen/wijzigen</a></span><div class=" wh_toc_shortdesc " href="data/data.html" data-id="data">
+            
+         </div></div><div class=" wh_main_page_toc_entry "><span class="topicref"><a href="tables/tables.html" data-id="tables">Tabellen</a></span><div class=" wh_toc_shortdesc " href="tables/tables.html" format="dita" data-id="tables">
+            
+         </div></div><div class=" wh_main_page_toc_entry "><span class="topicref"><a href="queries/queries.html" data-id="queries">Query's</a></span><div class=" wh_toc_shortdesc " href="queries/queries.html" data-id="queries">
+            
+         </div></div><div class=" wh_main_page_toc_entry "><span class="topicref"><a href="forms/forms.html" data-id="forms">Formulieren maken</a></span><div class=" wh_toc_shortdesc " href="forms/forms.html" data-id="forms">
+            
+         </div></div><div class=" wh_main_page_toc_entry "><span class="topicref"><a href="reports/reports.html" data-id="reports">Rapporten maken</a></span><div class=" wh_toc_shortdesc " href="reports/reports.html" data-id="reports">
+            
+         </div></div></div><div class=" wh_main_page_toc_accordion_header "><span role="heading" aria-level="1" id="part_advanced-d66e5744-heading"><span role="button" aria-expanded="false" class="header-button" aria-controls="part_advanced-d66e5744-entries" tabindex="0"><span class="topicref"><a href="part_advanced.html" data-id="part_advanced">Gevorderd</a></span></span></span></div><div class=" wh_main_page_toc_accordion_entries " id="part_advanced-d66e5744-entries" role="region" aria-labelledby="part_advanced-d66e5744-heading"><div class=" wh_main_page_toc_entry "><span class="topicref"><a href="integration/integration.html" data-id="integration">Integratie met Office</a></span><div class=" wh_toc_shortdesc " href="integration/integration.html" data-id="integration">
+            
+         </div></div><div class=" wh_main_page_toc_entry "><span class="topicref"><a href="tools/tools.html" data-id="tools">Hulpmiddelen</a></span><div class=" wh_toc_shortdesc " href="tools/tools.html" data-id="tools">
+            
+         </div></div><div class=" wh_main_page_toc_entry "><span class="topicref"><a href="macros/macros.html" data-id="macros">Macro's</a></span><div class=" wh_toc_shortdesc " href="macros/macros.html" data-id="macros">
+            
+         </div></div></div><div class=" wh_main_page_toc_entry "><span class="topicref"><a href="common/colofon.html" data-id="colofon">Colofon</a></span><div class=" wh_toc_shortdesc " href="common/colofon.html" data-id="colofon">
+         
+      </div></div></div>
+                
+            </div>
+        </div>
+        
+        <footer class="navbar navbar-default wh_footer">
+  <div class=" footer-container text-center ">
+    
+            Generated by <a class="oxyFooter" href="http://www.oxygenxml.com/xml_webhelp.html" target="_blank">
+            &lt;oXygen/&gt; XML WebHelp
+            </a>
+        
+  </div>
+</footer>
+        
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="./oxygen-webhelp/lib/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+
+        S:\office\leeraccess/googleAnalytics.html
+    </body>
+</html>
