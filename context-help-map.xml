@@ -16,15 +16,18 @@
    <appContext helpID="intro_access_window" path="intro/intro_access_window.html"/>
    <appContext helpID="intro_database_new" path="intro/intro_database_new.html"/>
    <appContext helpID="intro_database_saveas" path="intro/intro_database_saveas.html"/>
-   <appContext helpID="intro_access_fileformats" path="intro/intro_access_fileformats.html"/>
+   <appContext helpID="intro_access_fileformats"
+               path="intro/intro_access_fileformats.html"/>
    <appContext helpID="explore" path="explore/explore.html"/>
    <appContext helpID="explore_about" path="explore/explore_about.html"/>
    <appContext helpID="explore_security" path="explore/explore_security.html"/>
    <appContext helpID="explore_database" path="explore/explore_database.html"/>
    <appContext helpID="explore_tables" path="explore/explore_tables.html"/>
    <appContext helpID="explore_forms" path="explore/explore_forms.html"/>
-   <appContext helpID="explore_commandbutton" path="explore/explore_commandbutton.html"/>
-   <appContext helpID="explore_search_records" path="explore/explore_search_records.html"/>
+   <appContext helpID="explore_commandbutton"
+               path="explore/explore_commandbutton.html"/>
+   <appContext helpID="explore_search_records"
+               path="explore/explore_search_records.html"/>
    <appContext helpID="explore_queries" path="explore/explore_queries.html"/>
    <appContext helpID="explore_reports" path="explore/explore_reports.html"/>
    <appContext helpID="explore_sorting" path="explore/explore_sorting.html"/>
@@ -47,15 +50,19 @@
    <appContext helpID="tables_about" path="tables/tables_about.html"/>
    <appContext helpID="tables_fields" path="tables/tables_fields.html"/>
    <appContext helpID="tables_fields_names" path="tables/tables_fields_names.html"/>
-   <appContext helpID="tables_fields_datatypes" path="tables/tables_fields_datatypes.html"/>
-   <appContext helpID="tables_fields_properties" path="tables/tables_fields_properties.html"/>
+   <appContext helpID="tables_fields_datatypes"
+               path="tables/tables_fields_datatypes.html"/>
+   <appContext helpID="tables_fields_properties"
+               path="tables/tables_fields_properties.html"/>
    <appContext helpID="tables_fields_size" path="tables/tables_fields_size.html"/>
    <appContext helpID="tables_validation" path="tables/tables_validation.html"/>
-   <appContext helpID="tables_fields_inputmasks" path="tables/tables_fields_inputmasks.html"/>
+   <appContext helpID="tables_fields_inputmasks"
+               path="tables/tables_fields_inputmasks.html"/>
    <appContext helpID="tables_fields_validationrules"
                path="tables/tables_fields_validationrules.html"/>
    <appContext helpID="tables_new_manually" path="tables/tables_new_manually.html"/>
-   <appContext helpID="tables_new_import_excel" path="tables/tables_new_import_excel.html"/>
+   <appContext helpID="tables_new_import_excel"
+               path="tables/tables_new_import_excel.html"/>
    <appContext helpID="tables_lookup_wizard" path="tables/tables_lookup_wizard.html"/>
    <appContext helpID="tables_relations" path="tables/tables_relations.html"/>
    <appContext helpID="tables_relationtypes" path="tables/tables_relationtypes.html"/>
@@ -65,7 +72,8 @@
                path="tables/tables_relationtype_one2one.html"/>
    <appContext helpID="tables_relationtype_many2many"
                path="tables/tables_relationtype_many2many.html"/>
-   <appContext helpID="tables_relationships_edit" path="tables/tables_relationships_edit.html"/>
+   <appContext helpID="tables_relationships_edit"
+               path="tables/tables_relationships_edit.html"/>
    <appContext helpID="tables_referential_integrity"
                path="tables/tables_referential_integrity.html"/>
    <appContext helpID="tables_relationship_boxes_boxdetails"
@@ -86,19 +94,25 @@
    <appContext helpID="queries_customername_ordercodes"
                path="queries/queries_customername_ordercodes.html"/>
    <appContext helpID="queries_criteria" path="queries/queries_criteria.html"/>
-   <appContext helpID="queries_utrecht_dec2009" path="queries/queries_utrecht_dec2009.html"/>
-   <appContext helpID="queries_customers_cher" path="queries/queries_customers_cher.html"/>
+   <appContext helpID="queries_utrecht_dec2009"
+               path="queries/queries_utrecht_dec2009.html"/>
+   <appContext helpID="queries_customers_cher"
+               path="queries/queries_customers_cher.html"/>
    <appContext helpID="queries_summarizing" path="queries/queries_summarizing.html"/>
    <appContext helpID="queries_customers_province"
                path="queries/queries_customers_province.html"/>
-   <appContext helpID="queries_column_heading" path="queries/queries_column_heading.html"/>
-   <appContext helpID="queries_calculated_field" path="queries/queries_calculated_field.html"/>
+   <appContext helpID="queries_column_heading"
+               path="queries/queries_column_heading.html"/>
+   <appContext helpID="queries_calculated_field"
+               path="queries/queries_calculated_field.html"/>
    <appContext helpID="queries_first_order_dates"
                path="queries/queries_first_order_dates.html"/>
    <appContext helpID="queries_parameters" path="queries/queries_parameters.html"/>
    <appContext helpID="queries_actions" path="queries/queries_actions.html"/>
-   <appContext helpID="queries_action_update" path="queries/queries_action_update.html"/>
-   <appContext helpID="queries_action_maketable" path="queries/queries_action_maketable.html"/>
+   <appContext helpID="queries_action_update"
+               path="queries/queries_action_update.html"/>
+   <appContext helpID="queries_action_maketable"
+               path="queries/queries_action_maketable.html"/>
    <appContext helpID="queries_crosstab" path="queries/queries_crosstab.html"/>
    <appContext helpID="ex_quer001" path="queries/exercises/ex_quer001.html"/>
    <appContext helpID="ex_quer002" path="queries/exercises/ex_quer002.html"/>
@@ -130,16 +144,22 @@
    <appContext helpID="ex_quer029" path="queries/exercises/ex_quer029.html"/>
    <appContext helpID="forms" path="forms/forms.html"/>
    <appContext helpID="forms_about" path="forms/forms_about.html"/>
-   <appContext helpID="forms_explanation_mainsub" path="forms/forms_explanation_mainsub.html"/>
-   <appContext helpID="forms_explanation_linked" path="forms/forms_explanation_linked.html"/>
+   <appContext helpID="forms_explanation_mainsub"
+               path="forms/forms_explanation_mainsub.html"/>
+   <appContext helpID="forms_explanation_linked"
+               path="forms/forms_explanation_linked.html"/>
    <appContext helpID="forms_controls_layout" path="forms/forms_controls_layout.html"/>
    <appContext helpID="forms_autoform" path="forms/forms_autoform.html"/>
-   <appContext helpID="forms_customers_orders" path="forms/forms_customers_orders.html"/>
+   <appContext helpID="forms_customers_orders"
+               path="forms/forms_customers_orders.html"/>
    <appContext helpID="forms_customers_data_entry"
                path="forms/forms_customers_data_entry.html"/>
-   <appContext helpID="forms_pralines_data_entry" path="forms/forms_pralines_data_entry.html"/>
-   <appContext helpID="forms_boxes_data_entry" path="forms/forms_boxes_data_entry.html"/>
-   <appContext helpID="forms_orders_data_entry" path="forms/forms_orders_data_entry.html"/>
+   <appContext helpID="forms_pralines_data_entry"
+               path="forms/forms_pralines_data_entry.html"/>
+   <appContext helpID="forms_boxes_data_entry"
+               path="forms/forms_boxes_data_entry.html"/>
+   <appContext helpID="forms_orders_data_entry"
+               path="forms/forms_orders_data_entry.html"/>
    <appContext helpID="forms_orders_total" path="forms/forms_orders_total.html"/>
    <appContext helpID="forms_sales_boxes" path="forms/forms_sales_boxes.html"/>
    <appContext helpID="forms_customerorders" path="forms/forms_customerorders.html"/>
@@ -181,20 +201,24 @@
    <appContext helpID="data_restriction_validation"
                path="data/data_restriction_validation.html"/>
    <appContext helpID="tables_fields" path="tables/tables_fields.html"/>
-   <appContext helpID="tables_fields_inputmasks" path="tables/tables_fields_inputmasks.html"/>
+   <appContext helpID="tables_fields_inputmasks"
+               path="tables/tables_fields_inputmasks.html"/>
    <appContext helpID="explore_database" path="explore/explore_database.html"/>
    <appContext helpID="explore_security" path="explore/explore_security.html"/>
-   <appContext helpID="tables_relationships_edit" path="tables/tables_relationships_edit.html"/>
+   <appContext helpID="tables_relationships_edit"
+               path="tables/tables_relationships_edit.html"/>
    <appContext helpID="tables_referential_integrity"
                path="tables/tables_referential_integrity.html"/>
    <appContext helpID="ex_tabl008" path="tables/exercises/ex_tabl008.html"/>
    <appContext helpID="ex_tabl009" path="tables/exercises/ex_tabl009.html"/>
    <appContext helpID="ex_tabl009" path="tables/exercises/ex_tabl009.html"/>
    <appContext helpID="queries_criteria" path="queries/queries_criteria.html"/>
-   <appContext helpID="queries_utrecht_dec2009" path="queries/queries_utrecht_dec2009.html"/>
+   <appContext helpID="queries_utrecht_dec2009"
+               path="queries/queries_utrecht_dec2009.html"/>
    <appContext helpID="queries_customername_ordercodes"
                path="queries/queries_customername_ordercodes.html"/>
-   <appContext helpID="queries_column_heading" path="queries/queries_column_heading.html"/>
+   <appContext helpID="queries_column_heading"
+               path="queries/queries_column_heading.html"/>
    <appContext helpID="queries_customers_province"
                path="queries/queries_customers_province.html"/>
    <appContext helpID="ex_rapp003" path="reports/exercises/ex_rapp003.html"/>
